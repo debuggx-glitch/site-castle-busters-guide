@@ -6,6 +6,7 @@
     "socialBar": {"placementId":"31070674","format":"social_bar","src":"https://incorporatebreadthave.com/68/a4/3d/68a43d29830132b16bbba2af4ca322a9.js"},
     "homeBannerDesktop": {"placementId":"31070676","format":"banner","src":"https://incorporatebreadthave.com/97f542064233f1f20bf5995096ceea3c/invoke.js","key":"97f542064233f1f20bf5995096ceea3c","width":728,"height":90},
     "homeBannerMobile": {"placementId":"31070675","format":"banner","src":"https://incorporatebreadthave.com/605cc327ce29d6ade12465f9ec5a23f4/invoke.js","key":"605cc327ce29d6ade12465f9ec5a23f4","width":320,"height":50},
+    "homeSideDesktop": {"placementId":"31084074","format":"banner","src":"https://incorporatebreadthave.com/ca2718e7d5f43cf925a63bd70f20b5a3/invoke.js","key":"ca2718e7d5f43cf925a63bd70f20b5a3","width":300,"height":250},
     "guideNative": {"placementId":"31070673","format":"native_banner","src":"https://incorporatebreadthave.com/271f43099939d7d8cfb30e9f2e79ee69/invoke.js","containerId":"container-271f43099939d7d8cfb30e9f2e79ee69"}
   }
 }
