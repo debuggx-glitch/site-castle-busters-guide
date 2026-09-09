@@ -1,0 +1,144 @@
+{
+  "schemaVersion": "article.independent-content-review.v1",
+  "taskId": "castle-arena-counter-checklist-bounded-repair-20260910-v1",
+  "route": "/guides/arena-counter-checklist/",
+  "status": "PASS",
+  "verdict": "PASS",
+  "reviewerInstanceId": "/root/review_wardogs_v1",
+  "independent": true,
+  "role": "Independent content/fact/source reviewer; not author or rendered-page/release approver",
+  "reviewedAt": "2026-09-09T18:57:33.861614+00:00",
+  "protocolRead": "/Users/oneone/Documents/game-autopilot/docs/article-source-visual-pipeline-v1.md",
+  "blockingIssues": [],
+  "unsupported": [],
+  "requiredContentChanges": [],
+  "reviewedFilesSha256": {
+    "lib/guides.ts": "ac446e3dbc93eaafaba818075323e085a0c9469517622a65b05dba1b2a81901d",
+    "content/posts/arena-counter-checklist.md": "10c32adf483909f0a8d1602bac8a1835214ea73cb4c7bd5672ba4be374f498da",
+    "release/optimization-20260910/arena-counter-checklist-bounded-repair-v1/task-packet.json": "a869964600923f14328fd6132baaaf9a98be57f5a9517d44207bc7f9ca6b4888",
+    "release/optimization-20260910/arena-counter-checklist-bounded-repair-v1/research-gate.json": "45c9e72b9781406d7fc0f2d93ce4b6454de9983e8db233ebbf27735c14889188",
+    "release/optimization-20260910/arena-counter-checklist-bounded-repair-v1/draft-guide.json": "25df10f90c72412340e2a7b11b5c716c94f3d52dbc6f6cc49d1cad22b184312d",
+    "release/optimization-20260910/arena-counter-checklist-bounded-repair-v1/draft-article.md": "10c32adf483909f0a8d1602bac8a1835214ea73cb4c7bd5672ba4be374f498da",
+    "public/images/official/castle-busters-guide-official-01.webp": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661"
+  },
+  "scopeVerification": {
+    "baselineGuidesSha256": "fe0e923ea4927fa406ea79315bfc14449e4094e46a42378c426c359a27c78621",
+    "baselineMarkdownSha256": "1da208bdefa1fdb51947d60e87de2cf0334b46ad51e66dd3e628b9ad5b6e3419",
+    "bothBaselineHashesMatchHEAD": true,
+    "changedGuideSlugs": [
+      "arena-counter-checklist"
+    ],
+    "other17GuidesUnchanged": true,
+    "trackedChangedFiles": [
+      "lib/guides.ts",
+      "content/posts/arena-counter-checklist.md"
+    ],
+    "untrackedScope": "release/optimization-20260910/ evidence",
+    "slugAndCategoryPreserved": true,
+    "sharedAssetsUnchangedByThisDiff": true
+  },
+  "sourceReview": {
+    "url": "https://castlebusters.com/patch-notes-1-17/",
+    "independentlyOpened": true,
+    "observedPublicationDate": "2026-09-01",
+    "locators": {
+      "CB-C011": "Matchmaking paragraph; webpage lines 17-30",
+      "CB-C017": "Bug Fixes; webpage line 87"
+    },
+    "allFiveResearchEvidenceHashesMatch": true,
+    "sourceVerificationRecord": "S03 official release announcement; no device test"
+  },
+  "claimChecks": [
+    {
+      "claimId": "CB-C011",
+      "status": "PASS",
+      "finding": "修订匹配作为 2026-09-01 的 1.17 历史实验表述；was being tested 保留过去时，不宣称目前仍在测试。公式、权重、部署状态未知。"
+    },
+    {
+      "claimId": "CB-C017",
+      "status": "PASS",
+      "finding": "公告报告修复机器人离开地图边缘；不推导全真人、机器人移除、占比或识别技巧。"
+    }
+  ],
+  "editorialMethodReview": {
+    "status": "PASS",
+    "finding": "记录版本与可见对局、只在客户端提供时更改一个可见配置、分别记录动作与结果，是明确标注的观察方法。没有将复测说成控制所有隐藏变量，也未承诺反制效果。",
+    "unknownsRetained": [
+      "matchmaking formula/weights",
+      "current experiment deployment",
+      "human/bot share and identification",
+      "named counter outcome",
+      "win probability",
+      "hidden opponent data",
+      "helper timing and precise wheel effects"
+    ]
+  },
+  "consistencyChecks": {
+    "titleDescriptionQuickAnswerMatch": true,
+    "dateEquivalent": "September 10, 2026 / 2026-09-10",
+    "all3HeadingsAnd6ParagraphsMatch": true,
+    "tableCount": 2,
+    "allHeadersAndCellsMatch": true,
+    "tablesAreActualStructuredTables": true,
+    "officialSourceMatches": true,
+    "draftGuideEqualsIntegratedObject": true,
+    "relatedSlugsLocation": "Four valid relatedSlugs are in TS; Markdown has matching prose and source but does not reproduce generated related-navigation metadata.",
+    "inlineLogoAltCaptionMatch": true
+  },
+  "relatedSlugs": {
+    "patch-notes-and-balance-log": "exists",
+    "castle-busters-formation": "exists",
+    "castle-busters-unit-database": "exists",
+    "wheels-and-helper-items": "exists"
+  },
+  "removedResiduals": {
+    "activeCurrentTestingLanguageRemoved": true,
+    "unsupportedSpecificCounterSubstitutionHelperAngleClaimsRemoved": true,
+    "pseudoTableAndRepeatedTemplateBlocksRemoved": true,
+    "misleadingLogoAndEditorialImageCaptionsRemoved": true,
+    "importantBaselineDistinction": "Do not describe all-human/bots-removed as a discovered old explicit claim: they are prohibited new inferences, correctly excluded in revised text."
+  },
+  "promiseAndMaterialSemantics": {
+    "status": "PASS_BOUNDED",
+    "title": "Matchmaking and Counter Limits matches the narrow dated-source/reference task; no full counter matrix or tested matchup promised.",
+    "inlineVisualCount": 1,
+    "markdownCover": "Existing official logo as recognition only, no arena match shown or claimed.",
+    "editorialImage": "Not referenced in revised Guide/Markdown; shared file retained.",
+    "visualException": "Root authorized one existing identity logo inline for content-asset gate. Exact image/alt/caption are semantically accurate; no gameplay evidence added. Narrow reference-task exception and rendered size/placement remain for independent visual review.",
+    "inlineLogo": "Official logo only; explicitly excludes arena match, matchmaking result or bot depiction. Not counted as counter task evidence."
+  },
+  "nonBlockingSuggestions": [
+    {
+      "id": "CB-ARENA-N01",
+      "location": "Second table: Bind the observation to one client state",
+      "suggestion": "可改成 Keep the version with your match notes，降低内部记录术语；不影响当前事实结论。"
+    }
+  ],
+  "fullPlayerTaskStatus": "HOLD_MISSING_NAMED_MATCHUP_AND_NATIVE_RESULT",
+  "fullCounterTaskClaimedComplete": false,
+  "productionAllowed": false,
+  "productionVisualGate": {
+    "status": "NOT_REVIEWED",
+    "productionAllowed": false,
+    "remaining": [
+      "Independent usefulness/reference-task exception and inline logo size/placement decision",
+      "Actual desktop/mobile full-page table/related-link checks",
+      "Root release decision"
+    ]
+  },
+  "revision": 2,
+  "incrementalReview": {
+    "status": "PASS",
+    "previousReviewSha256": "55c2be701c486c00580b0757c5ae7b6291cca2ac53f50dfd52e16223167c86d4",
+    "previousSourceHashes": {
+      "lib/guides.ts": "3428aecd8f0be4e7d01f18fb09b057c0c3f3b5084f933b72b45ed9a7628d803a",
+      "content/posts/arena-counter-checklist.md": "fdc53c5781da800039c9984d70cc3346fe7641ac971d8651998bd8f963ff6169"
+    },
+    "exactDelta": "Removing only the first-section visual object and matching Markdown image/caption block restores both prior reviewed file hashes exactly.",
+    "imageActuallyViewed": true,
+    "imageHashMatchesPacket": true,
+    "captionAndAltMatch": true,
+    "factsAndTablesAndRelatedSlugsUnchanged": true,
+    "newBlockingIssues": []
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "article.local-build-result.v1",
+  "taskId": "castle-arena-counter-checklist-bounded-repair-20260910-v1",
+  "createdAt": "2026-09-09T19:04:47Z",
+  "status": "PASS",
+  "checks": {
+    "typescript": "pass",
+    "releaseConfig": "pass",
+    "designContract": "pass",
+    "adsterra": "pass",
+    "contentAssets": "pass",
+    "contentQuality": "pass",
+    "seoMetadata": "pass",
+    "seoGeo": "pass",
+    "nextProductionBuild": "pass",
+    "staticRoute": "out/guides/arena-counter-checklist/index.html"
+  },
+  "scope": {"articleCount": 18, "targetRoute": "/guides/arena-counter-checklist/", "otherGuideChanges": 0, "otherMarkdownChanges": 0},
+  "notes": [
+    "The first asset-gate run correctly rejected the no-image draft. The official logo was added only as a recognition image with an explicit non-gameplay caption, independently rereviewed, and the full gate set then passed.",
+    "A transient empty local PostCSS config prevented parent-workspace configuration inheritance and was removed after the build."
+  ],
+  "sha256": {
+    "lib/guides.ts": "ac446e3dbc93eaafaba818075323e085a0c9469517622a65b05dba1b2a81901d",
+    "content/posts/arena-counter-checklist.md": "10c32adf483909f0a8d1602bac8a1835214ea73cb4c7bd5672ba4be374f498da",
+    "out/guides/arena-counter-checklist/index.html": "ccfd0baebb6bf443e2bf37750c0cb2d40afb9c202ccee1b190ea981ae0583353",
+    "independent-content-review.json": "145e451da8c3b82cc0c6ce743e25c3c03ae22dafc56a63a43cc1767bad930c22",
+    "independent-visual-review.json": "562c3f8702dd115515123ea779b98e9c1e622d43bbe69b23612f3796f0d34a47"
+  },
+  "productionAllowed": false
+}

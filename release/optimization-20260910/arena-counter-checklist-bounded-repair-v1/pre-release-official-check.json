@@ -1,0 +1,9 @@
+{
+  "schemaVersion": "article.pre-release-official-check.v1",
+  "taskId": "castle-arena-counter-checklist-bounded-repair-20260910-v1",
+  "checkedAt": "2026-09-09T19:04:47Z",
+  "status": "PASS",
+  "source": "https://castlebusters.com/patch-notes-1-17/",
+  "finding": "The official September 1, 2026 patch page still documents a matchmaking experiment without publishing its formula and a fix for bots leaving the map edge. The official-site search returned patch 1.17 as the latest visible patch note.",
+  "boundary": "Official-page and official-domain listing check only; no current-client deployment, opponent identity or counter-effectiveness claim."
+}

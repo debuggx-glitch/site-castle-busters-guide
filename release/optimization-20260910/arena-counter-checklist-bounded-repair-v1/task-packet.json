@@ -1,0 +1,195 @@
+{
+  "schemaVersion": "site.optimization.task-packet.v1",
+  "taskId": "castle-arena-counter-checklist-bounded-repair-20260910-v1",
+  "site": "castlebustersguide.com",
+  "route": "/guides/arena-counter-checklist/",
+  "queueRank": 4,
+  "createdAt": "2026-09-09T18:50:45.747231+00:00",
+  "researcherInstanceId": "/root/brief_wardogs",
+  "baseline": {
+    "guidePath": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/.site-worktrees/castlebusters-wave2-wheels-repo/lib/guides.ts",
+    "guideFileSha256": "fe0e923ea4927fa406ea79315bfc14449e4094e46a42378c426c359a27c78621",
+    "targetCanonicalSha256": "b0bbdfbf61339dc14b7926b21d010f852a33fe7d579e9133fd9db7c4af8263c0",
+    "canonicalization": "JSON sorted keys, compact separators, ensure_ascii=false, UTF-8; parsed pure Guide array without execution",
+    "markdownPath": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/.site-worktrees/castlebusters-wave2-wheels-repo/content/posts/arena-counter-checklist.md",
+    "markdownSha256": "1da208bdefa1fdb51947d60e87de2cf0334b46ad51e66dd3e628b9ad5b6e3419"
+  },
+  "researchGateRef": "research-gate.json",
+  "objective": "Replace stale matchmaking language, unsupported counter promises and template filler with dated official opponent notes and a limited observation checklist.",
+  "allowedClaimIds": [
+    "CB-C011",
+    "CB-C017"
+  ],
+  "allowedMutation": "Only target Guide and its matching Markdown after writer authorization; preserve URL/category and all other pages/assets.",
+  "suggestedTitle": "Castle Busters Arena Checklist: Matchmaking and Counter Limits",
+  "quickAnswerPoints": [
+    "Patch 1.17 announced matchmaking changes but did not publish the matching formula.",
+    "It also reported a bot map-edge fix, which does not mean bots were removed or every opponent is human.",
+    "Record what the match shows before drawing a counter conclusion; specific matchups remain unverified."
+  ],
+  "mustChange": [
+    {
+      "location": "description and What is verified now",
+      "problem": "Current/source-checked and actively testing make dated patch 1.17 sound live.",
+      "action": "Attribute matchmaking experiment and bot fix to patch 1.17, published September 1, 2026; do not claim these were tested on the current client."
+    },
+    {
+      "location": "Quick answer and Step-by-step route",
+      "problem": "Opponent-specific counter/protected damage/substitution promises lack named opponents, conditions, action and outcome evidence.",
+      "action": "Replace with a limited version/observation checklist; no specific counter, helper timing or pre-match inspection UI guarantee."
+    },
+    {
+      "location": "Verified point 4",
+      "problem": "Wheels change firing angles is more specific than the accepted two-claim scope; no matching arena evidence.",
+      "action": "Remove from this article; link wheels-and-helper-items without restating an angle or timing formula."
+    },
+    {
+      "location": "Decision table in practice / Field notes / Final verification checklist",
+      "problem": "Repeated meta-method boilerplate, pseudo table rows and publishing/escalation language obscure the answer.",
+      "action": "Delete repeated blocks; use one actual compact table or short checklist."
+    },
+    {
+      "location": "Failure symptoms and recovery / How to use the page visuals",
+      "problem": "Generic hypothetical tradeoffs and image instructions imply task evidence absent from the actual images.",
+      "action": "Remove unsupported mechanisms and describe only the narrow source limits."
+    },
+    {
+      "location": "official-01 and editorial-01 visuals",
+      "problem": "The official image is the game logo, not an interface. The editorial image says 8-UNIT LOADOUT with five role labels, not the claimed evidence/decision workflow.",
+      "action": "Logo is optional recognition only; remove irrelevant editorial image and its misleading alt/caption from this article."
+    }
+  ],
+  "canRetain": [
+    "Route and purpose of helping readers separate an observed result from an assumed counter.",
+    "Patch 1.17 citation with its historical date and exact limited statements.",
+    "A short editorial observation checklist and verified internal destination links."
+  ],
+  "sections": [
+    {
+      "heading": "What patch 1.17 actually says about opponents",
+      "claimIds": [
+        "CB-C011",
+        "CB-C017"
+      ],
+      "format": "Two-row actual HTML table: Official note / What it does not establish",
+      "points": [
+        "The patch announced a revised matchmaking experiment without publishing its formula.",
+        "The patch reported fixing bots leaving the edge of the map; this does not establish the share of bots or their removal."
+      ],
+      "visualNeed": "none",
+      "selectedAssetIds": [],
+      "exceptionReason": "Dated patch reference, not a demonstrated match or bot detector."
+    },
+    {
+      "heading": "Keep a short record before calling something a counter",
+      "claimIds": [],
+      "format": "Editorial checklist, clearly advice rather than a game rule",
+      "points": [
+        "Record the displayed version and only the units/layout/result you can actually see.",
+        "Separate the action taken from the observed result; mark opponent identity and hidden values unknown.",
+        "One outcome cannot establish a universal counter or matchmaking rule."
+      ],
+      "visualNeed": "none",
+      "selectedAssetIds": [],
+      "exceptionReason": "A short observation note, with no promised interface route or successful matchup.",
+      "fallback": "If expanded to an actual counter walkthrough, stop and obtain CB-V05 native evidence."
+    },
+    {
+      "heading": "Use documented rules for the next question",
+      "claimIds": [],
+      "format": "Brief related-reading links",
+      "points": [
+        "Use formation/unit/wheel/patch pages for their separately bounded facts.",
+        "Keep specific arena counters pending a named current matchup and repeatable result."
+      ],
+      "visualNeed": "none",
+      "selectedAssetIds": [],
+      "exceptionReason": "Navigation, not a gameplay task image."
+    }
+  ],
+  "relatedLinks": [
+    {
+      "url": "/guides/patch-notes-and-balance-log/",
+      "label": "Read dated patch changes",
+      "boundary": "No full patch-log duplication"
+    },
+    {
+      "url": "/guides/castle-busters-formation/",
+      "label": "Check documented placement conditions",
+      "boundary": "No new counter layout or diagram"
+    },
+    {
+      "url": "/guides/castle-busters-unit-database/",
+      "label": "Look up documented unit abilities",
+      "boundary": "No roster/ranking duplication"
+    },
+    {
+      "url": "/guides/wheels-and-helper-items/",
+      "label": "Review wheels and helper-item scope",
+      "boundary": "No new angle/power/cost claims"
+    }
+  ],
+  "visualPlan": [
+    {
+      "assetId": "castle-busters-guide-official-01",
+      "path": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/.site-worktrees/castlebusters-wave2-wheels-repo/public/images/official/castle-busters-guide-official-01.webp",
+      "sha256": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661",
+      "actualContent": "Castle Busters logo",
+      "decision": "Optional recognition cover only; no inline task proof",
+      "safeAlt": "Castle Busters logo",
+      "safeCaption": "Castle Busters official logo; it does not show an arena match.",
+      "sourcePage": "https://castlebusters.com/",
+      "provenance": "Preserve existing source/original/rights/transform chain; research does not reapprove media rights.",
+      "version": "Not a current gameplay capture",
+      "visualQa": "pending independent scope and rendered review"
+    },
+    {
+      "assetId": "castle-busters-guide-editorial-01",
+      "path": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/.site-worktrees/castlebusters-wave2-wheels-repo/public/images/editorial/castle-busters-guide-editorial-01.webp",
+      "sha256": "6d31c91b0b40ee0bbb968c57e56ffac85c9f5fd53e84752b123d56d204e2aa5b",
+      "actualContent": "Editorial 8-UNIT LOADOUT list: Frontline, Damage, Control, Support, Substitution slot",
+      "decision": "Not selected for revised article; keep shared file untouched",
+      "safeAlt": null,
+      "safeCaption": null,
+      "sourcePage": null,
+      "provenance": "Preserve existing source/original/rights/transform chain; research does not reapprove media rights.",
+      "version": "Not a current gameplay capture",
+      "visualQa": "pending independent scope and rendered review"
+    }
+  ],
+  "methodAppendix": {
+    "methodIds": [
+      "custom"
+    ],
+    "referenceExampleIds": [],
+    "reason": "Limited opponent/patch explanation; no evidence for a full counter walkthrough.",
+    "visualExceptionRequested": "No inline gameplay image; a compact source table/checklist can answer this reduced reference task. Logo is not semantic evidence. Independent R20 must decide.",
+    "targetLength": "Approximately 200–350 words, no template padding."
+  },
+  "unknowns": [
+    "Matchmaking formula, factors/weights, player or bot share and reliable opponent-identification cues.",
+    "Current deployment status/effectiveness of patch 1.17 experiment and bot fix on any particular device.",
+    "Named matchup, enemy and player levels/loadouts, exact counter action, replay outcome and win probability.",
+    "Helper-item timing/cost, precise wheel firing-angle effects, pre-match inspection or substitution interface.",
+    "Current meta, arena-specific counter matrix and full platform parity."
+  ],
+  "forbidden": [
+    "Do not state all opponents are human, bots were removed, rank/power fully determines matchmaking, or a test is currently still active.",
+    "Do not claim source inspection or a patch statement is runtime verification.",
+    "No named counters, best loadouts, guaranteed outcomes, precise probabilities, timing, current version or invented controls.",
+    "Do not turn the bot map-edge fix into a bot detection technique or an exploit.",
+    "Do not use community upgrade opinions as arena mechanic facts.",
+    "Do not describe logo/editorial art as gameplay proof or self-sign visual/release PASS."
+  ],
+  "requiredNextReviews": [
+    "Independent factual review of temporal wording and bot inference.",
+    "Independent usefulness and visual-exception decision for narrowed title/task.",
+    "Desktop/mobile full-page and actual table/link inspection after implementation.",
+    "Root-controlled release approval; full arena-counter task remains HOLD."
+  ],
+  "publicationAllowed": false,
+  "portfolioCounting": {
+    "researchChangesMaintainedPublished": false,
+    "incrementOnlyAfterVerifiedPublicationAndQueueReconciliation": true
+  }
+}

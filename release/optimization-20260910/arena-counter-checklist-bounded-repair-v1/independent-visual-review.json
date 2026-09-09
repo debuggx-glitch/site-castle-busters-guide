@@ -1,0 +1,159 @@
+{
+  "verdict": "PASS",
+  "blockingIssues": [],
+  "reviewerInstanceId": "/root/b5_rendered_visual_review",
+  "independent": true,
+  "reviewedAt": "2026-09-09T19:04:10.574777+00:00",
+  "taskId": "castle-arena-counter-checklist-bounded-repair-20260910-v1",
+  "url": "http://127.0.0.1:4392/guides/arena-counter-checklist/",
+  "reviewedFilesSha256": {
+    "lib/guides.ts": "ac446e3dbc93eaafaba818075323e085a0c9469517622a65b05dba1b2a81901d",
+    "content/posts/arena-counter-checklist.md": "10c32adf483909f0a8d1602bac8a1835214ea73cb4c7bd5672ba4be374f498da"
+  },
+  "documentsCompared": [
+    {
+      "file": "task-packet.json",
+      "sha256": "a869964600923f14328fd6132baaaf9a98be57f5a9517d44207bc7f9ca6b4888"
+    },
+    {
+      "file": "research-gate.json",
+      "sha256": "45c9e72b9781406d7fc0f2d93ce4b6454de9983e8db233ebbf27735c14889188"
+    },
+    {
+      "file": "independent-content-review.json",
+      "sha256": "145e451da8c3b82cc0c6ce743e25c3c03ae22dafc56a63a43cc1767bad930c22"
+    }
+  ],
+  "contentReviewVersionBoundary": "Content review records earlier integrated TS/MD hashes and separately draft Markdown 10c32adf; this visual review binds the final ac446e3d TS and 10c32adf MD, not a silent re-signature of content-review old hashes.",
+  "browser": {
+    "id": "3",
+    "profileName": "Codex-工作",
+    "extensionInstanceId": "68e1683e-155a-40b8-bd50-f368d0bee24c",
+    "uniqueExactProfileMatch": true,
+    "createdTabId": "1592097747",
+    "closed": true,
+    "viewportReset": true
+  },
+  "desktop": {
+    "viewport": [
+      1440,
+      1000
+    ],
+    "clientWidth": 1440,
+    "scrollWidth": 1440,
+    "fullPageActuallyViewed": true
+  },
+  "mobile": {
+    "viewport": [
+      390,
+      844
+    ],
+    "clientWidth": 390,
+    "scrollWidth": 390,
+    "fullPageActuallyViewed": true,
+    "mobileLegible": true
+  },
+  "layout": "H1, short answer, three sections, both tables, official-source link, four related links and footer readable without page overflow or obstruction. Former repeated template/publishing workflow blocks and irrelevant editorial art absent.",
+  "tables": [
+    {
+      "label": "What patch 1.17 actually says about opponents",
+      "bodyRows": 2,
+      "desktopTableWidth": 758,
+      "mobileContainerClientWidth": 352,
+      "mobileScrollWidth": 680,
+      "actualMobileScrollLeft": [
+        0,
+        328,
+        0
+      ],
+      "rightColumnActuallyViewed": true
+    },
+    {
+      "label": "Keep a short record before calling something a counter",
+      "bodyRows": 3,
+      "desktopTableWidth": 758,
+      "mobileContainerClientWidth": 352,
+      "mobileScrollWidth": 680,
+      "actualMobileScrollLeft": [
+        0,
+        328,
+        0
+      ],
+      "rightColumnActuallyViewed": true
+    }
+  ],
+  "visualException": {
+    "verdict": "ACCEPTED_BOUNDED",
+    "reason": "Dated official note comparison and a clearly editorial observation record are delivered by text and actual tables. No named counter, matchmaking demonstration, bot detector or successful-match walkthrough is promised. Native gameplay images are not needed for this limited reference task.",
+    "fullCounterTaskStatus": "HOLD_MISSING_NAMED_MATCHUP_AND_NATIVE_RESULT"
+  },
+  "image": {
+    "src": "/images/official/castle-busters-guide-official-01.webp",
+    "alt": "Castle Busters official logo",
+    "complete": true,
+    "naturalDimensions": [
+      1000,
+      1000
+    ],
+    "actualLogoVisible": true,
+    "caption": "OFFICIAL LOGO USED ONLY TO IDENTIFY CASTLE BUSTERS; IT DOES NOT SHOW AN ARENA MATCH, MATCHMAKING RESULT, OR BOT.",
+    "captionAccurateAndReadable": true,
+    "oldEditorialImagePresent": false,
+    "gameplayProofClaimed": false
+  },
+  "temporalAndBotBoundary": {
+    "dateVisible": "September 1, 2026 in first section",
+    "pastTense": "was being tested",
+    "currentDeploymentNotAsserted": true,
+    "botRemovalAndHumanOnlyInferenceExplicitlyRejected": true,
+    "playerOrBotStatusKeptUnknown": true,
+    "methodNotCounterClaimVisible": true
+  },
+  "relatedLinks": {
+    "count": 4,
+    "allKeyboardActivatedSuccessfully": true,
+    "method": "Actual link locator Enter activation; each destination URL and H1 read afterward.",
+    "paths": [
+      "/guides/patch-notes-and-balance-log/",
+      "/guides/castle-busters-formation/",
+      "/guides/castle-busters-unit-database/",
+      "/guides/wheels-and-helper-items/"
+    ],
+    "httpStatus": "Not separately recorded; rendered destination H1 verified.",
+    "pointerCheck": "Version related link locator.click remained on the article despite visible link and repeat. Direct URL and Enter both succeeded. Cause unresolved; no blanket pointer-click PASS is claimed."
+  },
+  "console": {
+    "warnings": 0,
+    "errors": 0
+  },
+  "nonBlockingNotes": [
+    {
+      "id": "CB-ARENA-VN01",
+      "note": "Official logo is large on desktop for recognition-only content; optionally reduce its displayed size to reach the first source table sooner."
+    },
+    {
+      "id": "CB-ARENA-VN02",
+      "note": "Bind the observation to one client state is jargon but remains legible; plain match-notes wording could help."
+    },
+    {
+      "id": "CB-ARENA-VN03",
+      "note": "Unresolved automated pointer activation of wrapped version link; keyboard and route navigation pass. Parent notified; not classified as broken destination or proven site defect."
+    },
+    {
+      "id": "CB-ARENA-VN04",
+      "note": "Native screenshots remain in CUA transcript; no durable screenshot archive saved."
+    }
+  ],
+  "evidence": {
+    "durableScreenshotPath": null,
+    "tool": "mcp__cua_repl.js",
+    "screenshotCallTitles": [
+      "查看 Arena 双端完整页面与官方标识",
+      "查看第一表右端并滚动第二表",
+      "查看第二表右端并复位",
+      "检查推荐区域指针点击的可见状态"
+    ]
+  },
+  "productionAllowed": false,
+  "scope": "Independent bounded local rendered visual QA only; no source edits, no publishing and no actual-counter effectiveness certification."
+}

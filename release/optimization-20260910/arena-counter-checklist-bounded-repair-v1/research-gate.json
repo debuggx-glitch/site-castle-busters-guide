@@ -1,0 +1,215 @@
+{
+  "schemaVersion": "article.research-gate.v1",
+  "taskId": "castle-arena-counter-checklist-bounded-repair-20260910-v1",
+  "status": "PASS_BOUNDED_CORRECTION",
+  "fullPlayerTaskStatus": "HOLD_MISSING_NAMED_MATCHUP_AND_NATIVE_RESULT",
+  "reviewerInstanceId": "/root/brief_wardogs",
+  "reviewedAt": "2026-09-09T18:50:45.747231+00:00",
+  "baseline": {
+    "guidePath": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/.site-worktrees/castlebusters-wave2-wheels-repo/lib/guides.ts",
+    "guideFileSha256": "fe0e923ea4927fa406ea79315bfc14449e4094e46a42378c426c359a27c78621",
+    "targetCanonicalSha256": "b0bbdfbf61339dc14b7926b21d010f852a33fe7d579e9133fd9db7c4af8263c0",
+    "canonicalization": "JSON sorted keys, compact separators, ensure_ascii=false, UTF-8; parsed pure Guide array without execution",
+    "markdownPath": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/.site-worktrees/castlebusters-wave2-wheels-repo/content/posts/arena-counter-checklist.md",
+    "markdownSha256": "1da208bdefa1fdb51947d60e87de2cf0334b46ad51e66dd3e628b9ad5b6e3419"
+  },
+  "evidenceRefs": [
+    {
+      "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claims.json",
+      "sha256": "6b0ad2cdd97a0af00875c55940059229c95ff436a41780d82207dd7911ff07f0"
+    },
+    {
+      "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/repair-scope.json",
+      "sha256": "880bb9ac4ce59be728bdd9a4f7374cf54fc96dc994a5b4a7c8e06589bc24d1e2"
+    },
+    {
+      "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+      "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+    },
+    {
+      "path": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/runs/management/five-site-lightweight-audit-20260910-v1/remaining-64-lightweight-audit-v1.json",
+      "sha256": "c7be5c63996eecb5b84390a0e6e7d38f263592db71c18a09594c75885521831e"
+    },
+    {
+      "path": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/runs/management/five-site-lightweight-audit-20260910-v1/next-production-queue-v1.json",
+      "sha256": "f1f97aa282aba7878a6f8b5b466d4669a875971ef53a8aa5fa5058009e368d03"
+    }
+  ],
+  "originalRepairScope": {
+    "articleSlug": "arena-counter-checklist",
+    "preserveUrl": "https://castlebustersguide.com/guides/arena-counter-checklist/",
+    "baselineRef": {
+      "path": "runs/management/five-site-seo-20260909-v1/castlebustersguide.com/arena-counter-checklist.txt",
+      "sha256": "4fc11ffe8263fba21a4ae65fa297ddbd59561a1a62bd3c0c6f00666b6d9bf479"
+    },
+    "readyScope": "bounded_correction_draft",
+    "acceptedClaimIds": [
+      "CB-C011",
+      "CB-C017"
+    ],
+    "actions": [
+      "更正匹配/机器人绝对断言；公告未给匹配公式"
+    ],
+    "visualNeeds": [
+      "CB-V05"
+    ],
+    "mustWait": [
+      "具名对局、敌我条件、反制操作与结果"
+    ],
+    "independentQa": "R13/R14 then R15/R20 and applicable Core/player/render/release gates; no issue closure by R06",
+    "fullPlayerTaskReady": false
+  },
+  "acceptedClaims": [
+    {
+      "claimId": "CB-C011",
+      "statement": "Patch 1.17 tests revised matchmaking; its formula is unspecified.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Matchmaking",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "arena-counter-checklist"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "arena-counter-checklist"
+      ],
+      "useScope": "Attribute to patch 1.17; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C017",
+      "statement": "Patch 1.17 reports fixing bots leaving the map edge.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Bug Fixes bullet 10",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "arena-counter-checklist"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "arena-counter-checklist"
+      ],
+      "useScope": "Explicit bot-related fix does not support a claim that all opponents are human or bots were removed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    }
+  ],
+  "sourceHashChecks": "Both accepted claims bind source-verification.json SHA successfully; no new source collection.",
+  "currentIssues": [
+    {
+      "location": "description and What is verified now",
+      "problem": "Current/source-checked and actively testing make dated patch 1.17 sound live.",
+      "action": "Attribute matchmaking experiment and bot fix to patch 1.17, published September 1, 2026; do not claim these were tested on the current client."
+    },
+    {
+      "location": "Quick answer and Step-by-step route",
+      "problem": "Opponent-specific counter/protected damage/substitution promises lack named opponents, conditions, action and outcome evidence.",
+      "action": "Replace with a limited version/observation checklist; no specific counter, helper timing or pre-match inspection UI guarantee."
+    },
+    {
+      "location": "Verified point 4",
+      "problem": "Wheels change firing angles is more specific than the accepted two-claim scope; no matching arena evidence.",
+      "action": "Remove from this article; link wheels-and-helper-items without restating an angle or timing formula."
+    },
+    {
+      "location": "Decision table in practice / Field notes / Final verification checklist",
+      "problem": "Repeated meta-method boilerplate, pseudo table rows and publishing/escalation language obscure the answer.",
+      "action": "Delete repeated blocks; use one actual compact table or short checklist."
+    },
+    {
+      "location": "Failure symptoms and recovery / How to use the page visuals",
+      "problem": "Generic hypothetical tradeoffs and image instructions imply task evidence absent from the actual images.",
+      "action": "Remove unsupported mechanisms and describe only the narrow source limits."
+    },
+    {
+      "location": "official-01 and editorial-01 visuals",
+      "problem": "The official image is the game logo, not an interface. The editorial image says 8-UNIT LOADOUT with five role labels, not the claimed evidence/decision workflow.",
+      "action": "Logo is optional recognition only; remove irrelevant editorial image and its misleading alt/caption from this article."
+    }
+  ],
+  "importantAuditDistinction": "Current target does not explicitly say all opponents are human or bots removed. Do not invent that as an existing error; treat it as a prohibited inference when adding CB-C017.",
+  "sourceBoundary": "Source records describe the September 1 patch and were verified September 8 UTC. This task reuses them; it does not certify current live patch deployment or latest version.",
+  "mediaInspection": [
+    {
+      "assetId": "castle-busters-guide-official-01",
+      "path": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/.site-worktrees/castlebusters-wave2-wheels-repo/public/images/official/castle-busters-guide-official-01.webp",
+      "sha256": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661",
+      "actualContent": "Castle Busters logo",
+      "decision": "Optional recognition cover only; no inline task proof",
+      "safeAlt": "Castle Busters logo",
+      "safeCaption": "Castle Busters official logo; it does not show an arena match.",
+      "sourcePage": "https://castlebusters.com/",
+      "provenance": "Preserve existing source/original/rights/transform chain; research does not reapprove media rights.",
+      "version": "Not a current gameplay capture",
+      "visualQa": "pending independent scope and rendered review"
+    },
+    {
+      "assetId": "castle-busters-guide-editorial-01",
+      "path": "/Users/oneone/.codex/worktrees/9f27/game-autopilot/.site-worktrees/castlebusters-wave2-wheels-repo/public/images/editorial/castle-busters-guide-editorial-01.webp",
+      "sha256": "6d31c91b0b40ee0bbb968c57e56ffac85c9f5fd53e84752b123d56d204e2aa5b",
+      "actualContent": "Editorial 8-UNIT LOADOUT list: Frontline, Damage, Control, Support, Substitution slot",
+      "decision": "Not selected for revised article; keep shared file untouched",
+      "safeAlt": null,
+      "safeCaption": null,
+      "sourcePage": null,
+      "provenance": "Preserve existing source/original/rights/transform chain; research does not reapprove media rights.",
+      "version": "Not a current gameplay capture",
+      "visualQa": "pending independent scope and rendered review"
+    }
+  ],
+  "nativeVisualTask": {
+    "id": "CB-V05",
+    "neededToExpand": [
+      "Named enemy and player loadouts and visible levels on a recorded version/platform.",
+      "Initial layout, specific action and resulting win/loss state from a real match.",
+      "Comparable retest if claiming a counter effect; no invented or generic substitute images."
+    ],
+    "status": "missing; full counter walkthrough blocked"
+  },
+  "unknowns": [
+    "Matchmaking formula, factors/weights, player or bot share and reliable opponent-identification cues.",
+    "Current deployment status/effectiveness of patch 1.17 experiment and bot fix on any particular device.",
+    "Named matchup, enemy and player levels/loadouts, exact counter action, replay outcome and win probability.",
+    "Helper-item timing/cost, precise wheel firing-angle effects, pre-match inspection or substitution interface.",
+    "Current meta, arena-specific counter matrix and full platform parity."
+  ],
+  "forbidden": [
+    "Do not state all opponents are human, bots were removed, rank/power fully determines matchmaking, or a test is currently still active.",
+    "Do not claim source inspection or a patch statement is runtime verification.",
+    "No named counters, best loadouts, guaranteed outcomes, precise probabilities, timing, current version or invented controls.",
+    "Do not turn the bot map-edge fix into a bot detection technique or an exploit.",
+    "Do not use community upgrade opinions as arena mechanic facts.",
+    "Do not describe logo/editorial art as gameplay proof or self-sign visual/release PASS."
+  ],
+  "needsNewWebResearchForThisBoundedCorrection": false,
+  "needsNativeEvidenceForSpecificCounter": true,
+  "visualStatus": "PENDING_INDEPENDENT_REFERENCE_EXCEPTION_AND_RENDERED_REVIEW",
+  "publicationAllowed": false
+}

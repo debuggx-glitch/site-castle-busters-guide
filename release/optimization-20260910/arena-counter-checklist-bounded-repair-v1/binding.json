@@ -1,0 +1,23 @@
+{
+  "schemaVersion": "site.optimization.current-cycle-binding.v1",
+  "status": "scoped_content_visual_followup_accepted",
+  "site": "castlebustersguide.com",
+  "route": "/guides/arena-counter-checklist/",
+  "scope": "bounded_matchmaking_and_bot_claim_correction",
+  "guideSha256": "sha256:ac446e3dbc93eaafaba818075323e085a0c9469517622a65b05dba1b2a81901d",
+  "markdownSha256": "sha256:10c32adf483909f0a8d1602bac8a1835214ea73cb4c7bd5672ba4be374f498da",
+  "retainedVisuals": {"public/images/official/castle-busters-guide-official-01.webp": "sha256:79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661"},
+  "evidence": {
+    "task-packet.json": "sha256:a869964600923f14328fd6132baaaf9a98be57f5a9517d44207bc7f9ca6b4888",
+    "research-gate.json": "sha256:45c9e72b9781406d7fc0f2d93ce4b6454de9983e8db233ebbf27735c14889188",
+    "independent-content-review.json": "sha256:145e451da8c3b82cc0c6ce743e25c3c03ae22dafc56a63a43cc1767bad930c22",
+    "independent-visual-review.json": "sha256:562c3f8702dd115515123ea779b98e9c1e622d43bbe69b23612f3796f0d34a47",
+    "local-build-result.json": "sha256:71ac8cb09209e1ed4907859472236007ea4e8e7a9b24a4583ab9133b17317d9a",
+    "pre-release-official-check.json": "sha256:f3e0922495453d1c8f72b19ce59b6c484a6e8661e804d15f4c74777b56d4a1f4"
+  },
+  "gates": {"research": "pass_bounded_correction", "independentContent": "pass", "localBuild": "pass", "independentVisual": "pass", "officialAnnouncementCheck": "pass", "siteReleaseGates": "pass"},
+  "ownerAuthorizationRef": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/authorization.json",
+  "currentUserAuthority": "Eight audited articles authorized for sequential publication without per-article confirmation on 2026-09-10.",
+  "portfolioCounting": {"alreadyCounted": false, "incrementAfterVerifiedPublication": true},
+  "acceptedAt": "2026-09-09T19:04:47Z"
+}

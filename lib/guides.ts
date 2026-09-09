@@ -1208,120 +1208,94 @@ export const guides:Guide[]=[
   {
     "slug": "arena-counter-checklist",
     "category": "Blocker Walkthrough",
-    "title": "Arena Loadout and Counter Checklist",
-    "description": "A current, source-checked guide to arena loadout and counter checklist, with practical steps, failure fixes, and clear evidence limits.",
-    "quickAnswer": "Before an arena match, identify the opponent's first threat, your protected damage source, one counter action, and the loss condition that triggers a substitution.",
-    "updated": "September 4, 2026",
+    "title": "Castle Busters Arena Checklist: Matchmaking and Counter Limits",
+    "description": "See what Castle Busters patch 1.17 actually says about matchmaking and bots, then record one match without inventing a universal counter.",
+    "quickAnswer": "Patch 1.17 announced a matchmaking experiment without publishing its formula and reported fixing bots that left the map edge. Those notes do not identify every opponent or prove a universal counter, so record the visible matchup, one change and the result before drawing a conclusion.",
+    "updated": "September 10, 2026",
     "sources": [
       {
-        "label": "Castle Busters official site",
-        "url": "https://castlebusters.com/"
-      },
-      {
-        "label": "Official patch notes 1.17",
+        "label": "Castle Busters official patch notes 1.17",
         "url": "https://castlebusters.com/patch-notes-1-17/"
-      },
-      {
-        "label": "Official patch notes 1.16",
-        "url": "https://www.castlebusters.com/patch-notes-1-16/"
-      },
-      {
-        "label": "Player upgrade and synergy question",
-        "url": "https://www.reddit.com/r/CastleBusters/comments/1vqla3x/need_advice_on_castle_upgrades_unit_synergy/"
       }
     ],
     "sections": [
       {
-        "heading": "Quick answer and operating boundary",
+        "heading": "What patch 1.17 actually says about opponents",
         "paragraphs": [
-          "Before an arena match, identify the opponent's first threat, your protected damage source, one counter action, and the loss condition that triggers a substitution. This is the direct answer for Arena Loadout and Counter Checklist, checked against the sources and observations available on September 4, 2026.",
-          "Scope boundary: The checklist is opponent-specific and patch-aware. It does not reverse-engineer matchmaking or claim guaranteed counters. The page distinguishes verified facts, a single current observation, an actionable hypothesis, and an unknown field. Those states stay visible because a useful answer is more trustworthy when it says exactly where evidence ends."
-        ]
-      },
-      {
-        "heading": "What is verified now",
-        "paragraphs": [
-          "Verified point 1 for Arena Loadout and Counter Checklist: Castle Busters uses real-time one-versus-one matches. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 2 for Arena Loadout and Counter Checklist: Players can win by eliminating enemy units or destroying the castle. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 3 for Arena Loadout and Counter Checklist: Patch 1.17 is actively testing a new matchmaking approach. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 4 for Arena Loadout and Counter Checklist: Wheels change castle movement and firing angles. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs."
+          "The September 1, 2026 patch notes say a new matchmaking approach was being tested. They do not publish the formula, its factors or whether that experiment remains active in the current client.",
+          "The same patch reports fixing bots that could leave the edge of the map. That confirms a bot-related fix in the dated patch; it does not say bots were removed, reveal the share of bot matches or provide a way to identify an opponent."
         ],
+        "table": {
+          "columns": [
+            "Official patch note",
+            "What it does not establish"
+          ],
+          "rows": [
+            [
+              "A revised matchmaking approach was being tested",
+              "The formula, weights or current deployment status"
+            ],
+            [
+              "Bots leaving the map edge were reported fixed",
+              "That all opponents are human or bots were removed"
+            ]
+          ]
+        },
         "visual": {
           "assetId": "castle-busters-guide-official-01",
           "src": "/images/official/castle-busters-guide-official-01.webp",
           "width": 1000,
           "height": 1000,
-          "alt": "Castle Busters official public media for Arena Loadout and Counter Checklist",
-          "caption": "Official public media used for recognition; verify current values and availability in the live game."
+          "alt": "Castle Busters official logo",
+          "caption": "Official logo used only to identify Castle Busters; it does not show an arena match, matchmaking result, or bot."
         }
       },
       {
-        "heading": "Step-by-step route",
+        "heading": "Keep a short record before calling something a counter",
         "paragraphs": [
-          "Step 1 — Inspect the opposing layout and likely first pressure. For Arena Loadout and Counter Checklist, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 2 — Choose which win condition your squad can reach. For Arena Loadout and Counter Checklist, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 3 — Reserve a helper item or position change for the named threat. For Arena Loadout and Counter Checklist, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 4 — After the match, record the first decisive event. For Arena Loadout and Counter Checklist, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step."
-        ]
-      },
-      {
-        "heading": "Decision table in practice",
-        "paragraphs": [
-          "Decision row 1 for Arena Loadout and Counter Checklist starts with the current state that makes this action relevant: Inspect the opposing layout and likely first pressure. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 2 for Arena Loadout and Counter Checklist starts with the current state that makes this action relevant: Choose which win condition your squad can reach. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 3 for Arena Loadout and Counter Checklist starts with the current state that makes this action relevant: Reserve a helper item or position change for the named threat. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 4 for Arena Loadout and Counter Checklist starts with the current state that makes this action relevant: After the match, record the first decisive event. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible."
-        ]
-      },
-      {
-        "heading": "Failure symptoms and recovery",
-        "paragraphs": [
-          "Failure pattern 1: Changing matchmaking can distort rank-based assumptions. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 2: Focusing units may leave the castle route open. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 3: Chasing castle damage may ignore a dangerous support unit. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 4: A single favorable opponent is not evidence of a universal counter. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way."
+          "Start with what the match actually shows. Record the displayed version if available, the units and layout you can see, the first decisive event and the final result. Leave player-or-bot status unknown unless the client explicitly identifies it.",
+          "For the next comparable match, make one visible loadout or placement change if the client offers it. Write down the action separately from the result. This is an observation method, not a claim that the change counters a named opponent."
         ],
-        "visual": {
-          "assetId": "castle-busters-guide-editorial-01",
-          "src": "/images/editorial/castle-busters-guide-editorial-01.webp",
-          "width": 1600,
-          "height": 900,
-          "alt": "Arena Loadout and Counter Checklist evidence and decision workflow",
-          "caption": "Project-original editorial diagram based on the cited evidence; not a gameplay screenshot."
+        "table": {
+          "columns": [
+            "Record",
+            "Use",
+            "Keep unknown"
+          ],
+          "rows": [
+            [
+              "Version and visible matchup",
+              "Bind the observation to one client state",
+              "Hidden matchmaking factors"
+            ],
+            [
+              "One visible change",
+              "Compare it with the baseline match",
+              "A universal counter"
+            ],
+            [
+              "First decisive event and result",
+              "Describe what changed",
+              "Win rate or opponent type"
+            ]
+          ]
         }
       },
       {
-        "heading": "Version, source, and update rules",
+        "heading": "Keep the counter claim narrow",
         "paragraphs": [
-          "The public version of Arena Loadout and Counter Checklist is dated September 4, 2026. Recheck it after a patch, interface change, economy change, altered tutorial, or repeated current-player contradiction that touches the named task. Keep the former observation with its date, append the replacement, and state which client, platform, account stage, and screen supplied the new result.",
-          "For Arena Loadout and Counter Checklist, first-party documentation establishes identity and explicit mechanics. A current live-client observation can establish what one account displayed. Two independent current observations can strengthen a variable behavior. Search snippets, old videos, and similar game names may open a research task, but they cannot overwrite a verified row without matching the exact game and version."
-        ]
-      },
-      {
-        "heading": "How to use the page visuals",
-        "paragraphs": [
-          "The official or platform image on Arena Loadout and Counter Checklist is a recognition aid for the correct game and interface family. It does not prove every value, availability rule, or optimal choice shown elsewhere on the page. Compare visual landmarks with the live client before following a position, item, element, map, or menu instruction.",
-          "The labelled editorial diagram expresses the decision path behind Arena Loadout and Counter Checklist. It is original explanatory artwork, not a gameplay screenshot. Follow its sequence—baseline, bounded action, visible checkpoint, stop condition, and evidence state—when the live scene differs from the promotional image."
-        ]
-      },
-      {
-        "heading": "Field notes for Arena Loadout and Counter Checklist",
-        "paragraphs": [
-          "Field note 1 for Arena Loadout and Counter Checklist connects three page-specific signals. Baseline: Castle Busters uses real-time one-versus-one matches. Operational move: Inspect the opposing layout and likely first pressure. Confounder to exclude: Changing matchmaking can distort rank-based assumptions. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 2 for Arena Loadout and Counter Checklist connects three page-specific signals. Baseline: Players can win by eliminating enemy units or destroying the castle. Operational move: Choose which win condition your squad can reach. Confounder to exclude: Focusing units may leave the castle route open. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 3 for Arena Loadout and Counter Checklist connects three page-specific signals. Baseline: Patch 1.17 is actively testing a new matchmaking approach. Operational move: Reserve a helper item or position change for the named threat. Confounder to exclude: Chasing castle damage may ignore a dangerous support unit. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 4 for Arena Loadout and Counter Checklist connects three page-specific signals. Baseline: Wheels change castle movement and firing angles. Operational move: After the match, record the first decisive event. Confounder to exclude: A single favorable opponent is not evidence of a universal counter. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away."
-        ]
-      },
-      {
-        "heading": "Final verification checklist",
-        "paragraphs": [
-          "Before acting on Arena Loadout and Counter Checklist, confirm the exact game, current platform, visible task, prerequisite, available choice, expected checkpoint, recovery path, version date, and evidence state. If one field is missing, collect it first. This checklist prevents an attractive but unsupported shortcut from consuming currency, progress, board space, or a limited test opportunity.",
-          "After the result for Arena Loadout and Counter Checklist, save what changed and what did not. If this specific task is complete, stop. If its failure category changed, use that new bottleneck to choose the next guide. If nothing changed after a clean comparison, preserve the evidence and escalate the exact unresolved condition instead of repeating the same broad action."
+          "One favorable match cannot establish a universal counter or a matchmaking rule. A repeat under the same visible version and a comparable matchup can strengthen a limited observation, while the formula and hidden opponent data remain unknown.",
+          "Use the related guides for their separately documented patch, formation, unit and helper-item facts. A named arena counter still needs a current matchup, a specific change and a repeatable result before it belongs on this page."
         ]
       }
     ],
-    "evidenceClass": "source_bounded_launch_page"
+    "evidenceClass": "claim_bounded_patch_reference",
+    "relatedSlugs": [
+      "patch-notes-and-balance-log",
+      "castle-busters-formation",
+      "castle-busters-unit-database",
+      "wheels-and-helper-items"
+    ]
   },
   {
     "slug": "castle-defense-objective",
