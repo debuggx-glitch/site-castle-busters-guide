@@ -1,0 +1,16 @@
+[WARN] Your node_modules are out of sync with your lockfile. The workspace structure has changed since last install
+$ pnpm typecheck && pnpm build
+$ tsc --noEmit
+$ node scripts/verify-site-release.mjs && node scripts/verify-design-contract.mjs && node scripts/verify-adsterra-config.mjs && node scripts/verify-content-assets.mjs && node scripts/verify-content-quality.mjs && node scripts/verify-seo-metadata.mjs && node scripts/verify-seo-geo-release.mjs && next build --webpack
+Release config gate PASS: indexing=open; static canonicals=4; Vercel telemetry=enabled
+DESIGN CONTRACT GATE: PASS family=T02-command-table ads=5 active+1 planned
+ADSTERRA CONFIG GATE: PASS site=site_castle_busters_loadout_guide_001 placements=5 ga4=G-JF6N7V0YLT
+VISUAL COUNT REVIEW: castle-busters-unit-database uses 1; task coverage requires independent review, not an image quota
+VISUAL COUNT REVIEW: castle-busters-eight-unit-loadout uses 1; task coverage requires independent review, not an image quota
+VISUAL COUNT REVIEW: castle-busters-formation uses 1; task coverage requires independent review, not an image quota
+VISUAL COUNT REVIEW: patch-notes-and-balance-log uses 1; task coverage requires independent review, not an image quota
+CONTENT ASSET GATE: PASS pages=18 visuals=32 authentic>=18
+CONTENT LENGTH REVIEW: castle-busters-unit-database=200, castle-busters-eight-unit-loadout=190, castle-busters-formation=150, patch-notes-and-balance-log=143; inspect task coverage; do not pad to a word quota
+CONTENT QUALITY GATE: FAIL task review missing or invalid: ENOENT: no such file or directory, open '/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/config/content-task-review.json'
+[ELIFECYCLE] Command failed with exit code 1.
+[ELIFECYCLE] Command failed with exit code 1.

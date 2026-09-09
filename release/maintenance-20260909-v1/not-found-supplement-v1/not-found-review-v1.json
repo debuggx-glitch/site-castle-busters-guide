@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "site": "castlebustersguide.com",
+  "reviewer": "review_wardogs_v1",
+  "reviewedAt": "2026-09-09T05:05:39.785602+00:00",
+  "role": "R20 independent visual regression; R15 limited presentation observation",
+  "result": "PASS_SCOPED_DELTA",
+  "scope": "Only three supplied local 404 full-page screenshots and their producer DOM record; closes the missing 404 visual coverage in regression-maintenance-review-v1.json.",
+  "url": "http://127.0.0.1:8382/404.html",
+  "method": "Independently opened and visually inspected each of the three PNGs with view_image. Read producer DOM width records; no browser navigation or request performed by this reviewer.",
+  "pages": [
+    {
+      "width": 1440,
+      "screenshot": "/private/tmp/five-site-qa-20260909/castle/not-found-1440.png",
+      "result": "PASS",
+      "observations": "404 and explanatory message fully legible; header and footer fit; no clipped text, overlap, broken image placeholder or visible horizontal overflow. Header navigation and footer links remain visible.",
+      "producerDOM": {
+        "clientWidth": 1440,
+        "scrollWidth": 1440
+      }
+    },
+    {
+      "width": 390,
+      "screenshot": "/private/tmp/five-site-qa-20260909/castle/not-found-390.png",
+      "result": "PASS",
+      "observations": "404 and explanatory message fully legible; header and footer fit; no clipped text, overlap, broken image placeholder or visible horizontal overflow. Header navigation and footer links remain visible.",
+      "producerDOM": {
+        "clientWidth": 390,
+        "scrollWidth": 390
+      }
+    },
+    {
+      "width": 412,
+      "screenshot": "/private/tmp/five-site-qa-20260909/castle/not-found-412.png",
+      "result": "PASS",
+      "observations": "404 and explanatory message fully legible; header and footer fit; no clipped text, overlap, broken image placeholder or visible horizontal overflow. Header navigation and footer links remain visible.",
+      "producerDOM": {
+        "clientWidth": 412,
+        "scrollWidth": 412
+      }
+    }
+  ],
+  "requiredFixes": [],
+  "releaseImplication": "No visual blocker found in this 404 delta. This receipt can join the actual maintenance release-preparation evidence; it is not a production-release approval.",
+  "limits": [
+    "Direct /404.html rendering only; does not verify arbitrary missing-path routing, HTTP 404 status, clickable navigation, console or network errors.",
+    "No article fact or task re-review, no R22 blind or paired-player test, no Core completion certification.",
+    "Preserve original three Core task gaps CB-VP-02 and unchanged legacy-content gaps CB-VP-03. The withdrawn all-18 new task gate is not retrospectively required by this delta.",
+    "Final release checks and production acceptance remain the responsibility of the release owner; this review does not infer their current status."
+  ],
+  "sourceHashes": {
+    "/private/tmp/five-site-qa-20260909/castle/not-found-records.json": "fb7d9e7db9d402273fcd1137484f06bfad703551f8e867fdd2944e4cee4275d9",
+    "/private/tmp/five-site-qa-20260909/castle/not-found-1440.png": "cf165ea0873f9f24f05b91ea4cf7b759de2cd0dbc7e1ea1b464ce2bb5d413f89",
+    "/private/tmp/five-site-qa-20260909/castle/not-found-390.png": "41dbb66bfb6da7689cb401d6c3b56fd71a69b6847873ececea461dabc232d303",
+    "/private/tmp/five-site-qa-20260909/castle/not-found-412.png": "ee4094e6a2ca93df4be20d55e11c5dac21aa997bee1aaaf81d8aad728df93803",
+    "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/regression-maintenance-review-v1.json": "96f16eaf99dfa0f88de10c9f9eb9c4ed61047f72f950f249e30ca4bee69668aa"
+  }
+}

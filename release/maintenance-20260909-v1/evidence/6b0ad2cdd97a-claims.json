@@ -1,0 +1,1480 @@
+{
+  "schema": "article-claim-whitelist.v1",
+  "site": "castlebustersguide.com",
+  "role": "R06",
+  "status": "partial",
+  "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+  "claims": [
+    {
+      "claimId": "CB-C001",
+      "statement": "Patch 1.16 introduces Sir Rally, Leif and Wolfie.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "New Heroes; opening paragraph",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "patch-notes-and-balance-log",
+        "castle-busters-beginner-route",
+        "unit-roles-explained"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "patch-notes-and-balance-log",
+        "castle-busters-beginner-route",
+        "unit-roles-explained"
+      ],
+      "useScope": "Attribute to patch 1.16; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C002",
+      "statement": "Sir Rally raises the damage of allied heroes immediately around him.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "New Heroes > Sir Rally",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "frontline-backline-placement",
+        "unit-roles-explained",
+        "replace-a-missing-unit"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "frontline-backline-placement",
+        "unit-roles-explained",
+        "replace-a-missing-unit"
+      ],
+      "useScope": "Attribute to patch 1.16; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C003",
+      "statement": "Sir Rally is listed as free at Arena 7.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "New Heroes > Sir Rally availability",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "early-team-without-rare-units",
+        "castle-busters-beginner-route"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "early-team-without-rare-units",
+        "castle-busters-beginner-route"
+      ],
+      "useScope": "1.16 availability label only; free does not mean already owned, instant collection or available before Arena 7.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C004",
+      "statement": "Leif revives fallen allies in his row when he kills an enemy unit.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "New Heroes > Leif",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "frontline-backline-placement",
+        "unit-roles-explained",
+        "replace-a-missing-unit"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "frontline-backline-placement",
+        "unit-roles-explained",
+        "replace-a-missing-unit"
+      ],
+      "useScope": "Attribute to patch 1.16; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C005",
+      "statement": "Leif is listed as free at Arena 25.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "New Heroes > Leif availability",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "early-team-without-rare-units",
+        "castle-busters-beginner-route"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "early-team-without-rare-units",
+        "castle-busters-beginner-route"
+      ],
+      "useScope": "1.16 availability label only. Do not include Leif as an Arena 7 free starter.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C006",
+      "statement": "Wolfie transforms and gains attack strength after a neighboring ally dies.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "New Heroes > Wolfie",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "frontline-backline-placement",
+        "unit-roles-explained",
+        "replace-a-missing-unit"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "frontline-backline-placement",
+        "unit-roles-explained",
+        "replace-a-missing-unit"
+      ],
+      "useScope": "Attribute to patch 1.16; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C007",
+      "statement": "Wolfie is listed as exclusive to the Battle Pass.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "New Heroes > Wolfie availability",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "early-team-without-rare-units"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "early-team-without-rare-units"
+      ],
+      "useScope": "1.16 label only. No current season, price or post-season acquisition inference.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C008",
+      "statement": "The updated hero visuals finished rolling out with 1.16.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "Opening visual overhaul paragraphs",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "patch-notes-and-balance-log"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "patch-notes-and-balance-log"
+      ],
+      "useScope": "Official historical rollout statement; old portraits require identity review, not automatic renaming.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C009",
+      "statement": "Sir Rally received a cast delay in 1.17.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Bug Fixes bullet 1",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "patch-notes-and-balance-log",
+        "castle-busters-eight-unit-loadout"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "patch-notes-and-balance-log",
+        "castle-busters-eight-unit-loadout"
+      ],
+      "useScope": "Attribute to patch 1.17; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C010",
+      "statement": "Patch 1.17 adds support contact and a Help Center in Settings.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "In-Game Support",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "formation-failure-symptoms",
+        "castle-busters-beginner-route"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "formation-failure-symptoms",
+        "castle-busters-beginner-route"
+      ],
+      "useScope": "Settings is the documented entry. Exact button label, nested taps and screenshot remain unknown; do not invent a click-by-click route.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C011",
+      "statement": "Patch 1.17 tests revised matchmaking; its formula is unspecified.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Matchmaking",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "arena-counter-checklist"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "arena-counter-checklist"
+      ],
+      "useScope": "Attribute to patch 1.17; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C012",
+      "statement": "Patch 1.17 removes the limit of 40 unit levels per upgrade action.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Bug Fixes bullet 2",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "upgrade-breakpoints-stop-rules"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "upgrade-breakpoints-stop-rules"
+      ],
+      "useScope": "Removal of per-action cap only. Not a unit level cap, cost reduction or free-upgrade claim.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C013",
+      "statement": "Patch 1.17 reports fixing disappearing foundations UI during enemy turns.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Bug Fixes bullet 4",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "castle-busters-formation",
+        "formation-failure-symptoms"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "castle-busters-formation",
+        "formation-failure-symptoms"
+      ],
+      "useScope": "UI disappearance fix only; not proof of foundations physically disappearing or structural invulnerability.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C014",
+      "statement": "Patch 1.17 reports fixing utility healing in certain situations.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Bug Fixes bullet 5",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "wheels-and-helper-items",
+        "formation-failure-symptoms"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "wheels-and-helper-items",
+        "formation-failure-symptoms"
+      ],
+      "useScope": "Attribute to patch 1.17; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C015",
+      "statement": "Patch 1.17 reports fixing unit placement after swaps.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Bug Fixes bullet 6",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "castle-busters-formation",
+        "frontline-backline-placement",
+        "replace-a-missing-unit",
+        "formation-failure-symptoms"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "castle-busters-formation",
+        "frontline-backline-placement",
+        "replace-a-missing-unit",
+        "formation-failure-symptoms"
+      ],
+      "useScope": "Attribute to patch 1.17; do not claim device-tested or universally deployed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C016",
+      "statement": "Patch 1.17 corrects poison-cloud visuals to match attack radius.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Bug Fixes bullet 7",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "castle-defense-objective"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "castle-defense-objective"
+      ],
+      "useScope": "Visual correction, not a stated damage or radius buff.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C017",
+      "statement": "Patch 1.17 reports fixing bots leaving the map edge.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Bug Fixes bullet 10",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "arena-counter-checklist"
+      ],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "arena-counter-checklist"
+      ],
+      "useScope": "Explicit bot-related fix does not support a claim that all opponents are human or bots were removed.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C018",
+      "statement": "The loadout supports up to eight distinct units.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Train Units",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "early-team-without-rare-units",
+        "castle-busters-beginner-route",
+        "replace-a-missing-unit",
+        "damage-control-support-balance",
+        "team-testing-worksheet"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "early-team-without-rare-units",
+        "castle-busters-beginner-route",
+        "replace-a-missing-unit",
+        "damage-control-support-balance",
+        "team-testing-worksheet"
+      ],
+      "useScope": "Official undated baseline; no ranking, exact numerical performance or completeness implied.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C019",
+      "statement": "Bishop is described as premium, with a delayed-explosion bomb.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Choose your champion > Bishop",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "useScope": "Official undated baseline; no ranking, exact numerical performance or completeness implied.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C020",
+      "statement": "Wrecker fires a single bomb with area damage.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Choose your champion > Wrecker",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "useScope": "Official undated baseline; no ranking, exact numerical performance or completeness implied.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C021",
+      "statement": "Fairy is described as premium and attacks with descending orbs.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Choose your champion > Fairy",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "useScope": "Official undated baseline; no ranking, exact numerical performance or completeness implied.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C022",
+      "statement": "Pulsar fires a laser in the aimed direction.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Choose your champion > Pulsar",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "useScope": "Official undated baseline; no ranking, exact numerical performance or completeness implied.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C023",
+      "statement": "Saxton throws three boomerangs that return to the castle.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Choose your champion > Saxton",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "unit-roles-explained",
+        "castle-busters-eight-unit-loadout",
+        "damage-control-support-balance"
+      ],
+      "useScope": "Official undated baseline; no ranking, exact numerical performance or completeness implied.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C024",
+      "statement": "Victory comes from eliminating enemy units or destroying their castle.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Gameplay bullet 3",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-beginner-route",
+        "castle-defense-objective",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-beginner-route",
+        "castle-defense-objective",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation"
+      ],
+      "useScope": "Official undated baseline; no ranking, exact numerical performance or completeness implied.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C025",
+      "statement": "Wheels move the castle; new sets come from the Forge.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Wheels",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "wheels-and-helper-items",
+        "upgrade-materials-priority",
+        "castle-busters-beginner-route"
+      ],
+      "intendedArticleSlugs": [
+        "wheels-and-helper-items",
+        "upgrade-materials-priority",
+        "castle-busters-beginner-route"
+      ],
+      "useScope": "Official undated baseline; no ranking, exact numerical performance or completeness implied.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C026",
+      "statement": "Wheel types have differing speed and fuel attributes.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Wheels bullet 2",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "wheels-and-helper-items"
+      ],
+      "intendedArticleSlugs": [
+        "wheels-and-helper-items"
+      ],
+      "useScope": "No named wheel rankings, numeric stats or Power-stat interpretation.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C027",
+      "statement": "Forge rewards also include offensive and defensive helper items.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Helper items",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "wheels-and-helper-items",
+        "upgrade-materials-priority",
+        "castle-busters-beginner-route"
+      ],
+      "intendedArticleSlugs": [
+        "wheels-and-helper-items",
+        "upgrade-materials-priority",
+        "castle-busters-beginner-route"
+      ],
+      "useScope": "No reward thresholds, probabilities, recipes or collection buttons provided.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C028",
+      "statement": "Castle upgrades improve durability and defensive options.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Build Your Castle; Upgrading",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "upgrade-materials-priority",
+        "castle-busters-beginner-route",
+        "castle-busters-formation"
+      ],
+      "intendedArticleSlugs": [
+        "upgrade-materials-priority",
+        "castle-busters-beginner-route",
+        "castle-busters-formation"
+      ],
+      "useScope": "General building effect only; no comparative cost-efficiency, quantities or optimal upgrade order.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C029",
+      "statement": "The site advertises more than thirty units.",
+      "status": "accepted",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Choose your champion; Units",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [
+        "castle-busters-unit-database"
+      ],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database"
+      ],
+      "useScope": "Marketing count only; cannot label the eight verified descriptions a complete roster.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C030",
+      "statement": "Patch 1.16 identifies Crabbo, Pharaoh and ZapZap as its new heroes.",
+      "status": "rejected",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "Compare New Heroes against existing database snapshot line 52",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database"
+      ],
+      "useScope": "Source explicitly names different heroes. Reject this attribution, not those names as possible entities elsewhere.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C031",
+      "statement": "Patch 1.16 defines new-hero effects as frontline, cat-row or directly-ahead rules.",
+      "status": "rejected",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "Compare New Heroes against formation line 52 / loadout line 58",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation"
+      ],
+      "useScope": "Replace wrong attribution with C002/C004/C006; cat-row is not in this official release.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C032",
+      "statement": "The eight named heroes in this evidence pack form a proven current best loadout.",
+      "status": "rejected",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "No coherent team observation or current acquisition set",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-eight-unit-loadout",
+        "early-team-without-rare-units"
+      ],
+      "useScope": "Eight descriptions are not eight compatible owned units or tested synergy.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C033",
+      "statement": "Exact Sir Rally multiplier, adjacency geometry and delay duration.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-formation",
+        "castle-busters-eight-unit-loadout",
+        "formation-failure-symptoms"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C034",
+      "statement": "Leif revival health, cooldown, revival after structural collapse and trigger exceptions.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-formation",
+        "formation-failure-symptoms"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C035",
+      "statement": "Wolfie multiplier, all trigger exceptions and present-season acquisition.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.16",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S02",
+          "url": "https://castlebusters.com/patch-notes-1-16/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database",
+        "castle-busters-formation",
+        "formation-failure-symptoms",
+        "early-team-without-rare-units"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C036",
+      "statement": "A complete current-platform roster with ranks, numbers and unlock conditions.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-unit-database"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C037",
+      "statement": "A named eight-unit team with arena, ownership, levels, positions, replacements and observed results.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-eight-unit-loadout",
+        "early-team-without-rare-units",
+        "replace-a-missing-unit",
+        "damage-control-support-balance",
+        "arena-counter-checklist",
+        "team-testing-worksheet"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C038",
+      "statement": "The best foundation location and reproducible collapse behavior.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "castle-busters-formation",
+        "frontline-backline-placement",
+        "castle-defense-objective",
+        "formation-failure-symptoms"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C039",
+      "statement": "Wheel Power meaning, named best wheels and controlled terrain comparisons.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "wheels-and-helper-items"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C040",
+      "statement": "Forge reward gates, reset rules, recipes, chances and reward collection sequence.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "upgrade-materials-priority",
+        "wheels-and-helper-items",
+        "castle-busters-beginner-route"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C041",
+      "statement": "Current wood income, building costs, unit upgrade stop levels and best investment order.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "upgrade-materials-priority",
+        "upgrade-breakpoints-stop-rules",
+        "castle-busters-beginner-route"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C042",
+      "statement": "Android current version and actual installed iOS/Android build on the tested account.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C043",
+      "statement": "Exact Settings sub-button text and successful support ticket submission flow.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": "1.17",
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_release_statement",
+      "sourceRefs": [
+        {
+          "sourceId": "S03",
+          "url": "https://castlebusters.com/patch-notes-1-17/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "patch-notes-and-balance-log",
+        "formation-failure-symptoms"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    },
+    {
+      "claimId": "CB-C044",
+      "statement": "Reroll reward, cost and benefit or a reproducible account-reset route.",
+      "status": "unverified",
+      "platform": "Castle Busters mobile (iOS/Android); not client-tested",
+      "version": null,
+      "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+      "evidenceType": "official_feature_description",
+      "sourceRefs": [
+        {
+          "sourceId": "S01",
+          "url": "https://castlebusters.com/",
+          "locator": "Not specified in the reviewed official source; see useScope",
+          "evidenceRef": {
+            "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+            "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+          }
+        }
+      ],
+      "allowedArticleSlugs": [],
+      "intendedArticleSlugs": [
+        "account-start-and-reroll-check"
+      ],
+      "useScope": "Requires targeted current-client evidence. Earlier research/competitor opinions are discovery leads only; not authorized writing facts.",
+      "reverifyWhen": "Before publication, after relevant patch/source edit, or conflicting current-client observation. Availability requires matching platform/account; no automatic current-version carryover."
+    }
+  ],
+  "namedUnitRows": [
+    {
+      "name": "Sir Rally",
+      "claimIds": [
+        "CB-C002",
+        "CB-C003",
+        "CB-C009"
+      ],
+      "currentNumbers": null,
+      "currentNumbersStatus": "unknown"
+    },
+    {
+      "name": "Leif",
+      "claimIds": [
+        "CB-C004",
+        "CB-C005"
+      ],
+      "currentNumbers": null,
+      "currentNumbersStatus": "unknown"
+    },
+    {
+      "name": "Wolfie",
+      "claimIds": [
+        "CB-C006",
+        "CB-C007"
+      ],
+      "currentNumbers": null,
+      "currentNumbersStatus": "unknown"
+    },
+    {
+      "name": "Bishop",
+      "claimIds": [
+        "CB-C019"
+      ],
+      "currentNumbers": null,
+      "currentNumbersStatus": "unknown"
+    },
+    {
+      "name": "Wrecker",
+      "claimIds": [
+        "CB-C020"
+      ],
+      "currentNumbers": null,
+      "currentNumbersStatus": "unknown"
+    },
+    {
+      "name": "Fairy",
+      "claimIds": [
+        "CB-C021"
+      ],
+      "currentNumbers": null,
+      "currentNumbersStatus": "unknown"
+    },
+    {
+      "name": "Pulsar",
+      "claimIds": [
+        "CB-C022"
+      ],
+      "currentNumbers": null,
+      "currentNumbersStatus": "unknown"
+    },
+    {
+      "name": "Saxton",
+      "claimIds": [
+        "CB-C023"
+      ],
+      "currentNumbers": null,
+      "currentNumbersStatus": "unknown"
+    }
+  ],
+  "rosterStatus": "partial_eight_descriptions_not_a_recommended_team",
+  "writerRule": "Only accepted Claims on allowed slugs; translate naturally, keep material platform/version limitations; no extra numbers, names, geometry, buttons, strategy guarantees or invented examples. Unknown cells stay unknown or are omitted. Source statement is not client QA.",
+  "sourceRef": {
+    "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+    "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+  },
+  "publicationAllowed": false
+}

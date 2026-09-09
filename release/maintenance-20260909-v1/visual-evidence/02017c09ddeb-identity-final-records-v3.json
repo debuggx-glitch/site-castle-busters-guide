@@ -1,0 +1,186 @@
+[
+  {
+    "client": 1425,
+    "logo": [
+      {
+        "height": 134,
+        "rect": {
+          "bottom": 1047.625,
+          "height": 134,
+          "left": 187.5,
+          "right": 321.5,
+          "top": 913.625,
+          "width": 134,
+          "x": 187.5,
+          "y": 913.625
+        },
+        "width": 134
+      }
+    ],
+    "scroll": 1425,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-unit-database/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-unit-database-1440.png"
+  },
+  {
+    "client": 1425,
+    "logo": [
+      {
+        "height": 134,
+        "rect": {
+          "bottom": 1047.625,
+          "height": 134,
+          "left": 187.5,
+          "right": 321.5,
+          "top": 913.625,
+          "width": 134,
+          "x": 187.5,
+          "y": 913.625
+        },
+        "width": 134
+      }
+    ],
+    "scroll": 1425,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-eight-unit-loadout/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-eight-unit-loadout-1440.png"
+  },
+  {
+    "client": 1425,
+    "logo": [
+      {
+        "height": 134,
+        "rect": {
+          "bottom": 1047.625,
+          "height": 134,
+          "left": 187.5,
+          "right": 321.5,
+          "top": 913.625,
+          "width": 134,
+          "x": 187.5,
+          "y": 913.625
+        },
+        "width": 134
+      }
+    ],
+    "scroll": 1425,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-formation/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-formation-1440.png"
+  },
+  {
+    "client": 1425,
+    "logo": [
+      {
+        "height": 134,
+        "rect": {
+          "bottom": 1047.625,
+          "height": 134,
+          "left": 187.5,
+          "right": 321.5,
+          "top": 913.625,
+          "width": 134,
+          "x": 187.5,
+          "y": 913.625
+        },
+        "width": 134
+      }
+    ],
+    "scroll": 1425,
+    "url": "http://127.0.0.1:8382/guides/patch-notes-and-balance-log/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/identity-final-patch-notes-and-balance-log-1440.png"
+  },
+  {
+    "client": 375,
+    "logo": [
+      {
+        "height": 134,
+        "rect": {
+          "bottom": 322.9765625,
+          "height": 134,
+          "left": 31,
+          "right": 165,
+          "top": 188.9765625,
+          "width": 134,
+          "x": 31,
+          "y": 188.9765625
+        },
+        "width": 134
+      }
+    ],
+    "scroll": 375,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-unit-database/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-unit-database-390.png"
+  },
+  {
+    "client": 375,
+    "logo": [
+      {
+        "height": 134,
+        "rect": {
+          "bottom": 298.1796875,
+          "height": 134,
+          "left": 31,
+          "right": 165,
+          "top": 164.1796875,
+          "width": 134,
+          "x": 31,
+          "y": 164.1796875
+        },
+        "width": 134
+      }
+    ],
+    "scroll": 375,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-eight-unit-loadout/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-eight-unit-loadout-390.png"
+  },
+  {
+    "client": 375,
+    "logo": [
+      {
+        "height": 134,
+        "rect": {
+          "bottom": 298.1796875,
+          "height": 134,
+          "left": 31,
+          "right": 165,
+          "top": 164.1796875,
+          "width": 134,
+          "x": 31,
+          "y": 164.1796875
+        },
+        "width": 134
+      }
+    ],
+    "scroll": 375,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-formation/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-formation-390.png"
+  },
+  {
+    "client": 375,
+    "logo": [
+      {
+        "height": 134,
+        "rect": {
+          "bottom": 287.6328125,
+          "height": 134,
+          "left": 31,
+          "right": 165,
+          "top": 153.6328125,
+          "width": 134,
+          "x": 31,
+          "y": 153.6328125
+        },
+        "width": 134
+      }
+    ],
+    "scroll": 375,
+    "url": "http://127.0.0.1:8382/guides/patch-notes-and-balance-log/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/identity-final-patch-notes-and-balance-log-390.png"
+  }
+]

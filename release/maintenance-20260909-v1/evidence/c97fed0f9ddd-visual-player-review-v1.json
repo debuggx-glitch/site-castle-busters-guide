@@ -1,0 +1,275 @@
+{
+  "schema": "independent-visual-player-review.v1",
+  "site": "castlebustersguide.com",
+  "reviewerInstanceId": "/root/review_wardogs_v1",
+  "reviewedAt": "2026-09-08T23:02:08.645717+00:00",
+  "scope": "四篇改稿R15预览与R20图文任务；另14篇仅当前截图回归观察。只看本地提供的真实渲染图，未操作Chrome、未测生产。",
+  "independence": {
+    "notAuthor": true,
+    "notRendererImplementer": true,
+    "priorR13Reviewer": true,
+    "sawBriefAndInternalQaBeforeTaskReview": true,
+    "R22Mode": "informed_specialist_only",
+    "formalBlindRenderedPageReview": false,
+    "independentPrimaryCounterPair": false
+  },
+  "roleResults": {
+    "R13": "继承原有限事实PASS：独立比对当前4Guide与原replacements仅category变化，正文事实未变。",
+    "R15": "FAIL_PREVIEW_SCOPE: CB-VP-01；不签全站，另14篇有CB-VP-03，非文章公共页面未提供。",
+    "R20": "FAIL_TASK_VISUAL: CB-VP-01；语义表格对当前窄参考任务有实际用途。",
+    "R22": "NOT_SIGNED；只给informed观察，三篇原Core任务仍未完成。",
+    "release": "NOT_APPROVED"
+  },
+  "pages": [
+    {
+      "slug": "castle-busters-unit-database",
+      "title": "Castle Busters Units: Eight Named Skills and Access Notes",
+      "guideObjectSha256": "8f07a8e782cc2845400d936f5a40ca087780d369b458929539cd1b505161e5ab",
+      "R15": "FAIL_CB-VP-01",
+      "R20": "FAIL_CB-VP-01",
+      "informedReaderTask": {
+        "currentNarrowPromise": "PASS_CONTENT_SCOPE",
+        "task": "按八个名字查行为、获取标签和来源语境",
+        "observedOutcome": "八行表能直接回答；有缺省和部分名录边界",
+        "originalTaskGap": "原Core角色/技能/版本完整查询仍缺完整名单、角色分类和现行获取证据",
+        "formalR22Verdict": null
+      },
+      "requiredCorrections": [
+        "CB-VP-01",
+        "CB-VP-02"
+      ]
+    },
+    {
+      "slug": "castle-busters-eight-unit-loadout",
+      "title": "Castle Busters Loadout: Unit Limit and Hero Conditions",
+      "guideObjectSha256": "1d7293711b39089888fe5fdf5399891fdf0fa9dc7c361010d98437b0dc034df8",
+      "R15": "FAIL_CB-VP-01",
+      "R20": "FAIL_CB-VP-01",
+      "informedReaderTask": {
+        "currentNarrowPromise": "PASS_CONTENT_SCOPE",
+        "task": "查八单位容量与已公布获取/技能条件",
+        "observedOutcome": "容量与两个条件表能回答当前收窄承诺",
+        "originalTaskGap": "不能完成原Core按目标配八个单位或缺角替代任务；没有具名配置或替代链",
+        "formalR22Verdict": null
+      },
+      "requiredCorrections": [
+        "CB-VP-01",
+        "CB-VP-02"
+      ]
+    },
+    {
+      "slug": "castle-busters-formation",
+      "title": "Castle Busters Formation Rules: Sir Rally, Leif and Wolfie",
+      "guideObjectSha256": "c53966a68f8c5477e1f70688c87ac3687676cbfdda3c8f6e7abeb45158c5784b",
+      "R15": "FAIL_CB-VP-01",
+      "R20": "FAIL_CB-VP-01",
+      "informedReaderTask": {
+        "currentNarrowPromise": "PASS_CONTENT_SCOPE",
+        "task": "区分Sir Rally邻近、Leif同行阵亡加击杀、Wolfie邻居阵亡条件",
+        "observedOutcome": "条件/结果表与说明区分三种规则，并分离1.17界面修复",
+        "originalTaskGap": "不能完成原Core具体格子摆位与失败先改哪一项；无验证格子/对角邻接/成功失败对照",
+        "formalR22Verdict": null
+      },
+      "requiredCorrections": [
+        "CB-VP-01",
+        "CB-VP-02"
+      ]
+    },
+    {
+      "slug": "patch-notes-and-balance-log",
+      "title": "Castle Busters Patch 1.17 and 1.16: Changes Explained",
+      "guideObjectSha256": "9e1d2b766dfd9eb4aefb421e6a94ac659bb7da119ec71ee6ec2bb63465c26da1",
+      "R15": "FAIL_CB-VP-01",
+      "R20": "FAIL_CB-VP-01",
+      "informedReaderTask": {
+        "currentNarrowPromise": "PASS_CONTENT_SCOPE",
+        "task": "查1.17及1.16具名变化并理解40级限制",
+        "observedOutcome": "系统/变化/细节表支持历史补丁解释；明确单次升级动作",
+        "originalTaskGap": "不能据此判断现行账号已修复；当前窄承诺也没有作该保证",
+        "formalR22Verdict": null
+      },
+      "requiredCorrections": [
+        "CB-VP-01"
+      ]
+    }
+  ],
+  "findings": [
+    {
+      "id": "CB-VP-01",
+      "roles": [
+        "R15",
+        "R20"
+      ],
+      "status": "must_fix",
+      "pages": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation",
+        "patch-notes-and-balance-log"
+      ],
+      "originalIssueIds": [
+        "CB-I03"
+      ],
+      "problem": "四篇实图均把同一大型方形Castle Busters Logo置于答案/广告与首个任务章节之间。桌面和手机都占用明显阅读空间，不提供单位识别、条件比较或补丁信息。",
+      "minimalFix": "仅对这四篇，将巨幅正文lead logo移出任务阅读路径，或改为紧凑品牌标识。保留有用语义表格；不需要虚构玩法图片。",
+      "retest": "四篇1440/390/412复验；答案/广告后应直接到达任务章节，无巨幅装饰绕行。"
+    },
+    {
+      "id": "CB-VP-02",
+      "roles": [
+        "R08",
+        "R22"
+      ],
+      "status": "core_task_hold",
+      "pages": [
+        "castle-busters-unit-database",
+        "castle-busters-eight-unit-loadout",
+        "castle-busters-formation"
+      ],
+      "originalIssueIds": [
+        "CB-I02",
+        "CB-I03",
+        "CB-I05"
+      ],
+      "problem": "现标题是诚实的局部参考，但原Core的完整单位库、八人配队/替代和实际摆位/失败调整没有交付。",
+      "minimalFix": "保留这轮有价值的有限纠错，同时保持原Core任务未完成；由R08记录范围冲突并安排定向证据/内容补齐，或按权限形成真实portfolio修订。不可恢复无证标题、编造阵容/格子，或悄悄把原Core标完成。",
+      "retest": "后续由两名合规独立R22实例按批准成功标准测试真实渲染页。"
+    },
+    {
+      "id": "CB-VP-03",
+      "roles": [
+        "R15"
+      ],
+      "status": "inherited_open_outside_four_page_rewrite",
+      "pages": [
+        "castle-busters-beginner-route",
+        "upgrade-materials-priority",
+        "unit-roles-explained",
+        "frontline-backline-placement",
+        "damage-control-support-balance",
+        "early-team-without-rare-units",
+        "arena-counter-checklist",
+        "castle-defense-objective",
+        "wheels-and-helper-items",
+        "upgrade-breakpoints-stop-rules",
+        "replace-a-missing-unit",
+        "formation-failure-symptoms",
+        "account-start-and-reroll-check",
+        "team-testing-worksheet"
+      ],
+      "problem": "其余14页回归图仍显示长段模板结构。13篇重复What is verified now、Version, source, and update rules、How to use the page visuals等标题，公开类别仍有Data Tool Decision Table、Blocker Walkthrough等内部意图词；beginner还保留What the accepted sources actually prove。",
+      "minimalFix": "在既有旧文工单保留问题，按玩家任务改公开类别和内容；本轮不得声明这些页或全站去AI通过。"
+    },
+    {
+      "id": "CB-VP-04",
+      "roles": [
+        "R22",
+        "release_gate"
+      ],
+      "status": "evidence_missing",
+      "problem": "当前worktree和原站均无config/content-task-review.json；check仅build:preview，跳过quality。现存R22为core_selection，引用通用evidenceRefs；旧发布QA只抽首页/代表攻略，非当前逐篇任务验收。",
+      "minimalFix": "保留历史原状。用真实当前任务证据、独立复验与文件哈希按实际schema建门禁；不能补造18条PASS、将选题或抽样报告转为rendered_page全量覆盖。"
+    }
+  ],
+  "renderEvidence": {
+    "baseDir": "/private/tmp/five-site-qa-20260909/castle",
+    "fullPagesActuallyViewed": 26,
+    "changedViewports": [
+      1440,
+      390,
+      412
+    ],
+    "unchangedViewports": [
+      412
+    ],
+    "additionalActualViewportImagesViewed": 2,
+    "imageHashes": {
+      "final-castle-busters-eight-unit-loadout-1440.png": "f9d80fe7a193f5e2d1434c5b8f087a3c86c254a1456294ff01349bddf0ffa7e3",
+      "final-castle-busters-eight-unit-loadout-390.png": "e1ee67900acecffab8b576a5efa744510f3828f2b7eebf2f8fda1df3e9e3362d",
+      "final-castle-busters-eight-unit-loadout-412.png": "1ff50ef5e5da68adf781bf99abeb2cd7d0f54c2b8051824afa9d1f2d1580a975",
+      "final-castle-busters-formation-1440.png": "2164275019f0966f781e3e7e7acb824c770e36e6b5d14dd27e8cb5e7ac16abae",
+      "final-castle-busters-formation-390.png": "21e5d800069b22a98725c12ec1e86aeb5dbc3a84eb546c3bc381de7ace94833f",
+      "final-castle-busters-formation-412.png": "e926d4ca4a3b9cbceca9dd04a01df57cbf05b7ab545cc2cc135ac977b438fbcd",
+      "final-castle-busters-unit-database-1440.png": "4a5f20b5b406a64ffef9636d1950e4bdd8d7f1bd1f40cad0947ca90422054a2a",
+      "final-castle-busters-unit-database-390.png": "ea1dda680703da1884344815674b3823823595c749f85a41381e6c9e84f6dc76",
+      "final-castle-busters-unit-database-412.png": "b0e867b41443bef8382ad2b758ed59b0823b944d2ffdfd885fcd172cb20ad571",
+      "final-patch-notes-and-balance-log-1440.png": "b0e143817a240b3b5cfb1b8098db74bddf9d5885046cef8da18719512056d479",
+      "final-patch-notes-and-balance-log-390.png": "bb95795b122f46c2f77be89ba6c8f4f1367c1b68789b09265a79c85a56cc080c",
+      "final-patch-notes-and-balance-log-412.png": "b1a7e05ff8562ad68f7b63e3cbbe9598ed8fdd2a7fbba4b13d52caec745d8843",
+      "regression-account-start-and-reroll-check-412.png": "f8c819fb7cbdede14e874e16c52c13dc462a359d065b233850813766fe6fc588",
+      "regression-arena-counter-checklist-412.png": "21d2e0aca1dd62b00448c68d6096641ed69febcad3a1383d2e449f8db91e618e",
+      "regression-castle-busters-beginner-route-412.png": "13148c33a35ab8c6e18490296c2c1421dd0b78d1402a897992e3df406c4fe826",
+      "regression-castle-defense-objective-412.png": "36a53edc2a6d61b3f028b8213ff98d7c39449422c9276c1a613b22faf408be2b",
+      "regression-damage-control-support-balance-412.png": "5903f7f1c3b3a8994805be01247e0fc0cf9f6fdc03b45e5908c9642f6c3592ea",
+      "regression-early-team-without-rare-units-412.png": "8ace0eeb51374cc3baa24a46c3c1e03bf4cb3992136792237b311b86ad57f086",
+      "regression-formation-failure-symptoms-412.png": "51275d7e4f1297ef0c03122f8e2db281845d395192e21eff1f8e407cb5fd599c",
+      "regression-frontline-backline-placement-412.png": "cdda46d31bd7a96cce740d270bee68fdddd4bd12816980c07f4f5c8e924e17d1",
+      "regression-replace-a-missing-unit-412.png": "1ee64b61dbe46ceb5df26dd931e52979cf9a6d6dc20094cef70db12e2ac9f280",
+      "regression-team-testing-worksheet-412.png": "bf786b6be7af0bda55e04a319e6d15c2452d5f82a1a8469c81f45b2e03abec9b",
+      "regression-unit-roles-explained-412.png": "875c8c2e5f7172f5fd1784c3d01e3da1450e97a53115b1a83a06c64a9cf9e21e",
+      "regression-upgrade-breakpoints-stop-rules-412.png": "6f235167789c0945b1c38c4f0c9816d741ab33756dfff02c89649016bf46bcaf",
+      "regression-upgrade-materials-priority-412.png": "d10a8a41bcc956cf7fed17b9459ba6adfbeb831f02d133560a746f24b135734d",
+      "regression-wheels-and-helper-items-412.png": "b3514967d7b03948055355aaa045e80fe36f8304e7d751b9a498d13984d7d11e",
+      "units-table-390-detail-after.png": "8a89901cc200445ac3b020f1096be06a439c167bdd934260a4fc242de2c8142f",
+      "units-table-390-detail-before.png": "dd692f27cc90764cfd69b1d6c90760237950e5b532ee5b884ac50ce01dac0092"
+    },
+    "recordHashes": {
+      "final-records.json": "2683f4ecedf5da7406a4904b1376a8898c49a2ccdffda20b21cf60bc8d846bb9",
+      "regression-records.json": "50d653e8dd3866a54559e805f76593e8933ee353861e758d81969f20d243487d",
+      "units-table-horizontal-390.json": "a6651e5b195090c2b756de7f4bf7f5ff96bf8c60301ae927ef094d921a19e18a"
+    },
+    "observations": [
+      "已逐张查看12张改稿全页图、14张当前回归全页图及2张真实视口表格图。长图缩放限制14篇小字细查，不声称其全部正文可读性或事实重新认证。",
+      "采集记录报告clientWidth=scrollWidth、pendingImages=0；采集者披露全页截图右侧15px裁切缺陷，因此不把截图右裁判断为页面溢出，也不升级为本实例亲自运行的无溢出证明。",
+      "390真实视口左侧姓名完整，右侧Access/Source可读。横滑记录region clientWidth337、scrollWidth680、scrollLeft343。",
+      "当前renderer有caption、scope=col及带标签可聚焦横滑region；未见原始Markdown表格。其他表同renderer，但没有逐表右缘操作证据。",
+      "Logo仅品牌，不是玩法证据；本轮不新签图片权利或AI来源判断。",
+      "可选改进：横滑提示及保留姓名列以帮助对照；不要求新游戏事实。"
+    ]
+  },
+  "gateInheritance": {
+    "currentConfigExists": false,
+    "originalSiteConfigExists": false,
+    "previewBuildStatus": "build-v3.log PASS仅preview，非quality/release通过",
+    "historicalSelectionReviews": {
+      "count": 8,
+      "stage": "core_selection",
+      "binding": "引用art_core_portfolio_castle_busters_v2；final portfolio为后续artifact。无当前文件/截图绑定。",
+      "renderedPageInheritanceAllowed": false
+    },
+    "historicalLaunch": "真实旧部署与代表页QA保留为历史，不能填充当前逐篇任务门禁。",
+    "safeInheritance": "只在原R13声明范围复用未改文本事实；不变证据保留原阶段/日期。新稿和共用CSS/renderer需当前受影响范围验收。",
+    "notPerformed": "未虚构门禁、未改历史记录、未运行release build。"
+  },
+  "sourceHashes": {
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/replacements.json": "312b410c506a823b04dadb3d45cb81cb5f08cfb10d31b2d5c1bb530832eab2ab",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/independent-content-review-v1.json": "afe24fceefbc40080005260d0de0360cd7e2fff3788867c59ed367be06cdec15",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/seo-ux-draft-review-v1.json": "3cf5d373fc3296f48c015409797a52af0f61b7e54c31c7ce3bfc41f559bc2feb",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/repair-scope.json": "880bb9ac4ce59be728bdd9a4f7374cf54fc96dc994a5b4a7c8e06589bc24d1e2",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/integration-v1.json": "a72da2faea3fd8d1f3028e2ff4c78f975b595f31d9223d82426a14101936a193",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/build-v3.log": "6a728d0f48858ab0b971e0827a905ab567cb530260ad69d9f5000db926a526e9",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/lib/guides.ts": "492201f95d9b974d8e2b596721004e4d5ec05d645a1f843da717f16841f8436f",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/page.tsx": "31e6731cf69eeecd67e0dbea199707d224905be250022b1dc17d9a160230719e",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/layout.tsx": "3db3c52bd72cc69ef65f06048b6f7b20a3ad1307f84e238c733d735687cb3682",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/guides/[slug]/page.tsx": "1f88cf93ff48009aa7ce9be0da0f547dd6c033db1080b671927c38bf364449cc",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/globals.css": "94755964c890ce2c68b0c3a079f8a2b4a7204bd0bbed96128c1009787e434947",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/package.json": "bbdfd21813b9ee4b9d7ede2375ed120579df99886c447e5df8c6e42757aa4a00",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/scripts/verify-content-quality.mjs": "6ec757fd4597e103809a2cfce07ea291754245f925760ddc3b4c33c4a79158c0",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/scripts/verify-content-task-review.mjs": "03cdf577778877a55b9711fa565fa00cc5652db83138a24980da26ea6efbbfe6",
+    "docs/player-task-reviewer-v1.md": "7cd84df5a7e558e26f3089d91d71c41a4c615ce9afd356477f22565794517bcc",
+    "docs/site-production-role-contracts-v1.md": "7f8e4256c8379c0beddc4459391cd595f4283a0a22c54e185154696ec44b055d",
+    "docs/article-source-visual-pipeline-v1.md": "27877b53527b87682379510f9cd6c79f80046355c7b56287f8231c3ab151c176",
+    "runs/production/batch_20260904_006/architecture/core-portfolios/core-article-portfolio-castle-busters-final-v1.json": "16f22bbd806a5aa62331f42bfbb504a66c7714584649d544d263e783bcfba2c1",
+    "runs/production/batch_20260904_006/launch/launch-record-castle-busters-20260905-v2.json": "168543de80ec6c6afa4a3f7af0cb7292f15159690d27ece82db384955f9fa328",
+    "runs/production/batch_20260904_006/launch/release-qa-four-sites-20260905-v2.md": "f03bb2e70bdfb180a547a4db53a021f2799307ba954c0f04e2610c29c38f5021",
+    "runs/production/batch_20260904_006/design/batch6-redesign-implementation-and-qa-20260904-v1.md": "74d941e7612498ef60ddeccb80d48ce59b6aaad982356c71263ae551b50b0841",
+    "runs/production/batch_20260904_006/architecture/player-task-reviews/player-task-review-castle_busters_formation-counter-v1.json": "190d8374e03445959b4eac92eaf04cec8bbde250ca5cedabab8dff80d53bfa81",
+    "runs/production/batch_20260904_006/architecture/player-task-reviews/player-task-review-castle_busters_eight_unit_loadout-primary-v1.json": "ad51a281b272265935ef39aa2c63210a9b3a281eebb86551f9ed6fe1b7f45a3a",
+    "runs/production/batch_20260904_006/architecture/player-task-reviews/player-task-review-castle_busters_beginner_route-primary-v1.json": "61ce55dde3d52a7eafd4eb6b199b472ebfac7f062af6996ecf6f30ba37f48ba2",
+    "runs/production/batch_20260904_006/architecture/player-task-reviews/player-task-review-castle_busters_formation-primary-v1.json": "78b694228a2c310cc90e1662c677de91d0d67d38590446fb0c0a281f97e2cf06",
+    "runs/production/batch_20260904_006/architecture/player-task-reviews/player-task-review-castle_busters_eight_unit_loadout-counter-v1.json": "6d12b7ee47c1854c81bc4c66bff85c40901816a1c0d6e76f381e07242126b5d1",
+    "runs/production/batch_20260904_006/architecture/player-task-reviews/player-task-review-castle_busters_beginner_route-counter-v1.json": "fe47647ce4cdad3cf0a03d59d4609ccb5371d2518c8aea4c9d575a711c3f13ed",
+    "runs/production/batch_20260904_006/architecture/player-task-reviews/player-task-review-castle_busters_unit_database-primary-v1.json": "b0f019f439d75039b53b71b1d74719d890a85992fa302f557a8cbd9e12275cc0",
+    "runs/production/batch_20260904_006/architecture/player-task-reviews/player-task-review-castle_busters_unit_database-counter-v1.json": "c8134f435a75f56933e65711ad67358b6916f102f54e455d0ea0d4cc9dd92423"
+  }
+}

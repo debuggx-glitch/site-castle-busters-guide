@@ -1,0 +1,250 @@
+{
+  "schema": "independent-content-review.v1",
+  "role": "R13",
+  "site": "castlebustersguide.com",
+  "reviewerInstance": "/root/review_wardogs_v1",
+  "createdAt": "2026-09-08T22:12:23.407418+00:00",
+  "status": "completed_bounded_review",
+  "factVerdict": "pass",
+  "articles": [
+    {
+      "slug": "castle-busters-unit-database",
+      "factVerdict": "pass",
+      "scope": "new/reworked Guide copy against this article accepted whitelist; no current-client certification",
+      "objectSha256": "46e6dc31826308f61c8e74f6e84c052b201fe7f29365a17aa2da40bb24e42cf4",
+      "mappedFieldsAndRowsValidated": 22,
+      "acceptedClaimIds": [
+        "CB-C001",
+        "CB-C002",
+        "CB-C003",
+        "CB-C004",
+        "CB-C005",
+        "CB-C006",
+        "CB-C007",
+        "CB-C008",
+        "CB-C009",
+        "CB-C019",
+        "CB-C020",
+        "CB-C021",
+        "CB-C022",
+        "CB-C023",
+        "CB-C029"
+      ],
+      "minimalCorrections": [],
+      "retainedTaskGaps": [
+        "完整名单/数值与当前获取条件",
+        "R13复核纠错、R14标题范围与R20识别图"
+      ]
+    },
+    {
+      "slug": "castle-busters-eight-unit-loadout",
+      "factVerdict": "pass",
+      "scope": "new/reworked Guide copy against this article accepted whitelist; no current-client certification",
+      "objectSha256": "3050216a552b2a21f2d3be5f1ac7ab89cb5f22b1f0c8f96d80be879cd079f81f",
+      "mappedFieldsAndRowsValidated": 23,
+      "acceptedClaimIds": [
+        "CB-C002",
+        "CB-C003",
+        "CB-C004",
+        "CB-C005",
+        "CB-C006",
+        "CB-C007",
+        "CB-C009",
+        "CB-C018",
+        "CB-C019",
+        "CB-C021"
+      ],
+      "minimalCorrections": [],
+      "retainedTaskGaps": [
+        "真实完整八人配置及替代链",
+        "不能把数据库8个名字当配队"
+      ]
+    },
+    {
+      "slug": "castle-busters-formation",
+      "factVerdict": "pass",
+      "scope": "new/reworked Guide copy against this article accepted whitelist; no current-client certification",
+      "objectSha256": "b296618d3a7c848ba7a4ec0c9623b64da7bcaaae8fa8716aa9225238c751974f",
+      "mappedFieldsAndRowsValidated": 19,
+      "acceptedClaimIds": [
+        "CB-C002",
+        "CB-C004",
+        "CB-C006",
+        "CB-C009",
+        "CB-C013",
+        "CB-C015"
+      ],
+      "minimalCorrections": [],
+      "retainedTaskGaps": [
+        "精确格子/对角邻接/基础位置和同场前后证据"
+      ]
+    },
+    {
+      "slug": "patch-notes-and-balance-log",
+      "factVerdict": "pass",
+      "scope": "new/reworked Guide copy against this article accepted whitelist; no current-client certification",
+      "objectSha256": "2cc8d03758d1072cb6d92bdeb64e2a77947bcc83be50d6eacd54bc89cf1a9a9f",
+      "mappedFieldsAndRowsValidated": 24,
+      "acceptedClaimIds": [
+        "CB-C001",
+        "CB-C008",
+        "CB-C009",
+        "CB-C010",
+        "CB-C011",
+        "CB-C012",
+        "CB-C013",
+        "CB-C014",
+        "CB-C015",
+        "CB-C016",
+        "CB-C017"
+      ],
+      "minimalCorrections": [],
+      "retainedTaskGaps": [
+        "实际平台版本及症状重现；精确按钮路线"
+      ]
+    }
+  ],
+  "sourceHashes": [
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/replacements.json",
+      "sha256": "312b410c506a823b04dadb3d45cb81cb5f08cfb10d31b2d5c1bb530832eab2ab"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claim-audit.json",
+      "sha256": "0eceec1c4269a9df86992058334899448772c27a49dc112d928644e1ae1c4c49"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/briefs.json",
+      "sha256": "fb6064a87adf8dd1d3fc11c5ba3b6ad24d335becf3382b2155789874b24d5e9e"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claims.json",
+      "sha256": "6b0ad2cdd97a0af00875c55940059229c95ff436a41780d82207dd7911ff07f0"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+      "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/writer-task-packet-v2.json",
+      "sha256": "ed0eb154485207bccc3e2baa237565357e9ec98903f0d83abf5d1ab2b59e4527"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/writer-input-reconciliation.json",
+      "sha256": "22c93ff3307dcafac3756c204a46f3d1ebb190612c461d5eb0959e1d90177082"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/writer-result-v2.json",
+      "sha256": "446236dece2f5c3207d3401a58b330d7c2a98abf3151f3be64d0934025b11edb"
+    }
+  ],
+  "sourceEvidenceBoundary": "Relied on accepted per-Claim adjudication and the same-run targeted official-source verification; no new external research and no claim of fresh device verification. Existing unreworked site paragraphs were not certified.",
+  "inputBindingChecks": {
+    "mustReadEvidenceAuthorityAndSpecHashes": "matched_except_known_guides_file_change",
+    "guidesFileOriginalSha256": "81ccf26b26c703c4d27a157ea1439883b5e9fe534616851f8a944e97b77222c8",
+    "guidesFileCurrentSha256": "be48d15f2d7f2ef4fe9a5b1f979aab47c0156e5d000b4d14aac73af6e3ab68da",
+    "wholeFileHashChanged": true,
+    "allFourOriginalArticleObjectsMatchBriefHashes": true,
+    "reconciliation": "Reported concurrent R16 type/render preparation changes are reflected in full-file hash. Independent object comparison confirms all four author input article objects unchanged; do not mark original packet globally unchanged."
+  },
+  "verifiedCorrections": [
+    {
+      "issueId": "CB-I01",
+      "result": "pass_at_draft_scope",
+      "detail": "Crabbo/Pharaoh/ZapZap and frontline/cat-row/directly-ahead attribution removed; Sir Rally/Leif/Wolfie conditions correctly replace them with patch 1.16 context. Leif kill trigger and fallen allies in his row retained."
+    },
+    {
+      "issueId": "CB-I02",
+      "result": "pass_bounded_factual_output_only",
+      "detail": "Eight named reference rows are partial descriptions, not a tested eight-unit composition. Access is source-dated; no current Battle Pass availability, numerical rankings or exact geometry invented."
+    },
+    {
+      "issueId": "CB-I01",
+      "result": "pass_at_draft_scope",
+      "detail": "1.17 cast delay has no invented duration; 40 applies per upgrade action; foundations UI, poison visuals and bot fix not reinterpreted as mechanics buffs or bot removal."
+    }
+  ],
+  "assetFactCheck": {
+    "path": "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/public/images/official/castle-busters-guide-official-01.webp",
+    "sha256": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661",
+    "localImageInspected": true,
+    "result": "Visible Castle Busters logo matches corrected alt; no gameplay or unit-identity proof claimed.",
+    "rightsAndRenderedVisualQa": "not_performed"
+  },
+  "issues": [],
+  "retainedOpenIssues": [
+    {
+      "id": "CB-I01",
+      "nextAction": "R06逐条裁决并交R13独立复验",
+      "summary": "3核心页1.16单位/位置机制与官方冲突",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I02",
+      "nextAction": "基于accepted Claims重做Brief与任务验收",
+      "summary": "数据库/8人页缺具名可操作产物，重复泛说明",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I03",
+      "nextAction": "R11按具体对象采图并由独立角色手机复验",
+      "summary": "未做客户端实测/真实任务采图/浏览器视觉QA",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I04",
+      "nextAction": "授权SEO技术复核，当前HTTP跳转无明显异常",
+      "summary": "公共页同title；历史查询落About/HTTP原因未证",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I05",
+      "nextAction": "当前平台版本逐项补证，不凑完整表",
+      "summary": "完整名单、数值、8人配置、Forge奖励门槛未知",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I06",
+      "nextAction": "下一轮定向补足并据真实T0观察",
+      "summary": "最新生产版本映射、固定SERP/PAA/视频/Discord未核验",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I07",
+      "nextAction": "R16按现行合同迁移为字数提醒并绑定真实独立任务证据；此项由R01复核关闭。",
+      "summary": "R01本轮报告旧站将少于1000词作硬失败，与OWN-072冲突；R09不为旧脚本补泛话。",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    }
+  ],
+  "roleResults": {
+    "R13": {
+      "verdict": "pass",
+      "passedArticles": 4
+    },
+    "R14": {
+      "status": "not_signed"
+    },
+    "R20": {
+      "status": "not_signed"
+    }
+  },
+  "notChecked": [
+    "Independent SEO and UX",
+    "Actual rendering, mobile/table readability, schema",
+    "Current device build and exact placement/skills",
+    "Full roster and tested best-eight team",
+    "Image provenance/rights approval",
+    "Sitewide copied old claims and current source recertification",
+    "Deployment/production"
+  ],
+  "releaseAllowed": false,
+  "siteModified": false,
+  "authorDraftModified": false
+}

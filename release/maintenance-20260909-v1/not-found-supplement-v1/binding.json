@@ -1,0 +1,64 @@
+{
+  "schema": "castle-maintenance-not-found-supplement.v1",
+  "createdAt": "2026-09-09T05:07:08.819004+00:00",
+  "preparedBy": "/root/brief_wardogs R16 evidence binding only",
+  "priorBindingRef": {
+    "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/release/maintenance-20260909-v1/current-maintenance-binding.json",
+    "sha256": "1b1bdd04910c347539cd85dec73913e35e6ed3d2844360a4e0d7519922c2a3f3"
+  },
+  "independentReviewResult": "PASS_SCOPED_DELTA",
+  "independentReviewer": "review_wardogs_v1",
+  "evidence": [
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/not-found-review-v1.json",
+        "sha256": "82edb24405c086b8f790404646479ed2745bdb3664a85db728e40192acf01942"
+      },
+      "path": "release/maintenance-20260909-v1/not-found-supplement-v1/not-found-review-v1.json",
+      "sha256": "82edb24405c086b8f790404646479ed2745bdb3664a85db728e40192acf01942"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/not-found-records.json",
+        "sha256": "fb7d9e7db9d402273fcd1137484f06bfad703551f8e867fdd2944e4cee4275d9"
+      },
+      "path": "release/maintenance-20260909-v1/not-found-supplement-v1/not-found-records.json",
+      "sha256": "fb7d9e7db9d402273fcd1137484f06bfad703551f8e867fdd2944e4cee4275d9"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/not-found-1440.png",
+        "sha256": "cf165ea0873f9f24f05b91ea4cf7b759de2cd0dbc7e1ea1b464ce2bb5d413f89"
+      },
+      "path": "release/maintenance-20260909-v1/not-found-supplement-v1/not-found-1440.png",
+      "sha256": "cf165ea0873f9f24f05b91ea4cf7b759de2cd0dbc7e1ea1b464ce2bb5d413f89"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/not-found-390.png",
+        "sha256": "41dbb66bfb6da7689cb401d6c3b56fd71a69b6847873ececea461dabc232d303"
+      },
+      "path": "release/maintenance-20260909-v1/not-found-supplement-v1/not-found-390.png",
+      "sha256": "41dbb66bfb6da7689cb401d6c3b56fd71a69b6847873ececea461dabc232d303"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/not-found-412.png",
+        "sha256": "ee4094e6a2ca93df4be20d55e11c5dac21aa997bee1aaaf81d8aad728df93803"
+      },
+      "path": "release/maintenance-20260909-v1/not-found-supplement-v1/not-found-412.png",
+      "sha256": "ee4094e6a2ca93df4be20d55e11c5dac21aa997bee1aaaf81d8aad728df93803"
+    }
+  ],
+  "closedScope": "Missing three-size /404.html rendered visual coverage only",
+  "limits": [
+    "Direct /404.html rendering only; does not verify arbitrary missing-path routing, HTTP 404 status, clickable navigation, console or network errors.",
+    "No article fact or task re-review, no R22 blind or paired-player test, no Core completion certification.",
+    "Preserve original three Core task gaps CB-VP-02 and unchanged legacy-content gaps CB-VP-03. The withdrawn all-18 new task gate is not retrospectively required by this delta.",
+    "Final release checks and production acceptance remain the responsibility of the release owner; this review does not infer their current status."
+  ],
+  "sourceHashesStillMatchPriorBuild": true,
+  "rebuildRequired": false,
+  "rebuildPerformed": false,
+  "productionAccepted": false
+}

@@ -1,0 +1,66 @@
+{
+  "schema": "castle-maintenance-logo-evidence-supplement.v1",
+  "reviewRef": {
+    "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/visual-player-review-v2.json",
+    "sha256": "3e90a99080999c6ceb92b38bb93fcd87550d8c2b43b8ced2f54b78ac46727297"
+  },
+  "evidence": [
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-unit-database-390.png",
+      "path": "release/maintenance-20260909-v1/visual-evidence/bd192260cd49-identity-final-castle-busters-unit-database-390.png",
+      "sha256": "bd192260cd49fc600114b3b89e8b8ee77fd9fe0db7d8064714316c1050a3d2a2"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-eight-unit-loadout-390.png",
+      "path": "release/maintenance-20260909-v1/visual-evidence/13826b242b7c-identity-final-castle-busters-eight-unit-loadout-390.png",
+      "sha256": "13826b242b7c3b1bcdf1083535e8ad24216dca864d85a288ec1a6e0696af423d"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-final-castle-busters-formation-390.png",
+      "path": "release/maintenance-20260909-v1/visual-evidence/2ddc8501541c-identity-final-castle-busters-formation-390.png",
+      "sha256": "2ddc8501541c66128e6f4d7eda1465d9af7f2018598eb5692d827d552be66460"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-final-patch-notes-and-balance-log-390.png",
+      "path": "release/maintenance-20260909-v1/visual-evidence/32e90d3db523-identity-final-patch-notes-and-balance-log-390.png",
+      "sha256": "32e90d3db523d1d4a4a5384b889a63fc22a32652d565905f356e0453bdb7e7bf"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-complete-desktop-castle-busters-unit-database.png",
+      "path": "release/maintenance-20260909-v1/visual-evidence/5d70b9a75d12-identity-complete-desktop-castle-busters-unit-database.png",
+      "sha256": "5d70b9a75d129e85b113ef8410dcbb13be0717386d4cc5bac41bbbd4c8a1e21f"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-complete-desktop-castle-busters-eight-unit-loadout.png",
+      "path": "release/maintenance-20260909-v1/visual-evidence/c524ccb322d8-identity-complete-desktop-castle-busters-eight-unit-loadout.png",
+      "sha256": "c524ccb322d8bd820d5d6547ba78f342d039014b7d1fa36da1773768d7b70658"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-complete-desktop-castle-busters-formation.png",
+      "path": "release/maintenance-20260909-v1/visual-evidence/62b491ef4ca1-identity-complete-desktop-castle-busters-formation.png",
+      "sha256": "62b491ef4ca1c3da0efd0091c5bfca34309e6eb4a2bf6110fbe1d1daad2c90f3"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-complete-desktop-patch-notes-and-balance-log.png",
+      "path": "release/maintenance-20260909-v1/visual-evidence/ade287c3ffea-identity-complete-desktop-patch-notes-and-balance-log.png",
+      "sha256": "ade287c3ffea8b47eea70f3db2ac55f7c3681045173c8837231c1a2bacfb8c14"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-final-records-v3.json",
+      "path": "release/maintenance-20260909-v1/visual-evidence/02017c09ddeb-identity-final-records-v3.json",
+      "sha256": "02017c09ddeb7eaee0ee55757029dd4ef0e4dba665b3c9e0d385eabee349da46"
+    },
+    {
+      "originalPath": "/private/tmp/five-site-qa-20260909/castle/identity-desktop-complete-v4.json",
+      "path": "release/maintenance-20260909-v1/visual-evidence/70575c3279d1-identity-desktop-complete-v4.json",
+      "sha256": "70575c3279d12d931d4a59c361a4d2925e23f9648de85faef6255f631d931d77"
+    }
+  ],
+  "additionalSourceHashes": {
+    "app/robots.ts": "107ec4c1623aff1f5ad079e9016df9d41b873c42603f5361c82e463ab90cd01b",
+    "app/sitemap.ts": "2c2d231c04c3a9635d41aa21ff747daaaf06229eb9d9c2c639c6952519c36fe9",
+    "next.config.ts": "2b9f66afa2c12d82bf5ccb810c01842fc6df7ce6e00c7a9cd748ed249de26c30"
+  },
+  "currentFactRecertifiedMeaning": "The four true flags in maintenance-evidence.articleScopes denote R13 acceptance of the current edited text against dated accepted Claims only. They do not denote current-client, whole-player-task or complete-guide certification.",
+  "whole18FreshTaskPass": false
+}

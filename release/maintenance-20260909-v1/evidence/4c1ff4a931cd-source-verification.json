@@ -1,0 +1,78 @@
+{
+  "schema": "targeted-source-verification.v1",
+  "site": "castlebustersguide.com",
+  "verifiedAt": "2026-09-08T21:35:24.685935+00:00",
+  "sources": [
+    {
+      "sourceId": "S01",
+      "url": "https://castlebusters.com/",
+      "title": "Castle Busters official homepage",
+      "version": null,
+      "observedAt": "2026-09-08T21:35:24.685935+00:00",
+      "mode": "web original page read",
+      "quote": "Choose up to 8 unique units",
+      "locator": "Train Units; Choose your champion; Gameplay; Wheels; Helper items; Upgrading",
+      "limit": "Undated official feature baseline. Not a complete roster or tested build."
+    },
+    {
+      "sourceId": "S02",
+      "url": "https://castlebusters.com/patch-notes-1-16/",
+      "title": "Patch Notes 1.16",
+      "version": "1.16",
+      "publishedAt": "2026-08-19",
+      "observedAt": "2026-09-08T21:35:24.685935+00:00",
+      "mode": "web original page read",
+      "quote": "every fallen ally on his row comes back to life",
+      "locator": "New Heroes: Sir Rally / Leif / Wolfie; Quality of Life",
+      "limit": "Historical release statement. No client observation; availability after this release requires checking."
+    },
+    {
+      "sourceId": "S03",
+      "url": "https://castlebusters.com/patch-notes-1-17/",
+      "title": "Patch Notes 1.17",
+      "version": "1.17",
+      "publishedAt": "2026-09-01",
+      "observedAt": "2026-09-08T21:35:24.685935+00:00",
+      "mode": "web original page read",
+      "quote": "Head to Settings",
+      "locator": "Matchmaking; In-Game Support; Bug Fixes bullet list",
+      "limit": "Official release announcement only. Fixes are not demonstrated on a device."
+    }
+  ],
+  "reusedResearchRefs": [
+    {
+      "path": "runs/management/five-site-seo-20260909-v1/castlebustersguide.com/sources.json",
+      "sha256": "111c28c999e539def5f5cde27d221b777c5f4c3b2f7cf7675c6e17ccc81a0222"
+    },
+    {
+      "path": "runs/management/five-site-seo-20260909-v1/castlebustersguide.com/external-evidence.md",
+      "sha256": "1279854e63a6d0b3ebe026f514859de466fcffec656003f73f106271fa529a31"
+    },
+    {
+      "path": "runs/management/five-site-seo-20260909-v1/castlebustersguide.com/report.md",
+      "sha256": "0da6de6cee0a60a222978de7e9b84426e9c15ba8247fe52dcbd2907e4527901c"
+    },
+    {
+      "path": "runs/management/five-site-seo-20260909-v1/castlebustersguide.com/inventory.json",
+      "sha256": "459460012290fe7fbd8158f37e4ef82a9e2dbc22df3695e035fca782f3936ff7"
+    }
+  ],
+  "notReopened": [
+    "S04",
+    "S05",
+    "S06",
+    "S07",
+    "S08",
+    "S09",
+    "S10",
+    "S11",
+    "S12",
+    "S13",
+    "S14",
+    "S15"
+  ],
+  "notes": [
+    "同日原研究只存简述，不是完整原文快照；本轮定向回读三个官方原页，以下Claim绑定页面章节与短摘录。",
+    "未用Chrome，未抓取客户端、截图或付费来源。"
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "schema": "maintenance-scope-assessment.v1",
+  "site": "castlebustersguide.com",
+  "reviewerInstanceId": "/root/review_wardogs_v1",
+  "reviewedAt": "2026-09-09T04:45:20.894626+00:00",
+  "mode": "read_only_contract_and_provenance_assessment",
+  "question": "本次四篇存量纠错能否按增量接受，保留原Core/旧14批准范围，不伪造全18新Task审查？",
+  "answer": "可以接受真实四篇纠错维护成果作为限定交付；这不是原3Core任务完成、旧14重新认证或正式生产发布PASS。",
+  "distinctions": [
+    {
+      "layer": "本轮维护",
+      "state": "四篇事实边界经R13、窄范围文案/表格和Logo修复经实际独立R15/R20；可以按已实际通过的范围接收，继续列未完成项。"
+    },
+    {
+      "layer": "原3Core",
+      "state": "确有正式指定，原完整单位库、八人配队/替代、摆位/失败任务仍未完成；不把窄参考文称为原Core兑现。若启动或宣称Core升级完成，仍须原Core双画像及任务门禁。"
+    },
+    {
+      "layer": "旧14篇",
+      "state": "只保留可验证原批准的原范围/时间，旧模板问题仍open；没有当前事实或全任务PASS，不能把历史和增量回归混成全站新验收。"
+    },
+    {
+      "layer": "本轮迁入模板全18task-review",
+      "state": "这是新增机器依赖，不是已证历史18篇任务门禁。当前缺失说明新依赖未满足，不证明所有旧文章历史批准自动失效。"
+    }
+  ],
+  "observedGateDelta": {
+    "baselineFile": "sites/castle-busters-guide/scripts/verify-content-quality.mjs",
+    "baselineImportsVerifyTaskReview": false,
+    "baselineTaskReviewScriptExists": false,
+    "currentFile": "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/scripts/verify-content-quality.mjs",
+    "currentImportsVerifyTaskReview": true,
+    "currentTaskGateRequiresAllGuides": true,
+    "interpretation": "与R01说明一致，本轮迁入verify-content-quality时新增了全18task-review要求；不能将其包装为旧生产既有要求。"
+  },
+  "contractBasis": [
+    {
+      "path": "docs/core-article-launch-layer-v1.md",
+      "lines": [
+        4,
+        87,
+        119
+      ],
+      "finding": "历史Mandate/批次不因新增产物失效；存量按有限升级而非自动全量改造。"
+    },
+    {
+      "path": "docs/lean-content-workflow-v1.md",
+      "lines": [
+        3,
+        10,
+        38,
+        39,
+        45
+      ],
+      "finding": "允许选定slug与增量复验，但不改变Core双画像/正式门禁。共享CSS及renderer仍要求全部受影响公开页视觉/运行/任务检查；不要求纯CSS重新研究所有事实。继承须有真实旧QA/版本/来源及共享依赖核对。"
+    },
+    {
+      "path": "docs/player-outcome-content-collaboration-v1.md",
+      "lines": [
+        97,
+        103
+      ],
+      "finding": "全guide task-review是新模板门禁；存量迁移需实际接入及回执。不能把合同升级称为已经运行全站角色。"
+    }
+  ],
+  "recommendationToR01": [
+    "明确本轮验收对象是四篇存量事实纠错/限定补齐，维护交付与原Core升级完成分别记账。",
+    "登记模板门禁迁移为独立适用性/版本决策，追溯原真正发布检查与新增要求。若当前release路径仍调用新增全18门禁，它仍会机械FAIL；需通过明确合同/实现审查解决，不忽略失败，不生成占位PASS，本报告不修改或授权绕过。",
+    "按snapshot/impact核验共享CSS/renderer影响，补齐实际受影响文章和公共页面回归、两手机视口及正式发布检查；已有截图只在真实版本和范围内复用，不要求所有事实重研。",
+    "旧14只作候选继承并引用原批准/真实QA与当前依赖核对；没有证据的字段留unknown。原3Core未完成和旧模板问题继续列工单。",
+    "待维护范围、适用门禁和实际验证一致后，R01另行判断已授权生产流程是否具备条件；不要用preview build或本回执作发布PASS。"
+  ],
+  "qualificationOfEarlierReview": {
+    "affectedIssue": "CB-VP-04",
+    "clarification": "保留缺少当前18篇task-review的事实；其性质为本轮新增模板依赖及迁移适用性待核，不再表述为旧站不可避免的历史全18任务门禁。CB-VP-02/03保持原问题，CB-VP-01已由V2增量关闭。",
+    "earlierReportsPreserved": true
+  },
+  "sourceHashes": {
+    "docs/core-article-launch-layer-v1.md": "0f75925c3a2c173b8d8eb35a947edbb637c25771d660fdeb7c2bbdab82c83d53",
+    "docs/lean-content-workflow-v1.md": "24532dc0eb716f168f4a13f05c779b471a46a73186d81789e29eb4dbea034cab",
+    "docs/player-outcome-content-collaboration-v1.md": "1ed129ecb3a8418ecd9f35478417078fd8eed61cb8b298b6b6eb90e8100fe111",
+    "docs/player-task-reviewer-v1.md": "7cd84df5a7e558e26f3089d91d71c41a4c615ce9afd356477f22565794517bcc",
+    "sites/castle-busters-guide/scripts/verify-content-quality.mjs": "ab47e229608e352c30a7a70d52a0866013749f0b7047747f1783ee7964bb1f4d",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/scripts/verify-content-quality.mjs": "6ec757fd4597e103809a2cfce07ea291754245f925760ddc3b4c33c4a79158c0",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/scripts/verify-content-task-review.mjs": "03cdf577778877a55b9711fa565fa00cc5652db83138a24980da26ea6efbbfe6",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/visual-player-review-v1.json": "c97fed0f9ddd5c6e48cf4d2834c160f49fc3f9af2127bbc9acdffa80c2404be0",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/visual-player-review-v2.json": "3e90a99080999c6ceb92b38bb93fcd87550d8c2b43b8ced2f54b78ac46727297",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/independent-content-review-v1.json": "afe24fceefbc40080005260d0de0360cd7e2fff3788867c59ed367be06cdec15",
+    "runs/production/batch_20260904_006/architecture/core-portfolios/core-article-portfolio-castle-busters-final-v1.json": "16f22bbd806a5aa62331f42bfbb504a66c7714584649d544d263e783bcfba2c1"
+  },
+  "siteOrGateModified": false,
+  "formalR22Performed": false,
+  "releaseApproved": false
+}

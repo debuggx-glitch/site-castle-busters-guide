@@ -1,0 +1,128 @@
+[
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-beginner-route/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-castle-busters-beginner-route-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/upgrade-materials-priority/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-upgrade-materials-priority-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/unit-roles-explained/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-unit-roles-explained-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/frontline-backline-placement/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-frontline-backline-placement-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/damage-control-support-balance/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-damage-control-support-balance-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/early-team-without-rare-units/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-early-team-without-rare-units-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/arena-counter-checklist/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-arena-counter-checklist-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/castle-defense-objective/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-castle-defense-objective-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/wheels-and-helper-items/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-wheels-and-helper-items-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/upgrade-breakpoints-stop-rules/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-upgrade-breakpoints-stop-rules-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/replace-a-missing-unit/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-replace-a-missing-unit-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/formation-failure-symptoms/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-formation-failure-symptoms-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/account-start-and-reroll-check/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-account-start-and-reroll-check-412.png"
+  },
+  {
+    "client": 397,
+    "height": 915,
+    "pendingImages": 0,
+    "scroll": 397,
+    "url": "http://127.0.0.1:8382/guides/team-testing-worksheet/",
+    "width": 412,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-team-testing-worksheet-412.png"
+  }
+]

@@ -1,0 +1,1063 @@
+{
+  "schema": "castle-scoped-maintenance-evidence.v1",
+  "createdAt": "2026-09-09T05:02:28.503359+00:00",
+  "preparedBy": "/root/brief_wardogs R16",
+  "site": "castlebustersguide.com",
+  "scopeDecision": "accept_scoped_maintenance_not_core_upgrade_completion",
+  "articleScopes": [
+    {
+      "slug": "castle-busters-beginner-route",
+      "canonicalSha256": "50e06b320eb2ba7d5650c17eb73a4fba9221df34e5fd90d133abb50e9d6647d6",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "castle-busters-unit-database",
+      "canonicalSha256": "8f07a8e782cc2845400d936f5a40ca087780d369b458929539cd1b505161e5ab",
+      "scope": "four_article_bounded_correction",
+      "currentFactRecertified": true,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "castle-busters-eight-unit-loadout",
+      "canonicalSha256": "1d7293711b39089888fe5fdf5399891fdf0fa9dc7c361010d98437b0dc034df8",
+      "scope": "four_article_bounded_correction",
+      "currentFactRecertified": true,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "castle-busters-formation",
+      "canonicalSha256": "c53966a68f8c5477e1f70688c87ac3687676cbfdda3c8f6e7abeb45158c5784b",
+      "scope": "four_article_bounded_correction",
+      "currentFactRecertified": true,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "upgrade-materials-priority",
+      "canonicalSha256": "236218d1d76517da03e47988e6b77b9219d0d18c921bafa55a1c8f107289db49",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "patch-notes-and-balance-log",
+      "canonicalSha256": "9e1d2b766dfd9eb4aefb421e6a94ac659bb7da119ec71ee6ec2bb63465c26da1",
+      "scope": "four_article_bounded_correction",
+      "currentFactRecertified": true,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "unit-roles-explained",
+      "canonicalSha256": "98941d81e07d05e4732750ccc68902793d3ee8658ab0f9462705d02828f032cb",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "frontline-backline-placement",
+      "canonicalSha256": "0b6125774a375d60212a28d595f6ea66ee2213c564fad54b8a0be38d0d58d0db",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "damage-control-support-balance",
+      "canonicalSha256": "b4967a1b578491183d2e3a20ed489a1adb33c75185532af5ccacc98db36e7479",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "early-team-without-rare-units",
+      "canonicalSha256": "f36281ed594672289a4260e810ee6b88aeda759cc6adeca275b190abfff249ad",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "arena-counter-checklist",
+      "canonicalSha256": "b0bbdfbf61339dc14b7926b21d010f852a33fe7d579e9133fd9db7c4af8263c0",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "castle-defense-objective",
+      "canonicalSha256": "e84bc8a3ff8a452de63049e2676cdd57c2474fb7e6636782d9f737f75317e001",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "wheels-and-helper-items",
+      "canonicalSha256": "1a9eb62117df9eb0f11c953a4a73b18edcf58631ff9b6e2464e438c0cbb88f7e",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "upgrade-breakpoints-stop-rules",
+      "canonicalSha256": "dba1720bd6315bc4c4d33c0691d06dcede7d68afb1820da20d12075e56bd0d04",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "replace-a-missing-unit",
+      "canonicalSha256": "90be69d382916e5dd01461db8e06cc650309ba55f6c56f70d021e66d0fc400c6",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "formation-failure-symptoms",
+      "canonicalSha256": "622f4305676f2265d4dc95e2264741a815775e4ca64e5bbe9214b5136c6edd65",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "account-start-and-reroll-check",
+      "canonicalSha256": "265e32e831d6ab06ada8dbf6089d3956301f2ce4b60174f9573e726a6e786f65",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    },
+    {
+      "slug": "team-testing-worksheet",
+      "canonicalSha256": "c0bf32113233019ac9a6df03a8d2cf6f9829d051db84de1151181370b5aa8d09",
+      "scope": "unchanged_object_with_historical_limits_and_current_render_regression",
+      "currentFactRecertified": false,
+      "wholePlayerTaskCertified": false
+    }
+  ],
+  "currentSourceHashes": {
+    "app/layout.tsx": "3db3c52bd72cc69ef65f06048b6f7b20a3ad1307f84e238c733d735687cb3682",
+    "app/page.tsx": "31e6731cf69eeecd67e0dbea199707d224905be250022b1dc17d9a160230719e",
+    "app/contact/page.tsx": "906411d28fb4f98a1bc91834458c7b30be4b27030cff94924f04527cde3ff84e",
+    "app/privacy/page.tsx": "4c62b9542ae6a08b8619291816b19e7696b8764afd21d71c0bbc35993842419a",
+    "app/about/page.tsx": "7b2d476d10acb19a23705ca16774e7897602edc6a404969a770213b3e6cb193a",
+    "app/guides/[slug]/page.tsx": "1f88cf93ff48009aa7ce9be0da0f547dd6c033db1080b671927c38bf364449cc",
+    "app/responsive.css": "d48b0ddd69362dab3719e8e2519394d788f5881b6731617dff9ac628a36e862b",
+    "app/globals.css": "d4427dff1893a4135372a1d74a460c477bc8cde8ed8fdd1dec203a26fd216e69",
+    "components/telemetry.tsx": "acad30e6c235e394783b7c5627b5589eda1b86d2eb3206f4e1fff99a346ad1c3",
+    "components/structured-data.tsx": "8687c2bb0e0729d202f7b663be1f21bc837d4cead6bc41be688dcb1b13e38613",
+    "components/content-scroll-tracker.tsx": "668da811ad8fec92e9904e5b00c671d59c0907f1f5912cc690e0b4acff616fed",
+    "components/ad-placements.tsx": "93b5618f23b90893a348b5813fccdbb61e171857388ce5f12656b87cfc587129",
+    "lib/site.ts": "5f5292073d75b355b75356b69cb95de43f5543601b51f0a1fe59b961d89d040b",
+    "lib/adsterra.ts": "6df86261ae12a549d77eb3297a552d64cde5e924a0dc080e3b1c40bd551f158c",
+    "lib/guides.ts": "492201f95d9b974d8e2b596721004e4d5ec05d645a1f843da717f16841f8436f",
+    "scripts/verify-seo-geo-release.mjs": "c110fe4aa6c7de6700ddef8c19d7b7225812b30dc424d4ab855e4175d7f86998",
+    "scripts/verify-design-contract.mjs": "186c1966a0bb81e52de1631cf2220c6066c69fd8284e90bc2ee6c73b80662f49",
+    "scripts/verify-content-quality.mjs": "662ff7aa1577a6a27b99310d731b7c21577e33e02f43357b7c889bc768af3544",
+    "scripts/verify-content-assets.mjs": "f003c09b3a1ad1e29212b143ff9543008b0584080833b5bd1541dcd45495e868",
+    "scripts/verify-seo-metadata.mjs": "21b9d541027e905f6a49b0e72795d085ed5363fb8949469ceafd23c7067b39b6",
+    "scripts/verify-site-release.mjs": "38dbc1e361ee952f3079e0d5e22459539bd94e98e6a78e48d585a341ffdef9f9",
+    "scripts/verify-adsterra-config.mjs": "837ad5039e013cf0b136c3267856b3e977ee88fb4645a76486aa643adbf1e215",
+    "config/structured-data-manifest.json": "cadcbd36dea75995a5cdc9234ff384d3ee67c5a64a23573f8d654e38142d361c",
+    "config/adsterra.json": "24dde32c1f8a3614242cf3778de5c704106eb907b3bc794e7122625c749dc17b",
+    "config/release.json": "48431d23d0430f0da4a7ba505becf9e871f08ae75682a09eddea707f109fc7b7",
+    "config/game-entity.json": "6c8b109f20905f0291ac0004db0de63c2c5783e75952cafc8352b82689b77ee6",
+    "config/design-contract.json": "7d73421186d69368f563d8b3a1b8d9a1de1e159a7606a4a890262f0e0fb3d396",
+    "package.json": "bbdfd21813b9ee4b9d7ede2375ed120579df99886c447e5df8c6e42757aa4a00",
+    "pnpm-lock.yaml": "55bf4b374a47edd37716b02b006949f4a72d1900867c08b9b9591fbc1b410755"
+  },
+  "archivedEvidence": [
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/independent-content-review-v1.json",
+        "sha256": "afe24fceefbc40080005260d0de0360cd7e2fff3788867c59ed367be06cdec15"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/afe24fceefbc-independent-content-review-v1.json",
+      "sha256": "afe24fceefbc40080005260d0de0360cd7e2fff3788867c59ed367be06cdec15"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/seo-ux-draft-review-v1.json",
+        "sha256": "3cf5d373fc3296f48c015409797a52af0f61b7e54c31c7ce3bfc41f559bc2feb"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/3cf5d373fc32-seo-ux-draft-review-v1.json",
+      "sha256": "3cf5d373fc3296f48c015409797a52af0f61b7e54c31c7ce3bfc41f559bc2feb"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/visual-player-review-v1.json",
+        "sha256": "c97fed0f9ddd5c6e48cf4d2834c160f49fc3f9af2127bbc9acdffa80c2404be0"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/c97fed0f9ddd-visual-player-review-v1.json",
+      "sha256": "c97fed0f9ddd5c6e48cf4d2834c160f49fc3f9af2127bbc9acdffa80c2404be0"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/visual-player-review-v2.json",
+        "sha256": "3e90a99080999c6ceb92b38bb93fcd87550d8c2b43b8ced2f54b78ac46727297"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/3e90a9908099-visual-player-review-v2.json",
+      "sha256": "3e90a99080999c6ceb92b38bb93fcd87550d8c2b43b8ced2f54b78ac46727297"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/regression-maintenance-review-v1.json",
+        "sha256": "96f16eaf99dfa0f88de10c9f9eb9c4ed61047f72f950f249e30ca4bee69668aa"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/96f16eaf99df-regression-maintenance-review-v1.json",
+      "sha256": "96f16eaf99dfa0f88de10c9f9eb9c4ed61047f72f950f249e30ca4bee69668aa"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/maintenance-scope-assessment-v1.json",
+        "sha256": "623c54dd4f7a31e6d5f32ee2e2e2c8b115e5ad16db21695d26166dfbf83885ae"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/623c54dd4f7a-maintenance-scope-assessment-v1.json",
+      "sha256": "623c54dd4f7a31e6d5f32ee2e2e2c8b115e5ad16db21695d26166dfbf83885ae"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/maintenance-scope-decision-v1.json",
+        "sha256": "283f45a3992768e941c19e98c42e41de58331c35ee6377e723467268477ecf6a"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/283f45a39927-maintenance-scope-decision-v1.json",
+      "sha256": "283f45a3992768e941c19e98c42e41de58331c35ee6377e723467268477ecf6a"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/writer-result-v2.json",
+        "sha256": "446236dece2f5c3207d3401a58b330d7c2a98abf3151f3be64d0934025b11edb"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/446236dece2f-writer-result-v2.json",
+      "sha256": "446236dece2f5c3207d3401a58b330d7c2a98abf3151f3be64d0934025b11edb"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/writer-receipt-v2.json",
+        "sha256": "d5d1c41e0f04da255466e435d8279d1f1885f38093445b5fe74cb5cc7db0c9b1"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/d5d1c41e0f04-writer-receipt-v2.json",
+      "sha256": "d5d1c41e0f04da255466e435d8279d1f1885f38093445b5fe74cb5cc7db0c9b1"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claims.json",
+        "sha256": "6b0ad2cdd97a0af00875c55940059229c95ff436a41780d82207dd7911ff07f0"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/6b0ad2cdd97a-claims.json",
+      "sha256": "6b0ad2cdd97a0af00875c55940059229c95ff436a41780d82207dd7911ff07f0"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claim-audit.json",
+        "sha256": "0eceec1c4269a9df86992058334899448772c27a49dc112d928644e1ae1c4c49"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/0eceec1c4269-claim-audit.json",
+      "sha256": "0eceec1c4269a9df86992058334899448772c27a49dc112d928644e1ae1c4c49"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/integration-v1.json",
+        "sha256": "a72da2faea3fd8d1f3028e2ff4c78f975b595f31d9223d82426a14101936a193"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/a72da2faea3f-integration-v1.json",
+      "sha256": "a72da2faea3fd8d1f3028e2ff4c78f975b595f31d9223d82426a14101936a193"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+        "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/4c1ff4a931cd-source-verification.json",
+      "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/before-v2.json",
+        "sha256": "73d75146800f7708b6b3bda7bfd939baa3d9d7f9827c1a7a9c94786b63b7c641"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/73d75146800f-before-v2.json",
+      "sha256": "73d75146800f7708b6b3bda7bfd939baa3d9d7f9827c1a7a9c94786b63b7c641"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/release-check-v1.log",
+        "sha256": "a8d853ee5b6ceafc7c6ef94aa3e767d60be559f74cc0dd6fbcda33a487e9ccba"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/a8d853ee5b6c-release-check-v1.log",
+      "sha256": "a8d853ee5b6ceafc7c6ef94aa3e767d60be559f74cc0dd6fbcda33a487e9ccba"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/unused-new-template-task-gate.mjs",
+        "sha256": "03cdf577778877a55b9711fa565fa00cc5652db83138a24980da26ea6efbbfe6"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/03cdf5777788-unused-new-template-task-gate.mjs",
+      "sha256": "03cdf577778877a55b9711fa565fa00cc5652db83138a24980da26ea6efbbfe6"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/authorization.json",
+        "sha256": "faa1201a4f76e4b17d98061cfcb63a22aa4f94f629c779d6d21889af9e4a6f5a"
+      },
+      "path": "release/maintenance-20260909-v1/evidence/faa1201a4f76-authorization.json",
+      "sha256": "faa1201a4f76e4b17d98061cfcb63a22aa4f94f629c779d6d21889af9e4a6f5a"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/out/index.html",
+        "sha256": "053ebbc630059e0877059a86199444e65de095973960ffa8fb35119133f89295"
+      },
+      "path": "release/maintenance-20260909-v1/historical-render/053ebbc63005-index.html",
+      "sha256": "053ebbc630059e0877059a86199444e65de095973960ffa8fb35119133f89295"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/lib/guides.ts",
+        "sha256": "492201f95d9b974d8e2b596721004e4d5ec05d645a1f843da717f16841f8436f"
+      },
+      "path": "release/maintenance-20260909-v1/reviewed-source/492201f95d9b-guides.ts",
+      "sha256": "492201f95d9b974d8e2b596721004e4d5ec05d645a1f843da717f16841f8436f"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/config/structured-data-manifest.json",
+        "sha256": "cadcbd36dea75995a5cdc9234ff384d3ee67c5a64a23573f8d654e38142d361c"
+      },
+      "path": "release/maintenance-20260909-v1/historical-config/cadcbd36dea7-structured-data-manifest.json",
+      "sha256": "cadcbd36dea75995a5cdc9234ff384d3ee67c5a64a23573f8d654e38142d361c"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/config/adsterra.json",
+        "sha256": "24dde32c1f8a3614242cf3778de5c704106eb907b3bc794e7122625c749dc17b"
+      },
+      "path": "release/maintenance-20260909-v1/historical-config/24dde32c1f8a-adsterra.json",
+      "sha256": "24dde32c1f8a3614242cf3778de5c704106eb907b3bc794e7122625c749dc17b"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/config/release.json",
+        "sha256": "48431d23d0430f0da4a7ba505becf9e871f08ae75682a09eddea707f109fc7b7"
+      },
+      "path": "release/maintenance-20260909-v1/historical-config/48431d23d043-release.json",
+      "sha256": "48431d23d0430f0da4a7ba505becf9e871f08ae75682a09eddea707f109fc7b7"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/config/game-entity.json",
+        "sha256": "6c8b109f20905f0291ac0004db0de63c2c5783e75952cafc8352b82689b77ee6"
+      },
+      "path": "release/maintenance-20260909-v1/historical-config/6c8b109f2090-game-entity.json",
+      "sha256": "6c8b109f20905f0291ac0004db0de63c2c5783e75952cafc8352b82689b77ee6"
+    },
+    {
+      "original": {
+        "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/config/design-contract.json",
+        "sha256": "7d73421186d69368f563d8b3a1b8d9a1de1e159a7606a4a890262f0e0fb3d396"
+      },
+      "path": "release/maintenance-20260909-v1/historical-config/7d73421186d6-design-contract.json",
+      "sha256": "7d73421186d69368f563d8b3a1b8d9a1de1e159a7606a4a890262f0e0fb3d396"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-eight-unit-loadout-1440.png",
+        "sha256": "f9d80fe7a193f5e2d1434c5b8f087a3c86c254a1456294ff01349bddf0ffa7e3"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/f9d80fe7a193-final-castle-busters-eight-unit-loadout-1440.png",
+      "sha256": "f9d80fe7a193f5e2d1434c5b8f087a3c86c254a1456294ff01349bddf0ffa7e3"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-eight-unit-loadout-390.png",
+        "sha256": "e1ee67900acecffab8b576a5efa744510f3828f2b7eebf2f8fda1df3e9e3362d"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/e1ee67900ace-final-castle-busters-eight-unit-loadout-390.png",
+      "sha256": "e1ee67900acecffab8b576a5efa744510f3828f2b7eebf2f8fda1df3e9e3362d"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-eight-unit-loadout-412.png",
+        "sha256": "1ff50ef5e5da68adf781bf99abeb2cd7d0f54c2b8051824afa9d1f2d1580a975"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/1ff50ef5e5da-final-castle-busters-eight-unit-loadout-412.png",
+      "sha256": "1ff50ef5e5da68adf781bf99abeb2cd7d0f54c2b8051824afa9d1f2d1580a975"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-formation-1440.png",
+        "sha256": "2164275019f0966f781e3e7e7acb824c770e36e6b5d14dd27e8cb5e7ac16abae"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/2164275019f0-final-castle-busters-formation-1440.png",
+      "sha256": "2164275019f0966f781e3e7e7acb824c770e36e6b5d14dd27e8cb5e7ac16abae"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-formation-390.png",
+        "sha256": "21e5d800069b22a98725c12ec1e86aeb5dbc3a84eb546c3bc381de7ace94833f"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/21e5d800069b-final-castle-busters-formation-390.png",
+      "sha256": "21e5d800069b22a98725c12ec1e86aeb5dbc3a84eb546c3bc381de7ace94833f"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-formation-412.png",
+        "sha256": "e926d4ca4a3b9cbceca9dd04a01df57cbf05b7ab545cc2cc135ac977b438fbcd"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/e926d4ca4a3b-final-castle-busters-formation-412.png",
+      "sha256": "e926d4ca4a3b9cbceca9dd04a01df57cbf05b7ab545cc2cc135ac977b438fbcd"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-unit-database-1440.png",
+        "sha256": "4a5f20b5b406a64ffef9636d1950e4bdd8d7f1bd1f40cad0947ca90422054a2a"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/4a5f20b5b406-final-castle-busters-unit-database-1440.png",
+      "sha256": "4a5f20b5b406a64ffef9636d1950e4bdd8d7f1bd1f40cad0947ca90422054a2a"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-unit-database-390.png",
+        "sha256": "ea1dda680703da1884344815674b3823823595c749f85a41381e6c9e84f6dc76"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/ea1dda680703-final-castle-busters-unit-database-390.png",
+      "sha256": "ea1dda680703da1884344815674b3823823595c749f85a41381e6c9e84f6dc76"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-castle-busters-unit-database-412.png",
+        "sha256": "b0e867b41443bef8382ad2b758ed59b0823b944d2ffdfd885fcd172cb20ad571"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/b0e867b41443-final-castle-busters-unit-database-412.png",
+      "sha256": "b0e867b41443bef8382ad2b758ed59b0823b944d2ffdfd885fcd172cb20ad571"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-patch-notes-and-balance-log-1440.png",
+        "sha256": "b0e143817a240b3b5cfb1b8098db74bddf9d5885046cef8da18719512056d479"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/b0e143817a24-final-patch-notes-and-balance-log-1440.png",
+      "sha256": "b0e143817a240b3b5cfb1b8098db74bddf9d5885046cef8da18719512056d479"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-patch-notes-and-balance-log-390.png",
+        "sha256": "bb95795b122f46c2f77be89ba6c8f4f1367c1b68789b09265a79c85a56cc080c"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/bb95795b122f-final-patch-notes-and-balance-log-390.png",
+      "sha256": "bb95795b122f46c2f77be89ba6c8f4f1367c1b68789b09265a79c85a56cc080c"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-patch-notes-and-balance-log-412.png",
+        "sha256": "b1a7e05ff8562ad68f7b63e3cbbe9598ed8fdd2a7fbba4b13d52caec745d8843"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/b1a7e05ff856-final-patch-notes-and-balance-log-412.png",
+      "sha256": "b1a7e05ff8562ad68f7b63e3cbbe9598ed8fdd2a7fbba4b13d52caec745d8843"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-account-start-and-reroll-check-412.png",
+        "sha256": "f8c819fb7cbdede14e874e16c52c13dc462a359d065b233850813766fe6fc588"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/f8c819fb7cbd-regression-account-start-and-reroll-check-412.png",
+      "sha256": "f8c819fb7cbdede14e874e16c52c13dc462a359d065b233850813766fe6fc588"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-arena-counter-checklist-412.png",
+        "sha256": "21d2e0aca1dd62b00448c68d6096641ed69febcad3a1383d2e449f8db91e618e"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/21d2e0aca1dd-regression-arena-counter-checklist-412.png",
+      "sha256": "21d2e0aca1dd62b00448c68d6096641ed69febcad3a1383d2e449f8db91e618e"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-castle-busters-beginner-route-412.png",
+        "sha256": "13148c33a35ab8c6e18490296c2c1421dd0b78d1402a897992e3df406c4fe826"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/13148c33a35a-regression-castle-busters-beginner-route-412.png",
+      "sha256": "13148c33a35ab8c6e18490296c2c1421dd0b78d1402a897992e3df406c4fe826"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-castle-defense-objective-412.png",
+        "sha256": "36a53edc2a6d61b3f028b8213ff98d7c39449422c9276c1a613b22faf408be2b"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/36a53edc2a6d-regression-castle-defense-objective-412.png",
+      "sha256": "36a53edc2a6d61b3f028b8213ff98d7c39449422c9276c1a613b22faf408be2b"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-damage-control-support-balance-412.png",
+        "sha256": "5903f7f1c3b3a8994805be01247e0fc0cf9f6fdc03b45e5908c9642f6c3592ea"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/5903f7f1c3b3-regression-damage-control-support-balance-412.png",
+      "sha256": "5903f7f1c3b3a8994805be01247e0fc0cf9f6fdc03b45e5908c9642f6c3592ea"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-early-team-without-rare-units-412.png",
+        "sha256": "8ace0eeb51374cc3baa24a46c3c1e03bf4cb3992136792237b311b86ad57f086"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/8ace0eeb5137-regression-early-team-without-rare-units-412.png",
+      "sha256": "8ace0eeb51374cc3baa24a46c3c1e03bf4cb3992136792237b311b86ad57f086"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-formation-failure-symptoms-412.png",
+        "sha256": "51275d7e4f1297ef0c03122f8e2db281845d395192e21eff1f8e407cb5fd599c"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/51275d7e4f12-regression-formation-failure-symptoms-412.png",
+      "sha256": "51275d7e4f1297ef0c03122f8e2db281845d395192e21eff1f8e407cb5fd599c"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-frontline-backline-placement-412.png",
+        "sha256": "cdda46d31bd7a96cce740d270bee68fdddd4bd12816980c07f4f5c8e924e17d1"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/cdda46d31bd7-regression-frontline-backline-placement-412.png",
+      "sha256": "cdda46d31bd7a96cce740d270bee68fdddd4bd12816980c07f4f5c8e924e17d1"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-replace-a-missing-unit-412.png",
+        "sha256": "1ee64b61dbe46ceb5df26dd931e52979cf9a6d6dc20094cef70db12e2ac9f280"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/1ee64b61dbe4-regression-replace-a-missing-unit-412.png",
+      "sha256": "1ee64b61dbe46ceb5df26dd931e52979cf9a6d6dc20094cef70db12e2ac9f280"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-team-testing-worksheet-412.png",
+        "sha256": "bf786b6be7af0bda55e04a319e6d15c2452d5f82a1a8469c81f45b2e03abec9b"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/bf786b6be7af-regression-team-testing-worksheet-412.png",
+      "sha256": "bf786b6be7af0bda55e04a319e6d15c2452d5f82a1a8469c81f45b2e03abec9b"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-unit-roles-explained-412.png",
+        "sha256": "875c8c2e5f7172f5fd1784c3d01e3da1450e97a53115b1a83a06c64a9cf9e21e"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/875c8c2e5f71-regression-unit-roles-explained-412.png",
+      "sha256": "875c8c2e5f7172f5fd1784c3d01e3da1450e97a53115b1a83a06c64a9cf9e21e"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-upgrade-breakpoints-stop-rules-412.png",
+        "sha256": "6f235167789c0945b1c38c4f0c9816d741ab33756dfff02c89649016bf46bcaf"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/6f235167789c-regression-upgrade-breakpoints-stop-rules-412.png",
+      "sha256": "6f235167789c0945b1c38c4f0c9816d741ab33756dfff02c89649016bf46bcaf"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-upgrade-materials-priority-412.png",
+        "sha256": "d10a8a41bcc956cf7fed17b9459ba6adfbeb831f02d133560a746f24b135734d"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/d10a8a41bcc9-regression-upgrade-materials-priority-412.png",
+      "sha256": "d10a8a41bcc956cf7fed17b9459ba6adfbeb831f02d133560a746f24b135734d"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-wheels-and-helper-items-412.png",
+        "sha256": "b3514967d7b03948055355aaa045e80fe36f8304e7d751b9a498d13984d7d11e"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/b3514967d7b0-regression-wheels-and-helper-items-412.png",
+      "sha256": "b3514967d7b03948055355aaa045e80fe36f8304e7d751b9a498d13984d7d11e"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/units-table-390-detail-after.png",
+        "sha256": "8a89901cc200445ac3b020f1096be06a439c167bdd934260a4fc242de2c8142f"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/8a89901cc200-units-table-390-detail-after.png",
+      "sha256": "8a89901cc200445ac3b020f1096be06a439c167bdd934260a4fc242de2c8142f"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/units-table-390-detail-before.png",
+        "sha256": "dd692f27cc90764cfd69b1d6c90760237950e5b532ee5b884ac50ce01dac0092"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/dd692f27cc90-units-table-390-detail-before.png",
+      "sha256": "dd692f27cc90764cfd69b1d6c90760237950e5b532ee5b884ac50ce01dac0092"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/final-records.json",
+        "sha256": "2683f4ecedf5da7406a4904b1376a8898c49a2ccdffda20b21cf60bc8d846bb9"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/2683f4ecedf5-final-records.json",
+      "sha256": "2683f4ecedf5da7406a4904b1376a8898c49a2ccdffda20b21cf60bc8d846bb9"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-records.json",
+        "sha256": "50d653e8dd3866a54559e805f76593e8933ee353861e758d81969f20d243487d"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/50d653e8dd38-regression-records.json",
+      "sha256": "50d653e8dd3866a54559e805f76593e8933ee353861e758d81969f20d243487d"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/units-table-horizontal-390.json",
+        "sha256": "a6651e5b195090c2b756de7f4bf7f5ff96bf8c60301ae927ef094d921a19e18a"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/a6651e5b1950-units-table-horizontal-390.json",
+      "sha256": "a6651e5b195090c2b756de7f4bf7f5ff96bf8c60301ae927ef094d921a19e18a"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-castle-busters-beginner-route-1440.png",
+        "sha256": "cb04d3452568ff77553e4559f66602792c0f2a2343bbbc8f3f0ab4c2475a8851"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/cb04d3452568-regression-final-castle-busters-beginner-route-1440.png",
+      "sha256": "cb04d3452568ff77553e4559f66602792c0f2a2343bbbc8f3f0ab4c2475a8851"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-upgrade-materials-priority-1440.png",
+        "sha256": "de36a4b31f712111c7f927f852a6fe290d5d0ba9d240329087f7f76fcf8bb497"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/de36a4b31f71-regression-final-upgrade-materials-priority-1440.png",
+      "sha256": "de36a4b31f712111c7f927f852a6fe290d5d0ba9d240329087f7f76fcf8bb497"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-unit-roles-explained-1440.png",
+        "sha256": "bb99bfe3870ce8e80519659b3ae535ab8dee76a10d4b60a3e9b06ae64ed7fb6f"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/bb99bfe3870c-regression-final-unit-roles-explained-1440.png",
+      "sha256": "bb99bfe3870ce8e80519659b3ae535ab8dee76a10d4b60a3e9b06ae64ed7fb6f"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-frontline-backline-placement-1440.png",
+        "sha256": "fbad4dd1561273402ecb1211ebeb7b2fc6f86873e0add7d93622f2dc5d220401"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/fbad4dd15612-regression-final-frontline-backline-placement-1440.png",
+      "sha256": "fbad4dd1561273402ecb1211ebeb7b2fc6f86873e0add7d93622f2dc5d220401"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-damage-control-support-balance-1440.png",
+        "sha256": "f94afc24008386881bc0cfdfb7a1d113308db4d1ec4914ce94f1dcfb4934c4b5"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/f94afc240083-regression-final-damage-control-support-balance-1440.png",
+      "sha256": "f94afc24008386881bc0cfdfb7a1d113308db4d1ec4914ce94f1dcfb4934c4b5"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-early-team-without-rare-units-1440.png",
+        "sha256": "4e63ef285ae6c288c843e85fc5b7bcd7838a3e71c0c8ab86acf8c61961a4746c"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/4e63ef285ae6-regression-final-early-team-without-rare-units-1440.png",
+      "sha256": "4e63ef285ae6c288c843e85fc5b7bcd7838a3e71c0c8ab86acf8c61961a4746c"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-arena-counter-checklist-1440.png",
+        "sha256": "ba39d291e78badf368f8729bf3ba5992f4e30b6a202659657814968d36b8b705"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/ba39d291e78b-regression-final-arena-counter-checklist-1440.png",
+      "sha256": "ba39d291e78badf368f8729bf3ba5992f4e30b6a202659657814968d36b8b705"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-castle-defense-objective-1440.png",
+        "sha256": "e16b9800745ca80c426e02ebb96038a612a54e721ada6b669ca6a973a459f03f"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/e16b9800745c-regression-final-castle-defense-objective-1440.png",
+      "sha256": "e16b9800745ca80c426e02ebb96038a612a54e721ada6b669ca6a973a459f03f"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-wheels-and-helper-items-1440.png",
+        "sha256": "b0dd14738abea98f7b8d848023d7440364bd0762e0c99cd08f818b719de94977"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/b0dd14738abe-regression-final-wheels-and-helper-items-1440.png",
+      "sha256": "b0dd14738abea98f7b8d848023d7440364bd0762e0c99cd08f818b719de94977"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-upgrade-breakpoints-stop-rules-1440.png",
+        "sha256": "6158678c771eda64c9b3e9602b5c39b3efd46915c5983fefc91cecda83bf7cc2"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/6158678c771e-regression-final-upgrade-breakpoints-stop-rules-1440.png",
+      "sha256": "6158678c771eda64c9b3e9602b5c39b3efd46915c5983fefc91cecda83bf7cc2"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-replace-a-missing-unit-1440.png",
+        "sha256": "04143760d12245e3b0c05ab432c0669ae5917299af442ee3d02fc331c9ea9741"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/04143760d122-regression-final-replace-a-missing-unit-1440.png",
+      "sha256": "04143760d12245e3b0c05ab432c0669ae5917299af442ee3d02fc331c9ea9741"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-formation-failure-symptoms-1440.png",
+        "sha256": "b15bfbc6e54b4a8d2b2bba5fc528fc92304e261843ddc60bbb3a0416f37b03e3"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/b15bfbc6e54b-regression-final-formation-failure-symptoms-1440.png",
+      "sha256": "b15bfbc6e54b4a8d2b2bba5fc528fc92304e261843ddc60bbb3a0416f37b03e3"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-account-start-and-reroll-check-1440.png",
+        "sha256": "a57c07afc0fb06245c0a806a4db9c0013297d3162680269955ae9676297ab05e"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/a57c07afc0fb-regression-final-account-start-and-reroll-check-1440.png",
+      "sha256": "a57c07afc0fb06245c0a806a4db9c0013297d3162680269955ae9676297ab05e"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-team-testing-worksheet-1440.png",
+        "sha256": "c89ebb0cedf121b68a22ec3542bfaca4591f20feb425d9ae3284c2854404a3e3"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/c89ebb0cedf1-regression-final-team-testing-worksheet-1440.png",
+      "sha256": "c89ebb0cedf121b68a22ec3542bfaca4591f20feb425d9ae3284c2854404a3e3"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-castle-busters-beginner-route-390.png",
+        "sha256": "cc363488708507b0993131644759b99813a0fe1f25926c4aacea95584a5daf06"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/cc3634887085-regression-final-castle-busters-beginner-route-390.png",
+      "sha256": "cc363488708507b0993131644759b99813a0fe1f25926c4aacea95584a5daf06"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-upgrade-materials-priority-390.png",
+        "sha256": "2a35170b12309e948166a7cf3abad31dfd53e70a4133f31937dc66702457a602"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/2a35170b1230-regression-final-upgrade-materials-priority-390.png",
+      "sha256": "2a35170b12309e948166a7cf3abad31dfd53e70a4133f31937dc66702457a602"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-unit-roles-explained-390.png",
+        "sha256": "393774bdd930ad467391b492ab24287207345d5b5de3a49c879ddf45103321ea"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/393774bdd930-regression-final-unit-roles-explained-390.png",
+      "sha256": "393774bdd930ad467391b492ab24287207345d5b5de3a49c879ddf45103321ea"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-frontline-backline-placement-390.png",
+        "sha256": "81212274db5c0cbc8f0ce250b07efd7fcba66b868e3dfc443c9657b2f4d68e8f"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/81212274db5c-regression-final-frontline-backline-placement-390.png",
+      "sha256": "81212274db5c0cbc8f0ce250b07efd7fcba66b868e3dfc443c9657b2f4d68e8f"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-damage-control-support-balance-390.png",
+        "sha256": "63f3183a482c5d75b9e749943749205b0b97f53b687a7e0d51e83fd4eabadef7"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/63f3183a482c-regression-final-damage-control-support-balance-390.png",
+      "sha256": "63f3183a482c5d75b9e749943749205b0b97f53b687a7e0d51e83fd4eabadef7"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-early-team-without-rare-units-390.png",
+        "sha256": "012d9cd9e979c112aeae2b557f3164c9491a0e056bd3f11da09727bc7c0898e9"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/012d9cd9e979-regression-final-early-team-without-rare-units-390.png",
+      "sha256": "012d9cd9e979c112aeae2b557f3164c9491a0e056bd3f11da09727bc7c0898e9"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-arena-counter-checklist-390.png",
+        "sha256": "581a5998a05676fba2cdef2aa78e4fcb858cce1449dc8d78ffaaaa4009c67bdf"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/581a5998a056-regression-final-arena-counter-checklist-390.png",
+      "sha256": "581a5998a05676fba2cdef2aa78e4fcb858cce1449dc8d78ffaaaa4009c67bdf"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-castle-defense-objective-390.png",
+        "sha256": "b9af2d2449ed4fcce950d88cbee762f80abbaeadd50b7c1e6aea14933be094eb"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/b9af2d2449ed-regression-final-castle-defense-objective-390.png",
+      "sha256": "b9af2d2449ed4fcce950d88cbee762f80abbaeadd50b7c1e6aea14933be094eb"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-wheels-and-helper-items-390.png",
+        "sha256": "4618fb5e6be86b7abd4795912c83c8faba0f9153d755cb35b384d3d5dc3aa4e4"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/4618fb5e6be8-regression-final-wheels-and-helper-items-390.png",
+      "sha256": "4618fb5e6be86b7abd4795912c83c8faba0f9153d755cb35b384d3d5dc3aa4e4"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-upgrade-breakpoints-stop-rules-390.png",
+        "sha256": "eb225fadabe4abe08e306fb3aae45c44c9ebada64a4c868317730eeb31924da4"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/eb225fadabe4-regression-final-upgrade-breakpoints-stop-rules-390.png",
+      "sha256": "eb225fadabe4abe08e306fb3aae45c44c9ebada64a4c868317730eeb31924da4"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-replace-a-missing-unit-390.png",
+        "sha256": "48ea1e1c6631d8c81e252072fbffe3d4068725bc421fe268c42f05e401709e6c"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/48ea1e1c6631-regression-final-replace-a-missing-unit-390.png",
+      "sha256": "48ea1e1c6631d8c81e252072fbffe3d4068725bc421fe268c42f05e401709e6c"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-formation-failure-symptoms-390.png",
+        "sha256": "6d2093ff728637efc3762de030e438adb909140e9829bf6c0a24950f25c8a763"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/6d2093ff7286-regression-final-formation-failure-symptoms-390.png",
+      "sha256": "6d2093ff728637efc3762de030e438adb909140e9829bf6c0a24950f25c8a763"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-account-start-and-reroll-check-390.png",
+        "sha256": "7f5583bdb841cca2618396877a2f19ef15aeda4856fe598b0a745eee6dac8bbb"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/7f5583bdb841-regression-final-account-start-and-reroll-check-390.png",
+      "sha256": "7f5583bdb841cca2618396877a2f19ef15aeda4856fe598b0a745eee6dac8bbb"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-team-testing-worksheet-390.png",
+        "sha256": "6d484bffe25ebf22ea41e8ca1863393f9f7880c420130233b0f9919554fba615"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/6d484bffe25e-regression-final-team-testing-worksheet-390.png",
+      "sha256": "6d484bffe25ebf22ea41e8ca1863393f9f7880c420130233b0f9919554fba615"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-home-1440.png",
+        "sha256": "945125a6efb5f79f65c15922dfb6c22eb9171f879d21595ef3bdaf17fce84390"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/945125a6efb5-public-home-1440.png",
+      "sha256": "945125a6efb5f79f65c15922dfb6c22eb9171f879d21595ef3bdaf17fce84390"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-about-1440.png",
+        "sha256": "bc12f44b36f0286c5b905b69825ff73c111756d231a15972a497128ffa6adc7c"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/bc12f44b36f0-public-about-1440.png",
+      "sha256": "bc12f44b36f0286c5b905b69825ff73c111756d231a15972a497128ffa6adc7c"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-privacy-1440.png",
+        "sha256": "cf1593ba2ba1919cc99ea02286548a47b95b4fd1f167be6626da8d68a11d87cf"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/cf1593ba2ba1-public-privacy-1440.png",
+      "sha256": "cf1593ba2ba1919cc99ea02286548a47b95b4fd1f167be6626da8d68a11d87cf"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-contact-1440.png",
+        "sha256": "c0dcfbea92fbbc66bf208931f4c601e9dac6e51eabd983b8ba16ad5be93ad19d"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/c0dcfbea92fb-public-contact-1440.png",
+      "sha256": "c0dcfbea92fbbc66bf208931f4c601e9dac6e51eabd983b8ba16ad5be93ad19d"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-home-390.png",
+        "sha256": "6b86c9fcb55a0dfcc57102473722f7248698767976ceed230383c83c0e70a979"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/6b86c9fcb55a-public-home-390.png",
+      "sha256": "6b86c9fcb55a0dfcc57102473722f7248698767976ceed230383c83c0e70a979"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-about-390.png",
+        "sha256": "8bb1168eaee7205d946a0280dab292131cd23ea94ec8c94e40cd43863bbd804c"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/8bb1168eaee7-public-about-390.png",
+      "sha256": "8bb1168eaee7205d946a0280dab292131cd23ea94ec8c94e40cd43863bbd804c"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-privacy-390.png",
+        "sha256": "6d65d57bbabb1ada11911c9fa9989303b109c66c4b2a7ef256978c00a2299e2a"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/6d65d57bbabb-public-privacy-390.png",
+      "sha256": "6d65d57bbabb1ada11911c9fa9989303b109c66c4b2a7ef256978c00a2299e2a"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-contact-390.png",
+        "sha256": "f5d9c6725e2b0820af1f1aa7470e28cf1fc1f265df2055839ca3ccd2ad66bb46"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/f5d9c6725e2b-public-contact-390.png",
+      "sha256": "f5d9c6725e2b0820af1f1aa7470e28cf1fc1f265df2055839ca3ccd2ad66bb46"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-home-412.png",
+        "sha256": "ecc96169bb2233c5ee3c7f55ae2fbcc96e1261b48bc8a1f4125b921cd276291f"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/ecc96169bb22-public-home-412.png",
+      "sha256": "ecc96169bb2233c5ee3c7f55ae2fbcc96e1261b48bc8a1f4125b921cd276291f"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-about-412.png",
+        "sha256": "dc7ca8bfeb04b4279e1a3401c3efe140ed34b1594a2301f5eeaa94da5c158cfc"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/dc7ca8bfeb04-public-about-412.png",
+      "sha256": "dc7ca8bfeb04b4279e1a3401c3efe140ed34b1594a2301f5eeaa94da5c158cfc"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-privacy-412.png",
+        "sha256": "82ed2cf7306399e03847cae1bd91f98a4af1b2d8b447bc44d1bfc89dd40132bd"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/82ed2cf73063-public-privacy-412.png",
+      "sha256": "82ed2cf7306399e03847cae1bd91f98a4af1b2d8b447bc44d1bfc89dd40132bd"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-contact-412.png",
+        "sha256": "ddee141be9b5bf205f98ee6bfabbd70b3104b2548bb1e1de780760fbfb601c12"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/ddee141be9b5-public-contact-412.png",
+      "sha256": "ddee141be9b5bf205f98ee6bfabbd70b3104b2548bb1e1de780760fbfb601c12"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/compact-final-castle-busters-unit-database-412.png",
+        "sha256": "7364292b36d634071c693b045ad3c9cc1ed155b48d676409934f58c2e4e6599f"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/7364292b36d6-compact-final-castle-busters-unit-database-412.png",
+      "sha256": "7364292b36d634071c693b045ad3c9cc1ed155b48d676409934f58c2e4e6599f"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/compact-final-castle-busters-eight-unit-loadout-412.png",
+        "sha256": "ede985c544b0403a518bfcfc1ffc398258758daae33558444ee5176319eab292"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/ede985c544b0-compact-final-castle-busters-eight-unit-loadout-412.png",
+      "sha256": "ede985c544b0403a518bfcfc1ffc398258758daae33558444ee5176319eab292"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/compact-final-castle-busters-formation-412.png",
+        "sha256": "dcd24e33045a59947ec51ed9ba7bd5672b85860306e86992726d79b91f10b6d0"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/dcd24e33045a-compact-final-castle-busters-formation-412.png",
+      "sha256": "dcd24e33045a59947ec51ed9ba7bd5672b85860306e86992726d79b91f10b6d0"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/compact-final-patch-notes-and-balance-log-412.png",
+        "sha256": "65f9e42d00e3b056dbcbcff0ed04cd5e316f24d44c3b15eb414e58e1dd579030"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/65f9e42d00e3-compact-final-patch-notes-and-balance-log-412.png",
+      "sha256": "65f9e42d00e3b056dbcbcff0ed04cd5e316f24d44c3b15eb414e58e1dd579030"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-additional-v1.json",
+        "sha256": "7f382be8ab969950b0f338047468c70903eff6831c9ec919ea76bc14eda33202"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/7f382be8ab96-regression-final-additional-v1.json",
+      "sha256": "7f382be8ab969950b0f338047468c70903eff6831c9ec919ea76bc14eda33202"
+    },
+    {
+      "original": {
+        "path": "/private/tmp/five-site-qa-20260909/castle/public-and-compact-final-v1.json",
+        "sha256": "3cc25e7d1554206836102a15f150a05188310a12fdf31fbbb2461d6f3d30bca7"
+      },
+      "path": "release/maintenance-20260909-v1/visual-evidence/3cc25e7d1554-public-and-compact-final-v1.json",
+      "sha256": "3cc25e7d1554206836102a15f150a05188310a12fdf31fbbb2461d6f3d30bca7"
+    }
+  ],
+  "independentReviewVerdict": "PASS_REVIEWED_MAINTENANCE_RENDER_SCOPE",
+  "independentReviewer": "/root/review_wardogs_v1",
+  "currentRoundVisualScope": "44 additional actual supplied screenshots for bounded maintenance/shared CSS regression:14 unchanged articles×1440/390, home/about/privacy/contact×1440/390/412,4 corrected articles×412. Not a new whole-site content/task certification.",
+  "preservedIssues": [
+    {
+      "id": "CB-VP-01",
+      "state": "closed",
+      "reason": "Earlier scoped logo repair passes, now also confirmed in current412 full pages."
+    },
+    {
+      "id": "CB-VP-02",
+      "state": "open_original_core_outcomes",
+      "maintenancePatchBlockerByItself": false,
+      "reason": "Original3Core objectives remain unfulfilled; this is accepted bounded correction, not claimed Core upgrade completion."
+    },
+    {
+      "id": "CB-VP-03",
+      "state": "open_inherited_content_quality",
+      "maintenancePatchBlockerByItself": false,
+      "reason": "Legacy14 templates and associated old public-copy limitations remain; this regression does not mark them fixed."
+    },
+    {
+      "id": "CB-VP-04",
+      "state": "migration_dependency_retracted_not_fake_pass",
+      "reason": "Current quality script no longer imports/calls verifyTaskReview; task-review script is outside site as unused-new-template-task-gate.mjs. No18 fabricated task PASS. Earlier missing-gate finding is retained as migration history, not historical mandatory release failure."
+    }
+  ],
+  "retainedR13Issues": [
+    {
+      "id": "CB-I01",
+      "nextAction": "R06逐条裁决并交R13独立复验",
+      "summary": "3核心页1.16单位/位置机制与官方冲突",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I02",
+      "nextAction": "基于accepted Claims重做Brief与任务验收",
+      "summary": "数据库/8人页缺具名可操作产物，重复泛说明",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I03",
+      "nextAction": "R11按具体对象采图并由独立角色手机复验",
+      "summary": "未做客户端实测/真实任务采图/浏览器视觉QA",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I04",
+      "nextAction": "授权SEO技术复核，当前HTTP跳转无明显异常",
+      "summary": "公共页同title；历史查询落About/HTTP原因未证",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I05",
+      "nextAction": "当前平台版本逐项补证，不凑完整表",
+      "summary": "完整名单、数值、8人配置、Forge奖励门槛未知",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I06",
+      "nextAction": "下一轮定向补足并据真实T0观察",
+      "summary": "最新生产版本映射、固定SERP/PAA/视频/Discord未核验",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    },
+    {
+      "id": "CB-I07",
+      "nextAction": "R16按现行合同迁移为字数提醒并绑定真实独立任务证据；此项由R01复核关闭。",
+      "summary": "R01本轮报告旧站将少于1000词作硬失败，与OWN-072冲突；R09不为旧脚本补泛话。",
+      "status": "open",
+      "reviewEffect": "Only stated draft factual correction slice reviewed; not a whole issue closure."
+    }
+  ],
+  "originalThreeCoreCompleted": false,
+  "old14CurrentFactOrTaskPass": false,
+  "whole18FreshTaskPass": false,
+  "historicalManifestsChanged": false,
+  "gateRulesModifiedByThisBinding": false,
+  "checkRelease": "pending_real_run",
+  "404RenderedReview": "pending_parent_supplied_independent_review",
+  "productionAccepted": false,
+  "pushPerformed": false
+}

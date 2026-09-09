@@ -1,0 +1,2882 @@
+{
+  "schema": "writer-claim-audit.v1",
+  "taskId": "writer_repair_castle_v2",
+  "role": "R10",
+  "createdAt": "2026-09-08T22:07:05.095679+00:00",
+  "status": "partial",
+  "publicationAllowed": false,
+  "inputPacketRef": {
+    "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/writer-task-packet-v2.json",
+    "sha256": "ed0eb154485207bccc3e2baa237565357e9ec98903f0d83abf5d1ab2b59e4527"
+  },
+  "inputGuidesRef": {
+    "path": "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/lib/guides.ts",
+    "sha256": "81ccf26b26c703c4d27a157ea1439883b5e9fe534616851f8a944e97b77222c8"
+  },
+  "replacementsRef": {
+    "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/replacements.json",
+    "sha256": "312b410c506a823b04dadb3d45cb81cb5f08cfb10d31b2d5c1bb530832eab2ab"
+  },
+  "articles": [
+    {
+      "articleSlug": "castle-busters-unit-database",
+      "status": "author_draft_not_QA",
+      "briefId": "CB-R09-castle-busters-unit-database-v1",
+      "briefRef": {
+        "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/briefs.json",
+        "sha256": "fb6064a87adf8dd1d3fc11c5ba3b6ad24d335becf3382b2155789874b24d5e9e"
+      },
+      "inputGuideSha256": "26cbd190e2ee33214664af36b62d8f33aa763fb21f05ba62d718c1674a00b149",
+      "outputGuideSha256": "46e6dc31826308f61c8e74f6e84c052b201fe7f29365a17aa2da40bb24e42cf4",
+      "markdownOutput": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/drafts/castle-busters-unit-database.md",
+      "preserved": {
+        "acceptedOriginalFacts": "Retained exact supported units/skills, capacity and dated official changes when in this article whitelist; correct facts are rewritten into useful rows rather than retaining boilerplate.",
+        "urls": "castle-busters-unit-database",
+        "existingLogo": "Same file/assetId retained, alt corrected to logo; no gameplay identity or skill proof inferred.",
+        "guideContract": "Existing Guide fields retained; Section.table and Guide.relatedSlugs are the only new fields; all sections still include heading and paragraphs."
+      },
+      "removed": [
+        "Wrong 1.16 Crabbo/Pharaoh/ZapZap/frontline/cat-row/directly-ahead attribution where present.",
+        "Unsupported role quotas, strongest lineup, substitution chains, precise geometry and implied playable builder.",
+        "Unwhitelisted anti-cheat/loading/date specifics in patch log; not declared false, only excluded from this bounded draft.",
+        "Repeated This claim is scoped / Verified point / Decision row / Field notes / generic verification and maintenance instructions.",
+        "Generic editorial decision graphic; no task value and not combat proof."
+      ],
+      "scopeChanges": "Titles/H1/description follow approved narrowed R09 brief; original full best-team/complete-roster/exact-foundation task remains unsatisfied and held.",
+      "claimMapping": [
+        {
+          "jsonPointer": "/title",
+          "text": "Castle Busters Units: Eight Named Skills and Access Notes",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "91849112738958a4046d93f10ac4c70ceda20a2a3e5f2867d6ecda4eb73c6b82"
+        },
+        {
+          "jsonPointer": "/description",
+          "text": "Look up eight Castle Busters units, their documented attacks or skill conditions, and access notes from the official site and patches 1.16–1.17.",
+          "kind": "metadata_scope_summary",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C004",
+            "CB-C006",
+            "CB-C019",
+            "CB-C020",
+            "CB-C021",
+            "CB-C022",
+            "CB-C023"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Bishop",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Wrecker",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Fairy",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Pulsar",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Saxton",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "1f661a0e7e88d53a017cf51fb2aeeb0e102385e4b6be67aafbe2968eb9746db3"
+        },
+        {
+          "jsonPointer": "/quickAnswer",
+          "text": "Sir Rally boosts nearby allied heroes, Leif revives fallen allies in his row after he kills an enemy unit, and Wolfie transforms after a neighboring ally dies. The table also covers Bishop, Wrecker, Fairy, Pulsar and Saxton. It is a partial unit reference.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C004",
+            "CB-C006",
+            "CB-C019",
+            "CB-C020",
+            "CB-C021",
+            "CB-C022",
+            "CB-C023"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Bishop",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Wrecker",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Fairy",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Pulsar",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Saxton",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "d97a569eca77649e87ae27914f22ce2bdd4888e789edfecf51f84a4ab3606011"
+        },
+        {
+          "jsonPointer": "/sections/0/heading",
+          "text": "Look up a unit by name",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "be3463d6c62718a30d42ee55e9ea4d6fdf1a71fdf5b849f41bcda4f9c623933c"
+        },
+        {
+          "jsonPointer": "/sections/0/paragraphs/0",
+          "text": "Find the exact unit name in the first column. Read its behavior together with the access and source-context columns.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C004",
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "93678200fbe06c2831bc5d139da77567f71e8bb94f10e05465f2d1b33ec0821a"
+        },
+        {
+          "jsonPointer": "/sections/0/paragraphs/1",
+          "text": "The access column keeps the source’s own context. “Free at Arena 7” does not mean Sir Rally is already owned, and Leif’s Arena 25 listing does not make him an Arena 7 starter. Wolfie’s Battle Pass label comes from patch 1.16; it does not identify the current season’s availability.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C003",
+            "CB-C005",
+            "CB-C007"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "da306527645130c3d90d6363b7a06d46622b33004982fba0b8e6308394dc750a"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/0",
+          "text": "Sir Rally | Raises the damage of allied heroes immediately around him. | Free at Arena 7. | Patch 1.16; patch 1.17 adds a cast delay.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C003",
+            "CB-C009"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 1",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "a15279cd365cd57cb5379976ece21cc04e82d56faec531557fd15f9d567b0cab"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/1",
+          "text": "Leif | Revives fallen allies in his row when he kills an enemy unit. | Free at Arena 25. | Patch 1.16.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C004",
+            "CB-C005"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "80c86aa2b9dc715513db5481626f029c46e6638fb332a48c4e6bc1bbe8139790"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/2",
+          "text": "Wolfie | Transforms and gains attack strength after a neighboring ally dies. | Battle Pass exclusive. | Patch 1.16.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C006",
+            "CB-C007"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "ea7dba5007bc0c95ee5d65f8912e85207647274219fe8a9a23dfa9952c21fa07"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/3",
+          "text": "Bishop | Uses a bomb with a delayed explosion. | Described as premium; no exact unlock listed. | Undated official unit description.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C019"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Bishop",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "994cf34c5620287d3b01447547207cfc5110860d3fb56d09485c9cc8c51d5adb"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/4",
+          "text": "Wrecker | Fires a single bomb that deals area damage. | Not specified in the description. | Undated official unit description.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C020"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Wrecker",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "4050408dbf7c8687a347a9a04583a830c17bbdcd30c377a05088f7e7c06a9a6b"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/5",
+          "text": "Fairy | Attacks with descending orbs. | Described as premium; no exact unlock listed. | Undated official unit description.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C021"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Fairy",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "017700a20fdd5cfea1755bac9ebc0fef172bd71c1ab413f49e0ea2c5329687b9"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/6",
+          "text": "Pulsar | Fires a laser in the aimed direction. | Not specified in the description. | Undated official unit description.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C022"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Pulsar",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "0c9c6d22e35e1511d8e91c6f73c502d0ee04085a79a32e4a711c9abb8a957f13"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/7",
+          "text": "Saxton | Throws three boomerangs that return to the castle. | Not specified in the description. | Undated official unit description.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C023"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Saxton",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "cafb7c28d40ca7f8d481f0d034c6aec1e83dd2adfc73a7d84f7c0cd69cd8013e"
+        },
+        {
+          "jsonPointer": "/sections/0/visual/alt",
+          "text": "Castle Busters logo",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "bc9dd3f87feaebc192d44010f8aa4505dd758f1100fd9d5cd3155472c1b4e4c7"
+        },
+        {
+          "jsonPointer": "/sections/0/visual/caption",
+          "text": "Castle Busters.",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "2863a93f2935afed6a9eee7faced543ae323e99258b38f624c782edd2229fa20"
+        },
+        {
+          "jsonPointer": "/sections/1/heading",
+          "text": "Keep the source version with the entry",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "23476f219e05a33e0f68cff147456394cbefa44aa05bf2f4aaf918461ba0bfce"
+        },
+        {
+          "jsonPointer": "/sections/1/paragraphs/0",
+          "text": "Patch 1.16 introduced Sir Rally, Leif and Wolfie and completed the rollout of updated hero visuals. An older portrait therefore needs an exact name match before it can be used to identify one of these entries.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C001",
+            "CB-C008"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes; opening paragraph",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "Opening visual overhaul paragraphs",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "2c41fa86f8966379f0b9d3aa97fc97921e25de5c4b667e94905dee7a24748753"
+        },
+        {
+          "jsonPointer": "/sections/1/paragraphs/1",
+          "text": "Patch 1.17 added a cast delay to Sir Rally. The note does not give its duration.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C009"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 1",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "c0d06a7b7bdb4240764300af52ddc3f57e5af9f27a38343e96787d7833a6036c"
+        },
+        {
+          "jsonPointer": "/sections/1/paragraphs/2",
+          "text": "The official site advertises more than thirty units. These eight descriptions form a partial reference, not the complete roster. Attack and health values, unlisted unlocks and unit rankings are not supplied by this table.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C029"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion; Units",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "0cf6aab57bb9e46fe3921fc0b4bcdc80637bf9f6a310a950eda8f0e6895c124b"
+        },
+        {
+          "jsonPointer": "/sections/2/heading",
+          "text": "Compare access and formation conditions",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "302e2cb454c2420983a726ee5b4690ff798c1fd19839a34db48d8c3f7a46786c"
+        },
+        {
+          "jsonPointer": "/sections/2/paragraphs/0",
+          "text": "Use the loadout conditions guide next for the unit limit and access comparison. Use the formation rules guide for the difference between Sir Rally’s nearby allies, Leif’s same-row revival and Wolfie’s neighboring-death condition.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C004",
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "ab2839c290e4f47c3a6a15cb608f17034e14e3d0ff6a44c99a9aec89f3f405d0"
+        }
+      ],
+      "acceptedClaimIdsUsed": [
+        "CB-C001",
+        "CB-C002",
+        "CB-C003",
+        "CB-C004",
+        "CB-C005",
+        "CB-C006",
+        "CB-C007",
+        "CB-C008",
+        "CB-C009",
+        "CB-C019",
+        "CB-C020",
+        "CB-C021",
+        "CB-C022",
+        "CB-C023",
+        "CB-C029"
+      ],
+      "unusedBriefClaimIds": [],
+      "sourceUsageLedger": {
+        "status": "draft_fields_only_rendered_total_pending",
+        "draftFieldOccurrences": [
+          {
+            "sourceUrl": "https://castlebusters.com/patch-notes-1-16/",
+            "fieldOccurrences": 9
+          },
+          {
+            "sourceUrl": "https://castlebusters.com/patch-notes-1-17/",
+            "fieldOccurrences": 2
+          },
+          {
+            "sourceUrl": "https://castlebusters.com/",
+            "fieldOccurrences": 8
+          }
+        ],
+        "limitation": "Counts are exact field mappings in this draft, not final rendered cumulative source words/occurrences. R16/R13 must account for repeated quick answer, metadata, schema, hidden branches and reused sitewide sources in real rendering.",
+        "navigationNotEvidence": [
+          {
+            "label": "Read next: Castle Busters Loadout: Unit Limit and Hero Conditions",
+            "url": "/guides/castle-busters-eight-unit-loadout/"
+          },
+          {
+            "label": "Read next: Castle Busters Formation Rules: Sir Rally, Leif and Wolfie",
+            "url": "/guides/castle-busters-formation/"
+          },
+          {
+            "label": "Read next: Castle Busters Patch 1.17 and 1.16: Changes Explained",
+            "url": "/guides/patch-notes-and-balance-log/"
+          }
+        ]
+      },
+      "visualPlanExecution": [
+        {
+          "sectionIndex": 0,
+          "heading": "Look up a unit by name",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": "castle-busters-guide-official-01",
+          "assetPurpose": "game_recognition_only",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V01"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 1,
+          "heading": "Keep the source version with the entry",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V01"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 2,
+          "heading": "Compare access and formation conditions",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V01"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        }
+      ],
+      "logoEvidence": {
+        "path": "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/public/images/official/castle-busters-guide-official-01.webp",
+        "sha256": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661",
+        "authorLocalVisualInspection": "Image depicts Castle Busters logo; inspected locally during R10. Not a browser QA or new rights approval.",
+        "newTaskMediaSelected": false,
+        "sourceLineageStatus": "Existing asset only; inherited rights/lineage independent review remains open."
+      },
+      "methodReviewAppendixB": {
+        "draftVersion": "writer_repair_castle_v2",
+        "successCriteriaMapping": [
+          {
+            "criterion": "读者能找到八个具体名字；正确复述三个英雄不同触发条件；把Arena 7/25与Battle Pass标签归于1.16；不会误认完整名单或推荐队伍。",
+            "locations": [
+              "/sections/0",
+              "/sections/1",
+              "/sections/2"
+            ],
+            "status": "author_implemented_pending_independent_review"
+          },
+          {
+            "criterion": "只验收收窄后的查表/理解任务；实际取得、装备、触发或战斗获胜没有在本次观察。",
+            "locations": [
+              "/sections/0",
+              "/sections/1",
+              "/sections/2"
+            ],
+            "status": "author_implemented_pending_independent_review"
+          }
+        ],
+        "deletions": "See removed; capacity single-row table converted to a sentence to avoid redundant structure. Formation separates rule explanation and fixes. Patch adds a focused per-action limit explanation.",
+        "newFactsIntroduced": false,
+        "internalLedger": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claim-audit.json",
+        "publicBoundaries": "Only partial roster, source-version access and absent exact-grid/team claim remain where they affect interpretation. No evidence workflow language in public draft."
+      },
+      "schemaAndRenderHandoff": {
+        "h1Source": "title field",
+        "schema": "Keep existing entity binding; visible content and structured data must use this replacement after independent review.",
+        "newField": "Section.table:{columns:string[],rows:string[][]} and Guide.relatedSlugs:string[]; R16 implementation pending.",
+        "internalNavigation": "Guide.relatedSlugs contains only existing same-site slugs; R16 renders a separate Related guides section. Sources contain factual citations only.",
+        "rawMarkdown": "Do not put pipe tables or Markdown links in paragraph strings. R16 must render structured table and sources links.",
+        "wordCountRule": "No minimum-word padding; old hard gate requires authorized migration."
+      },
+      "heldOriginalTasks": [
+        "完整名单/数值与当前获取条件",
+        "R13复核纠错、R14标题范围与R20识别图"
+      ],
+      "openIssueIds": [
+        "CB-I01",
+        "CB-I02",
+        "CB-I03",
+        "CB-I04",
+        "CB-I05",
+        "CB-I06",
+        "CB-I07"
+      ],
+      "independentQa": "not_performed_author_cannot_sign"
+    },
+    {
+      "articleSlug": "castle-busters-eight-unit-loadout",
+      "status": "author_draft_not_QA",
+      "briefId": "CB-R09-castle-busters-eight-unit-loadout-v1",
+      "briefRef": {
+        "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/briefs.json",
+        "sha256": "fb6064a87adf8dd1d3fc11c5ba3b6ad24d335becf3382b2155789874b24d5e9e"
+      },
+      "inputGuideSha256": "50d600ec23413e4feb04d05531b400842160ec9bffe677b9ed0df1a9b3f4ffff",
+      "outputGuideSha256": "3050216a552b2a21f2d3be5f1ac7ab89cb5f22b1f0c8f96d80be879cd079f81f",
+      "markdownOutput": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/drafts/castle-busters-eight-unit-loadout.md",
+      "preserved": {
+        "acceptedOriginalFacts": "Retained exact supported units/skills, capacity and dated official changes when in this article whitelist; correct facts are rewritten into useful rows rather than retaining boilerplate.",
+        "urls": "castle-busters-eight-unit-loadout",
+        "existingLogo": "Same file/assetId retained, alt corrected to logo; no gameplay identity or skill proof inferred.",
+        "guideContract": "Existing Guide fields retained; Section.table and Guide.relatedSlugs are the only new fields; all sections still include heading and paragraphs."
+      },
+      "removed": [
+        "Wrong 1.16 Crabbo/Pharaoh/ZapZap/frontline/cat-row/directly-ahead attribution where present.",
+        "Unsupported role quotas, strongest lineup, substitution chains, precise geometry and implied playable builder.",
+        "Unwhitelisted anti-cheat/loading/date specifics in patch log; not declared false, only excluded from this bounded draft.",
+        "Repeated This claim is scoped / Verified point / Decision row / Field notes / generic verification and maintenance instructions.",
+        "Generic editorial decision graphic; no task value and not combat proof."
+      ],
+      "scopeChanges": "Titles/H1/description follow approved narrowed R09 brief; original full best-team/complete-roster/exact-foundation task remains unsatisfied and held.",
+      "claimMapping": [
+        {
+          "jsonPointer": "/title",
+          "text": "Castle Busters Loadout: Unit Limit and Hero Conditions",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "40dfee879673811485e666589726be75b2345748828b499c378ef47894608422"
+        },
+        {
+          "jsonPointer": "/description",
+          "text": "Check the eight-unit limit, documented hero access, and the skill conditions of Sir Rally, Leif and Wolfie before comparing loadout options.",
+          "kind": "metadata_scope_summary",
+          "acceptedClaimIds": [
+            "CB-C018",
+            "CB-C003",
+            "CB-C005",
+            "CB-C007"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Train Units",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "a6d41451c5f428ed95f1c4206a2dcef95341bfe42eb07c58631bcad863e8ebbe"
+        },
+        {
+          "jsonPointer": "/quickAnswer",
+          "text": "A Castle Busters loadout supports up to eight distinct units. Patch 1.16 lists Sir Rally as free at Arena 7, Leif as free at Arena 25, and Wolfie as Battle Pass exclusive. Their skill conditions differ; these names and access labels do not establish a tested eight-unit team.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C018",
+            "CB-C003",
+            "CB-C005",
+            "CB-C007"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Train Units",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "ee27e7dd7fe3fc09db7064007cd36c8f7a4a56132c32f5f51bdcca263067f1ea"
+        },
+        {
+          "jsonPointer": "/sections/0/heading",
+          "text": "Start with the unit limit",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "c71527d9c07045c481d75d1f1e51950164ead88f419dff6f45f796ab829d913e"
+        },
+        {
+          "jsonPointer": "/sections/0/paragraphs/0",
+          "text": "The official game description allows up to eight distinct units in a loadout. That limit does not prescribe eight particular names or a fixed number of units in each role.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C018"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Train Units",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "83d77e96e0df1061f9cdbb3b98ae25f36e67261578d4539d6fcd226d95d52333"
+        },
+        {
+          "jsonPointer": "/sections/0/paragraphs/1",
+          "text": "Use the access labels below to distinguish the published requirements before treating a named hero as an available option. They describe the cited release or unit page, not the contents of your account.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C003",
+            "CB-C005",
+            "CB-C007",
+            "CB-C019",
+            "CB-C021"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Bishop",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Fairy",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "34f43668e8b494d3c33017e20347a49f412242bdded1061f7eb8e6539b03614b"
+        },
+        {
+          "jsonPointer": "/sections/0/visual/alt",
+          "text": "Castle Busters logo",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "bc9dd3f87feaebc192d44010f8aa4505dd758f1100fd9d5cd3155472c1b4e4c7"
+        },
+        {
+          "jsonPointer": "/sections/0/visual/caption",
+          "text": "Castle Busters.",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "2863a93f2935afed6a9eee7faced543ae323e99258b38f624c782edd2229fa20"
+        },
+        {
+          "jsonPointer": "/sections/1/heading",
+          "text": "Compare the access conditions",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "7b9b178533f2247769d24d2bc92c36e35cf083a8c2c7948156250731984fe14e"
+        },
+        {
+          "jsonPointer": "/sections/1/paragraphs/0",
+          "text": "The Arena and Battle Pass entries come from patch 1.16. Bishop and Fairy’s premium labels come from the undated official unit descriptions; neither label supplies a purchase price.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C003",
+            "CB-C005",
+            "CB-C007",
+            "CB-C019",
+            "CB-C021"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Bishop",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Fairy",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "26dfd5129cd36350486771fb7a0c2bb9e94de65f33108467cdf67d354f3b34cd"
+        },
+        {
+          "jsonPointer": "/sections/1/table/rows/0",
+          "text": "Sir Rally | Free at Arena 7 | Patch 1.16; reaching the listed Arena is not proof that the hero is already owned.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C003"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "5c9cfd19c936400e7acea882c8ca50519112cbed3e41771c9dafe83235f8a26b"
+        },
+        {
+          "jsonPointer": "/sections/1/table/rows/1",
+          "text": "Leif | Free at Arena 25 | Patch 1.16; not a free Arena 7 starter.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C005"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "479805c8a622464fc2b01d4f9e107bb5e9d67ea62de9a6183af92eb804d9cd30"
+        },
+        {
+          "jsonPointer": "/sections/1/table/rows/2",
+          "text": "Wolfie | Battle Pass exclusive | Patch 1.16; current-season and later acquisition are not specified here.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C007"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie availability",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "41ff3654e2aa55a4c9ad48c091f9cf4d1297cac738095fb1c23d7053d54e626f"
+        },
+        {
+          "jsonPointer": "/sections/1/table/rows/3",
+          "text": "Bishop | Premium | Undated official description; no price or exact unlock stated.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C019"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Bishop",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "a66751236f5d887e611fca26a27353a8476fcb5167382b310de51688aeb0f822"
+        },
+        {
+          "jsonPointer": "/sections/1/table/rows/4",
+          "text": "Fairy | Premium | Undated official description; no price or exact unlock stated.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C021"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S01",
+              "url": "https://castlebusters.com/",
+              "locator": "Choose your champion > Fairy",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "ca14083c84ef60abb97d7cc4626234c8018cf61a8560ec6f5581dad3a0a985fc"
+        },
+        {
+          "jsonPointer": "/sections/2/heading",
+          "text": "Keep the skill requirement with the choice",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "9ac51390c4cd52f5788221c973a8533a0660d2eff822732ac7f2ac6ac49ef085"
+        },
+        {
+          "jsonPointer": "/sections/2/paragraphs/0",
+          "text": "Choosing a hero does not by itself show that its skill condition is met. For Leif, keep both parts together: fallen allies in his row and an enemy kill by Leif.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C004",
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "b3fb1994331b28f5d1fa1c7dc7df9217d2a2d21f463fbc21ce9c9972229ce419"
+        },
+        {
+          "jsonPointer": "/sections/2/paragraphs/1",
+          "text": "Sir Rally also received a cast delay in patch 1.17. The delay is part of the later note; its duration is not specified.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C009"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 1",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "28c7d21f8c0a738cccf95d4cfbb61a0bab7ffb7db3d9ac66c46b20ef726f9bb6"
+        },
+        {
+          "jsonPointer": "/sections/2/table/rows/0",
+          "text": "Sir Rally | Allied heroes immediately around him | Their damage increases.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C002"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "5daa7838e9224d6676ec54c0a316c7d937746e0ec70fd3812de310c1d33a1f4b"
+        },
+        {
+          "jsonPointer": "/sections/2/table/rows/1",
+          "text": "Leif | Fallen allies in his row, followed by Leif killing an enemy unit | Those allies revive.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C004"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "fee33cb01cb9dc287fe993727f87c77b332f7019fd2e44155bb23fc95d84c30e"
+        },
+        {
+          "jsonPointer": "/sections/2/table/rows/2",
+          "text": "Wolfie | A neighboring ally dies | Wolfie transforms and gains attack strength.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "478883a4b5e17a4dc20d344af6d8df51ed70d5fb948658f972d23694890c87a9"
+        },
+        {
+          "jsonPointer": "/sections/3/heading",
+          "text": "Continue with the individual unit or formation rule",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "0d10c57b3f5af226a66394d64b9a3cd9c4108101358c36f596ac0edd508e4b9a"
+        },
+        {
+          "jsonPointer": "/sections/3/paragraphs/0",
+          "text": "The unit reference lists eight named attacks and skills, and the formation guide explains the three position-sensitive conditions. This page provides the capacity and conditions for comparing options; it does not supply a tested eight-unit team or named replacement chain.",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "ac61c018a90f13a1aeb7cd1a24a85ce01e664a85e81fc6b38f0119cb67d217f6"
+        }
+      ],
+      "acceptedClaimIdsUsed": [
+        "CB-C002",
+        "CB-C003",
+        "CB-C004",
+        "CB-C005",
+        "CB-C006",
+        "CB-C007",
+        "CB-C009",
+        "CB-C018",
+        "CB-C019",
+        "CB-C021"
+      ],
+      "unusedBriefClaimIds": [],
+      "sourceUsageLedger": {
+        "status": "draft_fields_only_rendered_total_pending",
+        "draftFieldOccurrences": [
+          {
+            "sourceUrl": "https://castlebusters.com/patch-notes-1-16/",
+            "fieldOccurrences": 11
+          },
+          {
+            "sourceUrl": "https://castlebusters.com/patch-notes-1-17/",
+            "fieldOccurrences": 1
+          },
+          {
+            "sourceUrl": "https://castlebusters.com/",
+            "fieldOccurrences": 7
+          }
+        ],
+        "limitation": "Counts are exact field mappings in this draft, not final rendered cumulative source words/occurrences. R16/R13 must account for repeated quick answer, metadata, schema, hidden branches and reused sitewide sources in real rendering.",
+        "navigationNotEvidence": [
+          {
+            "label": "Read next: Castle Busters Units: Eight Named Skills and Access Notes",
+            "url": "/guides/castle-busters-unit-database/"
+          },
+          {
+            "label": "Read next: Castle Busters Formation Rules: Sir Rally, Leif and Wolfie",
+            "url": "/guides/castle-busters-formation/"
+          }
+        ]
+      },
+      "visualPlanExecution": [
+        {
+          "sectionIndex": 0,
+          "heading": "Start with the unit limit",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": "castle-busters-guide-official-01",
+          "assetPurpose": "game_recognition_only",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V02",
+            "CB-V03",
+            "CB-V04",
+            "CB-V05"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 1,
+          "heading": "Compare the access conditions",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V02",
+            "CB-V03",
+            "CB-V04",
+            "CB-V05"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 2,
+          "heading": "Keep the skill requirement with the choice",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V02",
+            "CB-V03",
+            "CB-V04",
+            "CB-V05"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 3,
+          "heading": "Continue with the individual unit or formation rule",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V02",
+            "CB-V03",
+            "CB-V04",
+            "CB-V05"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        }
+      ],
+      "logoEvidence": {
+        "path": "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/public/images/official/castle-busters-guide-official-01.webp",
+        "sha256": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661",
+        "authorLocalVisualInspection": "Image depicts Castle Busters logo; inspected locally during R10. Not a browser QA or new rights approval.",
+        "newTaskMediaSelected": false,
+        "sourceLineageStatus": "Existing asset only; inherited rights/lineage independent review remains open."
+      },
+      "methodReviewAppendixB": {
+        "draftVersion": "writer_repair_castle_v2",
+        "successCriteriaMapping": [
+          {
+            "criterion": "能说出up to eight distinct；区分Sir Rally与Leif获取阶段；识别需同行击杀/邻友死亡的条件；不会把八个名单条目当最佳队。",
+            "locations": [
+              "/sections/0",
+              "/sections/1",
+              "/sections/2",
+              "/sections/3"
+            ],
+            "status": "author_implemented_pending_independent_review"
+          },
+          {
+            "criterion": "只验收收窄后的查表/理解任务；实际取得、装备、触发或战斗获胜没有在本次观察。",
+            "locations": [
+              "/sections/0",
+              "/sections/1",
+              "/sections/2",
+              "/sections/3"
+            ],
+            "status": "author_implemented_pending_independent_review"
+          }
+        ],
+        "deletions": "See removed; capacity single-row table converted to a sentence to avoid redundant structure. Formation separates rule explanation and fixes. Patch adds a focused per-action limit explanation.",
+        "newFactsIntroduced": false,
+        "internalLedger": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claim-audit.json",
+        "publicBoundaries": "Only partial roster, source-version access and absent exact-grid/team claim remain where they affect interpretation. No evidence workflow language in public draft."
+      },
+      "schemaAndRenderHandoff": {
+        "h1Source": "title field",
+        "schema": "Keep existing entity binding; visible content and structured data must use this replacement after independent review.",
+        "newField": "Section.table:{columns:string[],rows:string[][]} and Guide.relatedSlugs:string[]; R16 implementation pending.",
+        "internalNavigation": "Guide.relatedSlugs contains only existing same-site slugs; R16 renders a separate Related guides section. Sources contain factual citations only.",
+        "rawMarkdown": "Do not put pipe tables or Markdown links in paragraph strings. R16 must render structured table and sources links.",
+        "wordCountRule": "No minimum-word padding; old hard gate requires authorized migration."
+      },
+      "heldOriginalTasks": [
+        "真实完整八人配置及替代链",
+        "不能把数据库8个名字当配队"
+      ],
+      "openIssueIds": [
+        "CB-I01",
+        "CB-I02",
+        "CB-I03",
+        "CB-I04",
+        "CB-I05",
+        "CB-I06",
+        "CB-I07"
+      ],
+      "independentQa": "not_performed_author_cannot_sign"
+    },
+    {
+      "articleSlug": "castle-busters-formation",
+      "status": "author_draft_not_QA",
+      "briefId": "CB-R09-castle-busters-formation-v1",
+      "briefRef": {
+        "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/briefs.json",
+        "sha256": "fb6064a87adf8dd1d3fc11c5ba3b6ad24d335becf3382b2155789874b24d5e9e"
+      },
+      "inputGuideSha256": "612cb75cdac32d35d7ec2145f0dae17fd09119824b20b402c6e2d9626f0b39ad",
+      "outputGuideSha256": "b296618d3a7c848ba7a4ec0c9623b64da7bcaaae8fa8716aa9225238c751974f",
+      "markdownOutput": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/drafts/castle-busters-formation.md",
+      "preserved": {
+        "acceptedOriginalFacts": "Retained exact supported units/skills, capacity and dated official changes when in this article whitelist; correct facts are rewritten into useful rows rather than retaining boilerplate.",
+        "urls": "castle-busters-formation",
+        "existingLogo": "Same file/assetId retained, alt corrected to logo; no gameplay identity or skill proof inferred.",
+        "guideContract": "Existing Guide fields retained; Section.table and Guide.relatedSlugs are the only new fields; all sections still include heading and paragraphs."
+      },
+      "removed": [
+        "Wrong 1.16 Crabbo/Pharaoh/ZapZap/frontline/cat-row/directly-ahead attribution where present.",
+        "Unsupported role quotas, strongest lineup, substitution chains, precise geometry and implied playable builder.",
+        "Unwhitelisted anti-cheat/loading/date specifics in patch log; not declared false, only excluded from this bounded draft.",
+        "Repeated This claim is scoped / Verified point / Decision row / Field notes / generic verification and maintenance instructions.",
+        "Generic editorial decision graphic; no task value and not combat proof."
+      ],
+      "scopeChanges": "Titles/H1/description follow approved narrowed R09 brief; original full best-team/complete-roster/exact-foundation task remains unsatisfied and held.",
+      "claimMapping": [
+        {
+          "jsonPointer": "/title",
+          "text": "Castle Busters Formation Rules: Sir Rally, Leif and Wolfie",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "2fbed26fc4b91a2f9ea51d67a5aab7a9fb8fd6443aeb5746069b5df1a9a8d615"
+        },
+        {
+          "jsonPointer": "/description",
+          "text": "Compare the documented nearby-ally, same-row revival and neighboring-death rules, plus the placement fixes reported in patch 1.17.",
+          "kind": "metadata_scope_summary",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C004",
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "57328baeb8ee089284a7a1ad171b224decfcb4f12b83cf47559f59a4f5c9fac0"
+        },
+        {
+          "jsonPointer": "/quickAnswer",
+          "text": "Patch 1.16 describes three different formation conditions: Sir Rally boosts allied heroes immediately around him; Leif revives fallen allies in his row when he kills an enemy unit; Wolfie transforms after a neighboring ally dies. These rules do not specify an exact grid layout.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C004",
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "1855499d1a36630f8623005ad2f8af1b26c44f134530f3dae26d42388ff8513e"
+        },
+        {
+          "jsonPointer": "/sections/0/heading",
+          "text": "Match the hero to its formation condition",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "f23fd6ecac95acf72fd8101992c634e1c0fea8fff2b7ef6bcca477e559d4f5e2"
+        },
+        {
+          "jsonPointer": "/sections/0/paragraphs/0",
+          "text": "Read the required relationship or event before the effect. The three rows below follow the descriptions in patch 1.16.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C004",
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "15194b10dbadd8452c88b75d069916980cc491c57acb81ad16098d907443070f"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/0",
+          "text": "Sir Rally | Allied heroes immediately around him | Raises their damage.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C002"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "e4ede46624638e4dfcc9f304df67d64a72d9afd0aeb990e918abd14474c98a67"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/1",
+          "text": "Leif | Allies have fallen in his row; Leif kills an enemy unit | Revives those fallen allies.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C004"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "64d3bc224e29e0a7b39088f4120e05b44bef521dd504ac4279fcdc7dc6d88407"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/2",
+          "text": "Wolfie | A neighboring ally dies | Transforms and gains attack strength.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "618ecc4bbc6d8ffa8cba47ce71b776af8ba7572128da12a50d193a16f88cc233"
+        },
+        {
+          "jsonPointer": "/sections/0/visual/alt",
+          "text": "Castle Busters logo",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "bc9dd3f87feaebc192d44010f8aa4505dd758f1100fd9d5cd3155472c1b4e4c7"
+        },
+        {
+          "jsonPointer": "/sections/0/visual/caption",
+          "text": "Castle Busters.",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "2863a93f2935afed6a9eee7faced543ae323e99258b38f624c782edd2229fa20"
+        },
+        {
+          "jsonPointer": "/sections/1/heading",
+          "text": "Read the condition before assuming a position works",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "3b55d90b7456783e7d02088e59cc95aad68828ea31ac9bac0c7c182543c68eb1"
+        },
+        {
+          "jsonPointer": "/sections/1/paragraphs/0",
+          "text": "For Leif, being in the same row is only part of the description: his enemy kill is the stated trigger. For Wolfie, a neighboring ally’s death is the stated event. These are different conditions, so a generic “front row” label cannot explain both.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C004",
+            "CB-C006"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Leif",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Wolfie",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "e71955b13b7f702d9a0c3a116a49a8b0cdbe1433acd541afb07ae6d6f8b42773"
+        },
+        {
+          "jsonPointer": "/sections/1/paragraphs/1",
+          "text": "Sir Rally received a cast delay in patch 1.17. The notes here provide no delay duration, exact surrounding-cell pattern or tested diagonal placement. This guide explains the written relationships; it does not prescribe an exact grid.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C002",
+            "CB-C009"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes > Sir Rally",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 1",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "47265cc347c877973a0073f3bd848b5a0ff56ad7b2a1e332d0a0f5d8313ece24"
+        },
+        {
+          "jsonPointer": "/sections/2/heading",
+          "text": "Keep the 1.17 placement fixes separate",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "15ad0189f1489c13525a39ee26a243235bcb84eb3216cf670286471e8bf796bf"
+        },
+        {
+          "jsonPointer": "/sections/2/paragraphs/0",
+          "text": "Patch 1.17 reports fixes for the foundations interface disappearing during enemy turns and for unit placement after swaps.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C013",
+            "CB-C015"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 4",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 6",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "59a7b3b146e719867d21b26ee25276ff8c8b078dc757acf174d2e2e57feca8c3"
+        },
+        {
+          "jsonPointer": "/sections/2/table/rows/0",
+          "text": "Foundations interface | Fixed disappearing foundations UI during enemy turns. | This concerns the interface; it does not describe whether a building collapses.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C013"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 4",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "a607047cf87cd52949dace9e88751c8f6bb8bd214893cc42de3dd5e7237ac86b"
+        },
+        {
+          "jsonPointer": "/sections/2/table/rows/1",
+          "text": "Unit swaps | Fixed unit placement after swaps. | A placement bug fix does not identify the strongest formation.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C015"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 6",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "fc3e926b98dc86620d19898430743617d8e3245a1d35f322073f3033cac583c5"
+        },
+        {
+          "jsonPointer": "/sections/3/heading",
+          "text": "Look up access or the full patch entry",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "0ff81122946a48ebbc6eb6b207150e883b5a12a01f2c4c61fed4136a301e843c"
+        },
+        {
+          "jsonPointer": "/sections/3/paragraphs/0",
+          "text": "Use the unit reference for the named descriptions and access notes. The loadout conditions page compares the relevant requirements; the patch log groups the other changes from 1.17.",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "c93549ae3b4eefe0adbc30da97a77008547063b45a408a632a348b871e2f2bc9"
+        }
+      ],
+      "acceptedClaimIdsUsed": [
+        "CB-C002",
+        "CB-C004",
+        "CB-C006",
+        "CB-C009",
+        "CB-C013",
+        "CB-C015"
+      ],
+      "unusedBriefClaimIds": [],
+      "sourceUsageLedger": {
+        "status": "draft_fields_only_rendered_total_pending",
+        "draftFieldOccurrences": [
+          {
+            "sourceUrl": "https://castlebusters.com/patch-notes-1-16/",
+            "fieldOccurrences": 8
+          },
+          {
+            "sourceUrl": "https://castlebusters.com/patch-notes-1-17/",
+            "fieldOccurrences": 4
+          }
+        ],
+        "limitation": "Counts are exact field mappings in this draft, not final rendered cumulative source words/occurrences. R16/R13 must account for repeated quick answer, metadata, schema, hidden branches and reused sitewide sources in real rendering.",
+        "navigationNotEvidence": [
+          {
+            "label": "Read next: Castle Busters Units: Eight Named Skills and Access Notes",
+            "url": "/guides/castle-busters-unit-database/"
+          },
+          {
+            "label": "Read next: Castle Busters Loadout: Unit Limit and Hero Conditions",
+            "url": "/guides/castle-busters-eight-unit-loadout/"
+          },
+          {
+            "label": "Read next: Castle Busters Patch 1.17 and 1.16: Changes Explained",
+            "url": "/guides/patch-notes-and-balance-log/"
+          }
+        ]
+      },
+      "visualPlanExecution": [
+        {
+          "sectionIndex": 0,
+          "heading": "Match the hero to its formation condition",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": "castle-busters-guide-official-01",
+          "assetPurpose": "game_recognition_only",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V02",
+            "CB-V03",
+            "CB-V04",
+            "CB-V06"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 1,
+          "heading": "Read the condition before assuming a position works",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V02",
+            "CB-V03",
+            "CB-V04",
+            "CB-V06"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 2,
+          "heading": "Keep the 1.17 placement fixes separate",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V02",
+            "CB-V03",
+            "CB-V04",
+            "CB-V06"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 3,
+          "heading": "Look up access or the full patch entry",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V02",
+            "CB-V03",
+            "CB-V04",
+            "CB-V06"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        }
+      ],
+      "logoEvidence": {
+        "path": "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/public/images/official/castle-busters-guide-official-01.webp",
+        "sha256": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661",
+        "authorLocalVisualInspection": "Image depicts Castle Busters logo; inspected locally during R10. Not a browser QA or new rights approval.",
+        "newTaskMediaSelected": false,
+        "sourceLineageStatus": "Existing asset only; inherited rights/lineage independent review remains open."
+      },
+      "methodReviewAppendixB": {
+        "draftVersion": "writer_repair_castle_v2",
+        "successCriteriaMapping": [
+          {
+            "criterion": "能把英雄与正确关系和事件配对；Leif不漏击杀条件；不会把修复基础UI解释为基础不倒塌或把精确格子当已证。",
+            "locations": [
+              "/sections/0",
+              "/sections/1",
+              "/sections/2",
+              "/sections/3"
+            ],
+            "status": "author_implemented_pending_independent_review"
+          },
+          {
+            "criterion": "只验收收窄后的查表/理解任务；实际取得、装备、触发或战斗获胜没有在本次观察。",
+            "locations": [
+              "/sections/0",
+              "/sections/1",
+              "/sections/2",
+              "/sections/3"
+            ],
+            "status": "author_implemented_pending_independent_review"
+          }
+        ],
+        "deletions": "See removed; capacity single-row table converted to a sentence to avoid redundant structure. Formation separates rule explanation and fixes. Patch adds a focused per-action limit explanation.",
+        "newFactsIntroduced": false,
+        "internalLedger": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claim-audit.json",
+        "publicBoundaries": "Only partial roster, source-version access and absent exact-grid/team claim remain where they affect interpretation. No evidence workflow language in public draft."
+      },
+      "schemaAndRenderHandoff": {
+        "h1Source": "title field",
+        "schema": "Keep existing entity binding; visible content and structured data must use this replacement after independent review.",
+        "newField": "Section.table:{columns:string[],rows:string[][]} and Guide.relatedSlugs:string[]; R16 implementation pending.",
+        "internalNavigation": "Guide.relatedSlugs contains only existing same-site slugs; R16 renders a separate Related guides section. Sources contain factual citations only.",
+        "rawMarkdown": "Do not put pipe tables or Markdown links in paragraph strings. R16 must render structured table and sources links.",
+        "wordCountRule": "No minimum-word padding; old hard gate requires authorized migration."
+      },
+      "heldOriginalTasks": [
+        "精确格子/对角邻接/基础位置和同场前后证据"
+      ],
+      "openIssueIds": [
+        "CB-I01",
+        "CB-I02",
+        "CB-I03",
+        "CB-I04",
+        "CB-I05",
+        "CB-I06",
+        "CB-I07"
+      ],
+      "independentQa": "not_performed_author_cannot_sign"
+    },
+    {
+      "articleSlug": "patch-notes-and-balance-log",
+      "status": "author_draft_not_QA",
+      "briefId": "CB-R09-patch-notes-and-balance-log-v1",
+      "briefRef": {
+        "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/briefs.json",
+        "sha256": "fb6064a87adf8dd1d3fc11c5ba3b6ad24d335becf3382b2155789874b24d5e9e"
+      },
+      "inputGuideSha256": "4e339098a3022c4d5e66e6ffe612ebbceef662c17fe16f6664ceffb3f4b2b614",
+      "outputGuideSha256": "2cc8d03758d1072cb6d92bdeb64e2a77947bcc83be50d6eacd54bc89cf1a9a9f",
+      "markdownOutput": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/drafts/patch-notes-and-balance-log.md",
+      "preserved": {
+        "acceptedOriginalFacts": "Retained exact supported units/skills, capacity and dated official changes when in this article whitelist; correct facts are rewritten into useful rows rather than retaining boilerplate.",
+        "urls": "patch-notes-and-balance-log",
+        "existingLogo": "Same file/assetId retained, alt corrected to logo; no gameplay identity or skill proof inferred.",
+        "guideContract": "Existing Guide fields retained; Section.table and Guide.relatedSlugs are the only new fields; all sections still include heading and paragraphs."
+      },
+      "removed": [
+        "Wrong 1.16 Crabbo/Pharaoh/ZapZap/frontline/cat-row/directly-ahead attribution where present.",
+        "Unsupported role quotas, strongest lineup, substitution chains, precise geometry and implied playable builder.",
+        "Unwhitelisted anti-cheat/loading/date specifics in patch log; not declared false, only excluded from this bounded draft.",
+        "Repeated This claim is scoped / Verified point / Decision row / Field notes / generic verification and maintenance instructions.",
+        "Generic editorial decision graphic; no task value and not combat proof."
+      ],
+      "scopeChanges": "Titles/H1/description follow approved narrowed R09 brief; original full best-team/complete-roster/exact-foundation task remains unsatisfied and held.",
+      "claimMapping": [
+        {
+          "jsonPointer": "/title",
+          "text": "Castle Busters Patch 1.17 and 1.16: Changes Explained",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "7326dffff1f12465869c8418d0b2862fc7e268252189311d0670e6b508d209df"
+        },
+        {
+          "jsonPointer": "/description",
+          "text": "Read the named changes to Sir Rally, support, upgrades, placement and combat visuals in patch 1.17, with the hero additions and visual rollout in 1.16.",
+          "kind": "metadata_scope_summary",
+          "acceptedClaimIds": [
+            "CB-C001",
+            "CB-C009",
+            "CB-C010",
+            "CB-C011",
+            "CB-C012",
+            "CB-C013",
+            "CB-C014",
+            "CB-C015",
+            "CB-C016"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes; opening paragraph",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 1",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "In-Game Support",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Matchmaking",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 2",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 4",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 5",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 6",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 7",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "8e96e6292bef6c5d76ba78acb0006c4a9e6bf8cc880b43b982a90cd6201d541c"
+        },
+        {
+          "jsonPointer": "/quickAnswer",
+          "text": "Patch 1.17 reports a Sir Rally cast delay, Settings support and Help Center access, a matchmaking test, removal of the 40-level limit per upgrade action, and several placement, healing and visual fixes. Patch 1.16 introduced Sir Rally, Leif and Wolfie.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C001",
+            "CB-C009",
+            "CB-C010",
+            "CB-C011",
+            "CB-C012",
+            "CB-C013",
+            "CB-C014",
+            "CB-C015",
+            "CB-C016"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes; opening paragraph",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 1",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "In-Game Support",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Matchmaking",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 2",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 4",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 5",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 6",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 7",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "ec518a613d17de06c427ca03d21248dfd92fa87037e3861a4191bc6f5efe9829"
+        },
+        {
+          "jsonPointer": "/sections/0/heading",
+          "text": "Patch 1.17: changes by system",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "b09c542a40549d2843cfe4ea15d09a8b43df35eebfa662464585afe01a9a26e0"
+        },
+        {
+          "jsonPointer": "/sections/0/paragraphs/0",
+          "text": "Use the system column to find the change that affects your question. These entries summarize the official release notes; they do not confirm the installed build or the outcome on a particular account.",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "b1f6ed219eca61dfb2dbd593415c9221b2b54a6a11f7096cd1d8099743f9281d"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/0",
+          "text": "Sir Rally | Adds a cast delay. | No delay duration is stated.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C009"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 1",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "aa9eb1de4683540df749c21d60e8d9956b47196098ea404ae5d637eeae306d9d"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/1",
+          "text": "Support | Adds support contact and a Help Center in Settings. | Settings is the documented entry; an exact sequence of buttons is not given here.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C010"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "In-Game Support",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "0c2ed0536baf2af1616db58b158f2c6cfa8d2a72c83eed9ae73da00375d8754f"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/2",
+          "text": "Matchmaking | Tests revised matchmaking. | The matching formula is not specified.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C011"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Matchmaking",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "fc2e03c20b46a04c63dce7af69892ee02801d4221f2eb40df83076655e1dfc55"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/3",
+          "text": "Unit upgrades | Removes the limit of 40 unit levels per upgrade action. | 40 refers to the former single-action increment, not the unit’s maximum level.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C012"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 2",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "4a5839c7601e2c2d16363d01e11e8d82273af869fc216dbb17b48b037b89bd69"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/4",
+          "text": "Foundations interface | Fixes foundations UI disappearing during enemy turns. | The note concerns the interface, not a building’s physical survival.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C013"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 4",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "d0495bd29c1577094004fae1c7f301efd6c9566a09c2651ffb8bb01e076f4955"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/5",
+          "text": "Utility healing | Fixes healing in certain situations. | The note does not give a universal healing guarantee.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C014"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 5",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "d8f91920708daa4e1641cebac8583244a84e25c8382c04297b3108ddf15f6f37"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/6",
+          "text": "Unit placement | Fixes placement after swaps. | The named case is placement following a swap.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C015"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 6",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "9a302141ed0abfffa257ed79bf0c7827c14116008157c9cada9dcc07dfed3c9d"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/7",
+          "text": "Poison-cloud visuals | Makes the cloud visuals match the attack radius. | This is a visual correction, not a stated damage or radius increase.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C016"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 7",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "d787526044f88c308a3703a09172072d394681a136f8553a8e738db39b4cdd22"
+        },
+        {
+          "jsonPointer": "/sections/0/table/rows/8",
+          "text": "Bots | Fixes bots leaving the map edge. | It does not say bots have been removed from the game.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C017"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 10",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "298348edc8d5b17250c437b1b92638a6669cef23bdab54be26c6e87044b04a0f"
+        },
+        {
+          "jsonPointer": "/sections/0/visual/alt",
+          "text": "Castle Busters logo",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "bc9dd3f87feaebc192d44010f8aa4505dd758f1100fd9d5cd3155472c1b4e4c7"
+        },
+        {
+          "jsonPointer": "/sections/0/visual/caption",
+          "text": "Castle Busters.",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "2863a93f2935afed6a9eee7faced543ae323e99258b38f624c782edd2229fa20"
+        },
+        {
+          "jsonPointer": "/sections/1/heading",
+          "text": "The upgrade limit is about a single action",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "c1dd5f04f0696d0dd8a7971a4ad15b8005fc45dcd6f688f6e29c34b1f5efdfe3"
+        },
+        {
+          "jsonPointer": "/sections/1/paragraphs/0",
+          "text": "The number 40 describes how many unit levels the old upgrade action could add at once. Patch 1.17 announces the removal of that per-action limit. It does not announce a new maximum unit level, cheaper upgrades or free levels.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C012"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S03",
+              "url": "https://castlebusters.com/patch-notes-1-17/",
+              "locator": "Bug Fixes bullet 2",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "f0ab7e158865b0bd4c7d76e9a666b7ebf7c491712a78c65eb2d0a31c55466548"
+        },
+        {
+          "jsonPointer": "/sections/2/heading",
+          "text": "Patch 1.16: heroes and updated visuals",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "e31b6f06e6a39529a36bb469c312874ce85b70368732097c628f21b3413ed6da"
+        },
+        {
+          "jsonPointer": "/sections/2/paragraphs/0",
+          "text": "Patch 1.16 introduced Sir Rally, Leif and Wolfie and says the updated hero visuals had finished rolling out. Keep those names with the 1.16 record when comparing an older unit description or portrait.",
+          "kind": "game_statement",
+          "acceptedClaimIds": [
+            "CB-C001",
+            "CB-C008"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes; opening paragraph",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            },
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "Opening visual overhaul paragraphs",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "2c954cc0671050fceb2679c510ebd17afd9097949aa721301a696b68b97e519c"
+        },
+        {
+          "jsonPointer": "/sections/2/table/rows/0",
+          "text": "New heroes | Sir Rally, Leif and Wolfie.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C001"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "New Heroes; opening paragraph",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "4eb94bc0603aa35c20050353bdee07ad0182b4b524746eed18164eb790c03478"
+        },
+        {
+          "jsonPointer": "/sections/2/table/rows/1",
+          "text": "Hero visuals | The updated hero visuals finished rolling out.",
+          "kind": "table_row",
+          "acceptedClaimIds": [
+            "CB-C008"
+          ],
+          "sourceRefs": [
+            {
+              "sourceId": "S02",
+              "url": "https://castlebusters.com/patch-notes-1-16/",
+              "locator": "Opening visual overhaul paragraphs",
+              "evidenceRef": {
+                "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/source-verification.json",
+                "sha256": "4c1ff4a931cd710403c506c179d72804d9d8d1ad3e1ce9bf16178c26bdec9d1a"
+              }
+            }
+          ],
+          "textSha256": "c03436c38bf05fca3c93b37743f44abe02997a9e374936398de27015f996145f"
+        },
+        {
+          "jsonPointer": "/sections/3/heading",
+          "text": "Read the affected guide",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "97b987f628cc7bcd4e9bd9196904cf87b3001c865228f92773a98669238579f9"
+        },
+        {
+          "jsonPointer": "/sections/3/paragraphs/0",
+          "text": "The unit reference covers the named hero descriptions. The formation rules page explains their position-sensitive conditions and the placement-related notes. Use those pages for the detail behind a hero or formation question.",
+          "kind": "editorial_scope_or_navigation_no_new_game_fact",
+          "acceptedClaimIds": [],
+          "sourceRefs": [],
+          "textSha256": "43ab584264ae7ff09fcc55b124238d8d38b306d7966ee316f27fca8f9b9ac73a"
+        }
+      ],
+      "acceptedClaimIdsUsed": [
+        "CB-C001",
+        "CB-C008",
+        "CB-C009",
+        "CB-C010",
+        "CB-C011",
+        "CB-C012",
+        "CB-C013",
+        "CB-C014",
+        "CB-C015",
+        "CB-C016",
+        "CB-C017"
+      ],
+      "unusedBriefClaimIds": [],
+      "sourceUsageLedger": {
+        "status": "draft_fields_only_rendered_total_pending",
+        "draftFieldOccurrences": [
+          {
+            "sourceUrl": "https://castlebusters.com/patch-notes-1-16/",
+            "fieldOccurrences": 5
+          },
+          {
+            "sourceUrl": "https://castlebusters.com/patch-notes-1-17/",
+            "fieldOccurrences": 12
+          }
+        ],
+        "limitation": "Counts are exact field mappings in this draft, not final rendered cumulative source words/occurrences. R16/R13 must account for repeated quick answer, metadata, schema, hidden branches and reused sitewide sources in real rendering.",
+        "navigationNotEvidence": [
+          {
+            "label": "Read next: Castle Busters Units: Eight Named Skills and Access Notes",
+            "url": "/guides/castle-busters-unit-database/"
+          },
+          {
+            "label": "Read next: Castle Busters Formation Rules: Sir Rally, Leif and Wolfie",
+            "url": "/guides/castle-busters-formation/"
+          }
+        ]
+      },
+      "visualPlanExecution": [
+        {
+          "sectionIndex": 0,
+          "heading": "Patch 1.17: changes by system",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": "castle-busters-guide-official-01",
+          "assetPurpose": "game_recognition_only",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V09"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 1,
+          "heading": "The upgrade limit is about a single action",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V09"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 2,
+          "heading": "Patch 1.16: heroes and updated visuals",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V09"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        },
+        {
+          "sectionIndex": 3,
+          "heading": "Read the affected guide",
+          "visualNeed": "none_for_rules_or_patch_lookup",
+          "requiredNewScreenshots": false,
+          "retainedAssetId": null,
+          "assetPurpose": "not_applicable",
+          "exceptionProposal": "Visible exact-name and condition/change text resolves this bounded lookup. No unidentified UI, precise grid or demonstrated trigger is promised.",
+          "exceptionStatus": "pending_independent_R20_review",
+          "mobileAcceptance": "R16 renders real table; R15/R20 inspect names/conditions at 390x844 and 412x915, table-only scroll with no page overflow.",
+          "heldOriginalTaskVisualRequests": [
+            "CB-V09"
+          ],
+          "placement": "table near its explanation; retained logo is recognition only, may be reduced/omitted by independently reviewed layout."
+        }
+      ],
+      "logoEvidence": {
+        "path": "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/public/images/official/castle-busters-guide-official-01.webp",
+        "sha256": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661",
+        "authorLocalVisualInspection": "Image depicts Castle Busters logo; inspected locally during R10. Not a browser QA or new rights approval.",
+        "newTaskMediaSelected": false,
+        "sourceLineageStatus": "Existing asset only; inherited rights/lineage independent review remains open."
+      },
+      "methodReviewAppendixB": {
+        "draftVersion": "writer_repair_castle_v2",
+        "successCriteriaMapping": [
+          {
+            "criterion": "能查到1.17九项变更；把40解释为旧单次升级级数限制；毒云是视觉修正；支持只给Settings；区分官方修复声明与当前账号实测。",
+            "locations": [
+              "/sections/0",
+              "/sections/1",
+              "/sections/2",
+              "/sections/3"
+            ],
+            "status": "author_implemented_pending_independent_review"
+          },
+          {
+            "criterion": "只验收收窄后的查表/理解任务；实际取得、装备、触发或战斗获胜没有在本次观察。",
+            "locations": [
+              "/sections/0",
+              "/sections/1",
+              "/sections/2",
+              "/sections/3"
+            ],
+            "status": "author_implemented_pending_independent_review"
+          }
+        ],
+        "deletions": "See removed; capacity single-row table converted to a sentence to avoid redundant structure. Formation separates rule explanation and fixes. Patch adds a focused per-action limit explanation.",
+        "newFactsIntroduced": false,
+        "internalLedger": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claim-audit.json",
+        "publicBoundaries": "Only partial roster, source-version access and absent exact-grid/team claim remain where they affect interpretation. No evidence workflow language in public draft."
+      },
+      "schemaAndRenderHandoff": {
+        "h1Source": "title field",
+        "schema": "Keep existing entity binding; visible content and structured data must use this replacement after independent review.",
+        "newField": "Section.table:{columns:string[],rows:string[][]} and Guide.relatedSlugs:string[]; R16 implementation pending.",
+        "internalNavigation": "Guide.relatedSlugs contains only existing same-site slugs; R16 renders a separate Related guides section. Sources contain factual citations only.",
+        "rawMarkdown": "Do not put pipe tables or Markdown links in paragraph strings. R16 must render structured table and sources links.",
+        "wordCountRule": "No minimum-word padding; old hard gate requires authorized migration."
+      },
+      "heldOriginalTasks": [
+        "实际平台版本及症状重现；精确按钮路线"
+      ],
+      "openIssueIds": [
+        "CB-I01",
+        "CB-I02",
+        "CB-I03",
+        "CB-I04",
+        "CB-I05",
+        "CB-I06",
+        "CB-I07"
+      ],
+      "independentQa": "not_performed_author_cannot_sign"
+    }
+  ],
+  "issues": [
+    {
+      "id": "CB-I01",
+      "nextAction": "R06逐条裁决并交R13独立复验",
+      "summary": "3核心页1.16单位/位置机制与官方冲突"
+    },
+    {
+      "id": "CB-I02",
+      "nextAction": "基于accepted Claims重做Brief与任务验收",
+      "summary": "数据库/8人页缺具名可操作产物，重复泛说明"
+    },
+    {
+      "id": "CB-I03",
+      "nextAction": "R11按具体对象采图并由独立角色手机复验",
+      "summary": "未做客户端实测/真实任务采图/浏览器视觉QA"
+    },
+    {
+      "id": "CB-I04",
+      "nextAction": "授权SEO技术复核，当前HTTP跳转无明显异常",
+      "summary": "公共页同title；历史查询落About/HTTP原因未证"
+    },
+    {
+      "id": "CB-I05",
+      "nextAction": "当前平台版本逐项补证，不凑完整表",
+      "summary": "完整名单、数值、8人配置、Forge奖励门槛未知"
+    },
+    {
+      "id": "CB-I06",
+      "nextAction": "下一轮定向补足并据真实T0观察",
+      "summary": "最新生产版本映射、固定SERP/PAA/视频/Discord未核验"
+    },
+    {
+      "id": "CB-I07",
+      "nextAction": "R16按现行合同迁移为字数提醒并绑定真实独立任务证据；此项由R01复核关闭。",
+      "summary": "R01本轮报告旧站将少于1000词作硬失败，与OWN-072冲突；R09不为旧脚本补泛话。"
+    }
+  ],
+  "resolvedIssues": [],
+  "validationBoundary": "Whitelist, object shape, exact data values and artifact hashes are author checks; no fact/SEO/visual/task/QA sign-off."
+}

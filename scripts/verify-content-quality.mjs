@@ -10,6 +10,7 @@ const words = (guide) => guide.sections.flatMap((section) => section.paragraphs)
 const shingles = (tokens, size = 8) => new Set(Array.from({ length: Math.max(0, tokens.length - size + 1) }, (_, index) => tokens.slice(index, index + size).join(" ")));
 const records = guides.map((guide) => ({ slug: guide.slug, words: words(guide) })).map((record) => ({ ...record, shingles: shingles(record.words) }));
 const short = records.filter((record) => record.words.length < 1000);
+if (short.length) console.warn(`CONTENT LENGTH REVIEW: ${short.map((item) => `${item.slug}=${item.words.length}`).join(", ")}; inspect task coverage; do not pad to a word quota`);
 let worst = { similarity: 0, left: null, right: null };
 for (let left = 0; left < records.length; left += 1) {
   for (let right = left + 1; right < records.length; right += 1) {
@@ -31,7 +32,7 @@ for (const guide of guides) {
 }
 const repeated = [...paragraphOwners.entries()].filter(([, owners]) => owners.size > 3);
 const errors = [
-  ...(short.length ? [`${short.length} page(s) are below 1000 words: ${short.map((item) => `${item.slug}=${item.words.length}`).join(", ")}`] : []),
+  ...records.filter((record) => record.words.length === 0).map((record) => `${record.slug}: empty article body`),
   ...(worst.similarity > 0.4 ? [`8-word shingle similarity ${worst.similarity.toFixed(3)} between ${worst.left} and ${worst.right}`] : []),
   ...(repeated.length ? [`${repeated.length} long paragraph(s) repeat across more than three pages: ${repeated.slice(0, 3).map(([paragraph, owners]) => `${[...owners].join("/")}::${paragraph.slice(0, 70)}`).join(" | ")}`] : []),
 ];

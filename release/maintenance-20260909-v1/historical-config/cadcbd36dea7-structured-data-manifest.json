@@ -1,0 +1,311 @@
+{
+  "schemaVersion": "seo-geo.structured-data.v1",
+  "pages": [
+    {
+      "route": "/guides/castle-busters-beginner-route/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/castle-busters-unit-database/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/castle-busters-eight-unit-loadout/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/castle-busters-formation/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/upgrade-materials-priority/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/patch-notes-and-balance-log/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/unit-roles-explained/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/frontline-backline-placement/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/damage-control-support-balance/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/early-team-without-rare-units/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/arena-counter-checklist/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/castle-defense-objective/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/wheels-and-helper-items/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/upgrade-breakpoints-stop-rules/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/replace-a-missing-unit/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/formation-failure-symptoms/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/account-start-and-reroll-check/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/team-testing-worksheet/",
+      "baseTypes": [
+        "Article",
+        "BreadcrumbList"
+      ],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": [
+        "quickAnswer",
+        "sections",
+        "sources"
+      ],
+      "conditionalTypes": []
+    }
+  ]
+}

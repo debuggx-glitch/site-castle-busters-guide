@@ -1,0 +1,121 @@
+{
+  "schema": "castle-current-maintenance-binding.v1",
+  "createdAt": "2026-09-09T05:05:17.903998+00:00",
+  "site": "castlebustersguide.com",
+  "mode": "four_existing_articles_bounded_maintenance",
+  "preparedBy": "/root/brief_wardogs R16",
+  "scopeEvidenceRef": {
+    "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/release/maintenance-20260909-v1/maintenance-evidence.json",
+    "sha256": "2faead83bb718d24deace2e6a83c7c6fef108506f72e56ed9511e187bb97cb96"
+  },
+  "logoSupplementRef": {
+    "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/release/maintenance-20260909-v1/logo-review-evidence.json",
+    "sha256": "3293724dcd7daefe744b784040a085bccbd2c5496e62a316a566148a89515af5"
+  },
+  "currentSourceHashes": {
+    "app/layout.tsx": "3db3c52bd72cc69ef65f06048b6f7b20a3ad1307f84e238c733d735687cb3682",
+    "app/page.tsx": "31e6731cf69eeecd67e0dbea199707d224905be250022b1dc17d9a160230719e",
+    "app/contact/page.tsx": "906411d28fb4f98a1bc91834458c7b30be4b27030cff94924f04527cde3ff84e",
+    "app/privacy/page.tsx": "4c62b9542ae6a08b8619291816b19e7696b8764afd21d71c0bbc35993842419a",
+    "app/about/page.tsx": "7b2d476d10acb19a23705ca16774e7897602edc6a404969a770213b3e6cb193a",
+    "app/guides/[slug]/page.tsx": "1f88cf93ff48009aa7ce9be0da0f547dd6c033db1080b671927c38bf364449cc",
+    "app/responsive.css": "d48b0ddd69362dab3719e8e2519394d788f5881b6731617dff9ac628a36e862b",
+    "app/globals.css": "d4427dff1893a4135372a1d74a460c477bc8cde8ed8fdd1dec203a26fd216e69",
+    "components/telemetry.tsx": "acad30e6c235e394783b7c5627b5589eda1b86d2eb3206f4e1fff99a346ad1c3",
+    "components/structured-data.tsx": "8687c2bb0e0729d202f7b663be1f21bc837d4cead6bc41be688dcb1b13e38613",
+    "components/content-scroll-tracker.tsx": "668da811ad8fec92e9904e5b00c671d59c0907f1f5912cc690e0b4acff616fed",
+    "components/ad-placements.tsx": "93b5618f23b90893a348b5813fccdbb61e171857388ce5f12656b87cfc587129",
+    "lib/site.ts": "5f5292073d75b355b75356b69cb95de43f5543601b51f0a1fe59b961d89d040b",
+    "lib/adsterra.ts": "6df86261ae12a549d77eb3297a552d64cde5e924a0dc080e3b1c40bd551f158c",
+    "lib/guides.ts": "492201f95d9b974d8e2b596721004e4d5ec05d645a1f843da717f16841f8436f",
+    "scripts/verify-seo-geo-release.mjs": "c110fe4aa6c7de6700ddef8c19d7b7225812b30dc424d4ab855e4175d7f86998",
+    "scripts/verify-design-contract.mjs": "186c1966a0bb81e52de1631cf2220c6066c69fd8284e90bc2ee6c73b80662f49",
+    "scripts/verify-content-quality.mjs": "662ff7aa1577a6a27b99310d731b7c21577e33e02f43357b7c889bc768af3544",
+    "scripts/verify-content-assets.mjs": "f003c09b3a1ad1e29212b143ff9543008b0584080833b5bd1541dcd45495e868",
+    "scripts/verify-seo-metadata.mjs": "21b9d541027e905f6a49b0e72795d085ed5363fb8949469ceafd23c7067b39b6",
+    "scripts/verify-site-release.mjs": "38dbc1e361ee952f3079e0d5e22459539bd94e98e6a78e48d585a341ffdef9f9",
+    "scripts/verify-adsterra-config.mjs": "837ad5039e013cf0b136c3267856b3e977ee88fb4645a76486aa643adbf1e215",
+    "config/structured-data-manifest.json": "cadcbd36dea75995a5cdc9234ff384d3ee67c5a64a23573f8d654e38142d361c",
+    "config/adsterra.json": "24dde32c1f8a3614242cf3778de5c704106eb907b3bc794e7122625c749dc17b",
+    "config/release.json": "48431d23d0430f0da4a7ba505becf9e871f08ae75682a09eddea707f109fc7b7",
+    "config/game-entity.json": "6c8b109f20905f0291ac0004db0de63c2c5783e75952cafc8352b82689b77ee6",
+    "config/design-contract.json": "7d73421186d69368f563d8b3a1b8d9a1de1e159a7606a4a890262f0e0fb3d396",
+    "package.json": "bbdfd21813b9ee4b9d7ede2375ed120579df99886c447e5df8c6e42757aa4a00",
+    "pnpm-lock.yaml": "55bf4b374a47edd37716b02b006949f4a72d1900867c08b9b9591fbc1b410755",
+    "app/robots.ts": "107ec4c1623aff1f5ad079e9016df9d41b873c42603f5361c82e463ab90cd01b",
+    "app/sitemap.ts": "2c2d231c04c3a9635d41aa21ff747daaaf06229eb9d9c2c639c6952519c36fe9",
+    "next.config.ts": "2b9f66afa2c12d82bf5ccb810c01842fc6df7ce6e00c7a9cd748ed249de26c30"
+  },
+  "sourceHashesUnchangedThroughReleaseCheck": true,
+  "check": {
+    "command": "pnpm check:release",
+    "exitCode": 0,
+    "logRef": {
+      "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/release/maintenance-20260909-v1/maintenance-check-release-v1.log",
+      "sha256": "221ef8e8ba071e0a75a1d53754784760e0100eaf47194d101a6398b2951e86b3"
+    },
+    "gatesPassed": [
+      "typecheck",
+      "release configuration",
+      "design contract",
+      "ad configuration",
+      "content assets",
+      "content quality",
+      "SEO metadata",
+      "SEO+GEO",
+      "Next static build"
+    ],
+    "pagesChecked": 18,
+    "visualRecordsChecked": 32,
+    "maxSimilarity": 0.348,
+    "nextGeneratedPages": 27,
+    "warningsRetained": [
+      "Four reviewed articles have one visual; no image quota padding.",
+      "Four narrow corrections below 1000 counted paragraph words; no word quota padding."
+    ],
+    "machineCheckIsNotWholeSiteFactOrTaskReview": true
+  },
+  "static404": {
+    "fileRef": {
+      "path": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/out/404.html",
+      "sha256": "92f23aa8427ba0f2f571aa82858373c215148ad55d39202d1c5334c9815d09a9"
+    },
+    "has404Text": true,
+    "robotsMetaTags": [
+      "<meta name=\"robots\" content=\"noindex\"/>",
+      "<meta name=\"robots\" content=\"index, follow\"/>"
+    ],
+    "noindexTagPresent": true,
+    "inheritedIndexFollowTagAlsoPresent": true,
+    "runtimeHttpStatusChecked": false,
+    "visualReview": "pending_independent_parent_supplied_evidence"
+  },
+  "remaining": [
+    {
+      "id": "CB-VP-02",
+      "status": "open_original_three_core_tasks",
+      "scope": "Not closed by this limited maintenance."
+    },
+    {
+      "id": "CB-VP-03",
+      "status": "open_inherited_fourteen_article_quality",
+      "scope": "Unchanged object and rendered regression only; no new whole-page factual/task PASS."
+    },
+    {
+      "id": "404-render-runtime",
+      "status": "pending_independent_evidence",
+      "scope": "Three-size visual and runtime404 evidence supplied by root separately; static findings recorded above."
+    },
+    {
+      "id": "production-acceptance",
+      "status": "not_performed",
+      "scope": "No push, deploy, public-domain runtime, ads or analytics acceptance performed."
+    }
+  ],
+  "historicalPreparationState": "The earlier scope evidence recorded a pending check before execution; this current binding records the actual subsequent result without rewriting it.",
+  "currentFactReviewMeaning": "Four edited Guide objects have R13 accepted-whitelist text review only; no current-client/full-roster/team/placement task certification. Fourteen other objects have exact-object inheritance plus separately scoped rendered regression.",
+  "whole18FreshTaskPass": false,
+  "originalThreeCoreCompleted": false,
+  "productionAccepted": false,
+  "pushPerformed": false
+}

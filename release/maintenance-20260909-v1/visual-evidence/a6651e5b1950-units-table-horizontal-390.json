@@ -1,0 +1,13 @@
+{
+  "client": 375,
+  "tables": [
+    {
+      "caption": "Look up a unit by name",
+      "clientWidth": 337,
+      "scrollLeft": 343,
+      "scrollWidth": 680
+    }
+  ],
+  "url": "http://127.0.0.1:8382/guides/castle-busters-unit-database/",
+  "width": 390
+}

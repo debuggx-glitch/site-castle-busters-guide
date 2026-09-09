@@ -1,0 +1,282 @@
+[
+  {
+    "client": 1440,
+    "h1": "Castle Busters Beginner Progression Route",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-beginner-route/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-castle-busters-beginner-route-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Upgrade Materials and Resource Priority",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/upgrade-materials-priority/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-upgrade-materials-priority-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Castle Busters Unit Roles Explained",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/unit-roles-explained/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-unit-roles-explained-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Frontline and Backline Placement Guide",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/frontline-backline-placement/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-frontline-backline-placement-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Damage, Control, and Support Unit Balance",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/damage-control-support-balance/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-damage-control-support-balance-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Early Game Team Without Rare Units",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/early-team-without-rare-units/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-early-team-without-rare-units-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Arena Loadout and Counter Checklist",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/arena-counter-checklist/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-arena-counter-checklist-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Castle Defense Objective Guide",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/castle-defense-objective/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-castle-defense-objective-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Wheel and Auxiliary Item Priorities",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/wheels-and-helper-items/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-wheels-and-helper-items-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Unit Upgrade Breakpoints and Stop Rules",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/upgrade-breakpoints-stop-rules/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-upgrade-breakpoints-stop-rules-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "How to Replace a Missing Recommended Unit",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/replace-a-missing-unit/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-replace-a-missing-unit-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Common Formation Failure Symptoms",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/formation-failure-symptoms/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-formation-failure-symptoms-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Castle Busters Reroll and Account Start Guide",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/account-start-and-reroll-check/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-account-start-and-reroll-check-1440.png"
+  },
+  {
+    "client": 1440,
+    "h1": "Versioned Team Testing Worksheet",
+    "height": 1000,
+    "pendingImages": 0,
+    "scroll": 1440,
+    "url": "http://127.0.0.1:8382/guides/team-testing-worksheet/",
+    "width": 1440,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-team-testing-worksheet-1440.png"
+  },
+  {
+    "client": 390,
+    "h1": "Castle Busters Beginner Progression Route",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/castle-busters-beginner-route/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-castle-busters-beginner-route-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Upgrade Materials and Resource Priority",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/upgrade-materials-priority/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-upgrade-materials-priority-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Castle Busters Unit Roles Explained",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/unit-roles-explained/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-unit-roles-explained-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Frontline and Backline Placement Guide",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/frontline-backline-placement/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-frontline-backline-placement-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Damage, Control, and Support Unit Balance",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/damage-control-support-balance/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-damage-control-support-balance-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Early Game Team Without Rare Units",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/early-team-without-rare-units/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-early-team-without-rare-units-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Arena Loadout and Counter Checklist",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/arena-counter-checklist/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-arena-counter-checklist-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Castle Defense Objective Guide",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/castle-defense-objective/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-castle-defense-objective-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Wheel and Auxiliary Item Priorities",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/wheels-and-helper-items/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-wheels-and-helper-items-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Unit Upgrade Breakpoints and Stop Rules",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/upgrade-breakpoints-stop-rules/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-upgrade-breakpoints-stop-rules-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "How to Replace a Missing Recommended Unit",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/replace-a-missing-unit/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-replace-a-missing-unit-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Common Formation Failure Symptoms",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/formation-failure-symptoms/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-formation-failure-symptoms-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Castle Busters Reroll and Account Start Guide",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/account-start-and-reroll-check/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-account-start-and-reroll-check-390.png"
+  },
+  {
+    "client": 390,
+    "h1": "Versioned Team Testing Worksheet",
+    "height": 844,
+    "pendingImages": 0,
+    "scroll": 390,
+    "url": "http://127.0.0.1:8382/guides/team-testing-worksheet/",
+    "width": 390,
+    "path": "/private/tmp/five-site-qa-20260909/castle/regression-final-team-testing-worksheet-390.png"
+  }
+]

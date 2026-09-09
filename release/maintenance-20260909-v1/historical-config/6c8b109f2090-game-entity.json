@@ -1,0 +1,31 @@
+{
+  "schemaVersion": "seo-geo.game-entity.v1",
+  "requiredTypes": [
+    "WebSite",
+    "Organization",
+    "VideoGame"
+  ],
+  "website": {
+    "entityId": "https://castlebustersguide.com/#website",
+    "name": "Castle Busters Guide",
+    "url": "https://castlebustersguide.com/"
+  },
+  "organization": {
+    "entityId": "https://castlebustersguide.com/#organization",
+    "name": "Castle Busters Guide Editorial Team",
+    "url": "https://castlebustersguide.com/about/",
+    "fictionalExpertPersonasAllowed": false
+  },
+  "game": {
+    "schemaType": "VideoGame",
+    "entityId": "https://castlebustersguide.com/#video-game",
+    "name": "Castle Busters",
+    "url": "https://castlebusters.com/",
+    "publisher": "Epicoro Games"
+  },
+  "crawlerPolicy": {
+    "Googlebot": "allow",
+    "OAI-SearchBot": "allow",
+    "PerplexityBot": "allow"
+  }
+}

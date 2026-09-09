@@ -1,0 +1,42 @@
+{
+  "schema": "independent-editorial-review.v1",
+  "reviewerInstanceId": "root-r14-r15-20260909",
+  "author": false,
+  "inputRefs": [
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/replacements.json",
+      "sha256": "312b410c506a823b04dadb3d45cb81cb5f08cfb10d31b2d5c1bb530832eab2ab"
+    }
+  ],
+  "checkedAt": "2026-09-08T22:14:41.357257+00:00",
+  "articleSlugs": [
+    "castle-busters-unit-database",
+    "castle-busters-eight-unit-loadout",
+    "castle-busters-formation",
+    "patch-notes-and-balance-log"
+  ],
+  "R14": {
+    "status": "pass_draft_scope",
+    "checks": [
+      "Reviewed title, description, quick answer, every section paragraph and table.",
+      "Promises narrowed to supplied evidence; existing routes retained; no new thin pages.",
+      "Tables provide named facts and version limits, with adjacent useful existing-guide navigation."
+    ],
+    "pending": [
+      "Rendered metadata/schema/link validation.",
+      "Three changed Core pages still need independent player task validation against the existing Core contract; partial unit reference is not a complete roster or tested eight-unit team."
+    ]
+  },
+  "R15_pre_render": {
+    "status": "pass_draft_scope",
+    "checks": [
+      "Concrete named content replaces generic filler without a word quota.",
+      "No internal QA verdict or production workflow in public copy.",
+      "Factual limitations are stated at the affected lookup or platform comparison."
+    ],
+    "pending": [
+      "Actual desktop and mobile visuals and public-surface review."
+    ]
+  },
+  "releaseAllowed": false
+}

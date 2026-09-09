@@ -1,0 +1,121 @@
+{
+  "taskId": "writer_repair_castle_v2",
+  "status": "partial",
+  "summary": "4篇完整纠错稿已交付Guide数组、Markdown和逐字段Claim/VisualPlan审计。数据库8行、收窄配队承诺、三英雄条件纠错、1.16/1.17变更；保留原URL与识别logo。站库未改，7问题保持开放，表格渲染与独立QA待下游。",
+  "checkedScope": [
+    "当前4篇已批准Brief与原文哈希",
+    "4篇完整Guide/Markdown，42个Brief白名单范围内逐字段和表行映射",
+    "标题范围与真实内容、错误归因清理、无泛文凑字数",
+    "本地识别旧图为logo，VisualPlan无新增截图例外提案及原任务hold范围",
+    "R16并行类型变更后，4篇原文对象哈希仍与R10输入完全相同；完整文件投影变化单独留证。"
+  ],
+  "uncheckedScope": [
+    "R13/R14/R15/R20与适用Core/R22独立验收",
+    "R16表格渲染、旧字数硬门禁迁移、真实手机与桌面页面",
+    "当前客户端/实测最佳队/完整数据库/精确摆位与新任务图",
+    "现有logo原始来源/权利完整链和生产版本、公共页SEO待复核"
+  ],
+  "issues": [
+    {
+      "id": "CB-I01",
+      "nextAction": "R06逐条裁决并交R13独立复验",
+      "summary": "3核心页1.16单位/位置机制与官方冲突"
+    },
+    {
+      "id": "CB-I02",
+      "nextAction": "基于accepted Claims重做Brief与任务验收",
+      "summary": "数据库/8人页缺具名可操作产物，重复泛说明"
+    },
+    {
+      "id": "CB-I03",
+      "nextAction": "R11按具体对象采图并由独立角色手机复验",
+      "summary": "未做客户端实测/真实任务采图/浏览器视觉QA"
+    },
+    {
+      "id": "CB-I04",
+      "nextAction": "授权SEO技术复核，当前HTTP跳转无明显异常",
+      "summary": "公共页同title；历史查询落About/HTTP原因未证"
+    },
+    {
+      "id": "CB-I05",
+      "nextAction": "当前平台版本逐项补证，不凑完整表",
+      "summary": "完整名单、数值、8人配置、Forge奖励门槛未知"
+    },
+    {
+      "id": "CB-I06",
+      "nextAction": "下一轮定向补足并据真实T0观察",
+      "summary": "最新生产版本映射、固定SERP/PAA/视频/Discord未核验"
+    },
+    {
+      "id": "CB-I07",
+      "nextAction": "R16按现行合同迁移为字数提醒并绑定真实独立任务证据；此项由R01复核关闭。",
+      "summary": "R01本轮报告旧站将少于1000词作硬失败，与OWN-072冲突；R09不为旧脚本补泛话。"
+    }
+  ],
+  "resolvedIssues": [],
+  "evidenceRefs": [
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/replacements.json",
+      "sha256": "312b410c506a823b04dadb3d45cb81cb5f08cfb10d31b2d5c1bb530832eab2ab"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/claim-audit.json",
+      "sha256": "0eceec1c4269a9df86992058334899448772c27a49dc112d928644e1ae1c4c49"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/drafts/castle-busters-unit-database.md",
+      "sha256": "48cb2c3fca31e504b9f6b7805b018da823dd9382fc1d6f5a4c44236a6f5c08a9"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/drafts/castle-busters-eight-unit-loadout.md",
+      "sha256": "ab7f5e034bbde38270fdc21344f0193d005bcf864fe94f1a262ba79d828d2b33"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/drafts/castle-busters-formation.md",
+      "sha256": "1e889b8d6d34c2c88fc5a86d1bcf61075ecbb5347e7d312b091573bd5efe6935"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/drafts/patch-notes-and-balance-log.md",
+      "sha256": "540a5e92cc07353e8a713904fd59e6faa22dd19239792d1a7e85a7514d602371"
+    },
+    {
+      "path": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/writer-input-reconciliation.json",
+      "sha256": "22c93ff3307dcafac3756c204a46f3d1ebb190612c461d5eb0959e1d90177082"
+    }
+  ],
+  "releaseAllowed": false,
+  "roleRunUsage": {
+    "role": "R10",
+    "stage": "bounded_correction_draft",
+    "scopeType": "Site",
+    "scopeId": "castlebustersguide.com",
+    "startedAt": null,
+    "completedAt": "2026-09-08T22:07:05.096687+00:00",
+    "wallTimeMs": null,
+    "timingStatus": "unavailable_reliable_task_start_not_exposed",
+    "activeTime": {
+      "status": "unavailable",
+      "milliseconds": null
+    },
+    "tokenUsage": {
+      "status": "unavailable",
+      "input": null,
+      "cachedInput": null,
+      "output": null,
+      "reasoning": null,
+      "total": null
+    },
+    "cashCost": {
+      "status": "not_applicable",
+      "reason": "subscription_no_marginal_price"
+    },
+    "workload": {
+      "completeDraftArticles": 4,
+      "newMedia": 0
+    },
+    "qualityStatus": "partial_author_checks_only",
+    "externalWrites": false,
+    "databaseWrites": false
+  },
+  "supersedesResult": "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/writer-result.json"
+}

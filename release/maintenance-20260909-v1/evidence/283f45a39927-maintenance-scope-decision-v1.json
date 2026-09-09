@@ -1,0 +1,24 @@
+{
+  "role": "R01",
+  "decision": "accept_scoped_maintenance_not_core_upgrade_completion",
+  "authorizationRef": "../authorization.json",
+  "basis": [
+    "maintenance-scope-assessment-v1.json",
+    "visual-player-review-v2.json"
+  ],
+  "implementationCorrection": "Remove accidentally imported full-inventory new-template task gate from this maintenance patch; retain baseline similarity/repetition guards, new nonempty guard and actual scoped independent reviews. OWN-072 prohibits mechanical 1000-word/visual-count padding.",
+  "changedArticleCount": 4,
+  "originalOtherArticles": 14,
+  "originalCoreUpgradeCompleted": false,
+  "freshWholeSiteTaskPass": false,
+  "remainingWork": [
+    "Complete original 3 Core player tasks with necessary game evidence.",
+    "Repair remaining 14 inherited template-heavy articles before new expansion."
+  ],
+  "sharedRenderRegression": "26 earlier screenshots plus 8 final Logo viewport checks; additional unchanged390 regression pending",
+  "qualityScriptBeforeSha256": "6ec757fd4597e103809a2cfce07ea291754245f925760ddc3b4c33c4a79158c0",
+  "qualityScriptAfterSha256": "662ff7aa1577a6a27b99310d731b7c21577e33e02f43357b7c889bc768af3544",
+  "unusedNewTemplateGatePreservedAt": "/Users/oneone/Documents/game-autopilot/runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/unused-new-template-task-gate.mjs",
+  "productionAllowedAtThisStep": false,
+  "createdAt": "2026-09-09T04:48:34.992097+00:00"
+}

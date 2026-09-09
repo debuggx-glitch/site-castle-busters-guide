@@ -1,0 +1,18 @@
+{
+  "authorizedAt": "2026-09-08T21:29:34.010177+00:00",
+  "userInstruction": "允许你操作，这个五个站也可以开始优化了，先纠错和补齐旧文，再扩新篇",
+  "sites": [
+    "wardogsgameplay.xyz",
+    "youngsunsguide.org",
+    "fischfieldnotes.xyz",
+    "castlebustersguide.com",
+    "diceofkalmaskulls.com"
+  ],
+  "scope": "继续本人日报应用未验证提示下的两项只读OAuth；五站按既定方向纠错、补齐旧文，再依据已核证据扩新篇；完成既有独立QA后按既有生产链发布。",
+  "constraints": [
+    "No new cost, domain, advertisement, account scope or site direction change",
+    "No invented game facts or AI game imagery",
+    "Do not waive fact, SEO, visual, player or release gates",
+    "No repeat full daily API collection"
+  ]
+}

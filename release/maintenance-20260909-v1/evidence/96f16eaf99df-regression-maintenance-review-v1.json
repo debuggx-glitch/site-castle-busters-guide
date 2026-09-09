@@ -1,0 +1,176 @@
+{
+  "schema": "regression-maintenance-review.v1",
+  "site": "castlebustersguide.com",
+  "reviewerInstanceId": "/root/review_wardogs_v1",
+  "reviewedAt": "2026-09-09T04:56:11.172043+00:00",
+  "scope": "44 additional actual supplied screenshots for bounded maintenance/shared CSS regression:14 unchanged articles×1440/390, home/about/privacy/contact×1440/390/412,4 corrected articles×412. Not a new whole-site content/task certification.",
+  "verdict": "PASS_REVIEWED_MAINTENANCE_RENDER_SCOPE",
+  "roleScope": [
+    "R15 maintenance public-surface regression",
+    "R20 maintenance visual regression"
+  ],
+  "newMaintenanceVisualBlockers": [],
+  "findings": [
+    "All44 images were individually viewed. No newly introduced overlay, broken-image placeholder, collapsed layout or raw table syntax identified in this scope. Long inherited article images were assessed for page structure and visual regression; fine-text fact/task certification is excluded.",
+    "Home renders the four revised titles/descriptions/categories. Built index HTML independently contains the correct title link and arrow link to each unchanged guide URL, and each built route exists. This is static link binding, not an executed browser click test.",
+    "Home/about/privacy/contact and responsive.css source files match the original site byte-for-byte. The screenshot home logo crop, inherited dispatch Reviewed September4, old category labels, and existing public-copy limitations are not new changes certified or repaired here.",
+    "All14 unchanged Guide objects equal their original-site objects. All4 corrected Guide objects retain the hashes from the earlier R13/visual review. Pure rendering regression does not re-certify their gameplay facts.",
+    "Four corrected412 pages preserve compact identity logos, usable headings and local table-overflow regions. The mobile table may intentionally hide right-hand columns until horizontal scrolling; earlier actual390 scroll evidence remains relevant within unchanged renderer/CSS.",
+    "Capture records for all44 report clientWidth=scrollWidth and pendingImages0; these are producer runtime measurements combined with independent local-image inspection, not reviewer Chrome execution."
+  ],
+  "coverage": {
+    "newImagesActuallyViewed": 44,
+    "unchangedArticlesAdded": [
+      1440,
+      390
+    ],
+    "unchangedArticles412": "Previously viewed regression-records.json and V1 review; inherited at unchanged content/shared-rendering inputs, not new fact PASS.",
+    "correctedArticles412": "New compact-final screenshots close the412 omission from logo V2.",
+    "correctedArticlesOtherEvidence": "Earlier approved logo actual390 and complete-desktop1440 images plus original full-page table checks retained via V1/V2 references.",
+    "publicPages": [
+      "/",
+      "/about/",
+      "/privacy/",
+      "/contact/"
+    ],
+    "publicViewports": [
+      1440,
+      390,
+      412
+    ],
+    "notInThisImageBatch": [
+      "404/unknown route",
+      "browser console/network interaction",
+      "production domain/ads/analytics runtime"
+    ]
+  },
+  "preservedIssues": [
+    {
+      "id": "CB-VP-01",
+      "state": "closed",
+      "reason": "Earlier scoped logo repair passes, now also confirmed in current412 full pages."
+    },
+    {
+      "id": "CB-VP-02",
+      "state": "open_original_core_outcomes",
+      "maintenancePatchBlockerByItself": false,
+      "reason": "Original3Core objectives remain unfulfilled; this is accepted bounded correction, not claimed Core upgrade completion."
+    },
+    {
+      "id": "CB-VP-03",
+      "state": "open_inherited_content_quality",
+      "maintenancePatchBlockerByItself": false,
+      "reason": "Legacy14 templates and associated old public-copy limitations remain; this regression does not mark them fixed."
+    },
+    {
+      "id": "CB-VP-04",
+      "state": "migration_dependency_retracted_not_fake_pass",
+      "reason": "Current quality script no longer imports/calls verifyTaskReview; task-review script is outside site as unused-new-template-task-gate.mjs. No18 fabricated task PASS. Earlier missing-gate finding is retained as migration history, not historical mandatory release failure."
+    }
+  ],
+  "gateInspection": {
+    "verifyTaskReviewImportOrCallPresent": false,
+    "newTaskGateFileInsideSite": false,
+    "repeatedParagraphAndSimilarityGuardsRetained": true,
+    "emptyBodyGuardRetained": true,
+    "wordCountAndVisualCountAreWarnings": true,
+    "independentTaskEvidenceStillRequiredForItsRealScope": true,
+    "finalReleaseRun": "At review only release-check-v1.log was read; it records the earlier task-gate failure. It does not describe the now-corrected script. A new final check:release outcome remains pending and must not overwrite the failed history."
+  },
+  "remainingBeforeFullReleaseQaClaim": [
+    {
+      "item": "Final current check:release",
+      "status": "pending_new_run_evidence",
+      "reason": "Existing read log is an earlier failed version; current source inspection is not a successful execution."
+    },
+    {
+      "item": "404 actual rendered coverage",
+      "status": "not_supplied_in44",
+      "reason": "Needed to claim full public-surface coverage; request current desktop/two mobile views under the shared styles, plus normal404/noindex checks in Release QA."
+    },
+    {
+      "item": "Production acceptance",
+      "status": "not_performed",
+      "reason": "Local maintenance regression does not establish deployed content, public-domain responses or production integrations."
+    }
+  ],
+  "acceptanceRecommendation": "R01 may accept the reviewed four-page correction and covered CSS regression. No additional content-expansion blocker was found. Preserve oldCore/legacy issues and complete actual release evidence; do not equate this report with fullSiteTaskPass or production approval.",
+  "evidence": {
+    "baseDir": "/private/tmp/five-site-qa-20260909/castle",
+    "records": {
+      "regression-final-additional-v1.json": "7f382be8ab969950b0f338047468c70903eff6831c9ec919ea76bc14eda33202",
+      "public-and-compact-final-v1.json": "3cc25e7d1554206836102a15f150a05188310a12fdf31fbbb2461d6f3d30bca7"
+    },
+    "images": {
+      "regression-final-castle-busters-beginner-route-1440.png": "cb04d3452568ff77553e4559f66602792c0f2a2343bbbc8f3f0ab4c2475a8851",
+      "regression-final-upgrade-materials-priority-1440.png": "de36a4b31f712111c7f927f852a6fe290d5d0ba9d240329087f7f76fcf8bb497",
+      "regression-final-unit-roles-explained-1440.png": "bb99bfe3870ce8e80519659b3ae535ab8dee76a10d4b60a3e9b06ae64ed7fb6f",
+      "regression-final-frontline-backline-placement-1440.png": "fbad4dd1561273402ecb1211ebeb7b2fc6f86873e0add7d93622f2dc5d220401",
+      "regression-final-damage-control-support-balance-1440.png": "f94afc24008386881bc0cfdfb7a1d113308db4d1ec4914ce94f1dcfb4934c4b5",
+      "regression-final-early-team-without-rare-units-1440.png": "4e63ef285ae6c288c843e85fc5b7bcd7838a3e71c0c8ab86acf8c61961a4746c",
+      "regression-final-arena-counter-checklist-1440.png": "ba39d291e78badf368f8729bf3ba5992f4e30b6a202659657814968d36b8b705",
+      "regression-final-castle-defense-objective-1440.png": "e16b9800745ca80c426e02ebb96038a612a54e721ada6b669ca6a973a459f03f",
+      "regression-final-wheels-and-helper-items-1440.png": "b0dd14738abea98f7b8d848023d7440364bd0762e0c99cd08f818b719de94977",
+      "regression-final-upgrade-breakpoints-stop-rules-1440.png": "6158678c771eda64c9b3e9602b5c39b3efd46915c5983fefc91cecda83bf7cc2",
+      "regression-final-replace-a-missing-unit-1440.png": "04143760d12245e3b0c05ab432c0669ae5917299af442ee3d02fc331c9ea9741",
+      "regression-final-formation-failure-symptoms-1440.png": "b15bfbc6e54b4a8d2b2bba5fc528fc92304e261843ddc60bbb3a0416f37b03e3",
+      "regression-final-account-start-and-reroll-check-1440.png": "a57c07afc0fb06245c0a806a4db9c0013297d3162680269955ae9676297ab05e",
+      "regression-final-team-testing-worksheet-1440.png": "c89ebb0cedf121b68a22ec3542bfaca4591f20feb425d9ae3284c2854404a3e3",
+      "regression-final-castle-busters-beginner-route-390.png": "cc363488708507b0993131644759b99813a0fe1f25926c4aacea95584a5daf06",
+      "regression-final-upgrade-materials-priority-390.png": "2a35170b12309e948166a7cf3abad31dfd53e70a4133f31937dc66702457a602",
+      "regression-final-unit-roles-explained-390.png": "393774bdd930ad467391b492ab24287207345d5b5de3a49c879ddf45103321ea",
+      "regression-final-frontline-backline-placement-390.png": "81212274db5c0cbc8f0ce250b07efd7fcba66b868e3dfc443c9657b2f4d68e8f",
+      "regression-final-damage-control-support-balance-390.png": "63f3183a482c5d75b9e749943749205b0b97f53b687a7e0d51e83fd4eabadef7",
+      "regression-final-early-team-without-rare-units-390.png": "012d9cd9e979c112aeae2b557f3164c9491a0e056bd3f11da09727bc7c0898e9",
+      "regression-final-arena-counter-checklist-390.png": "581a5998a05676fba2cdef2aa78e4fcb858cce1449dc8d78ffaaaa4009c67bdf",
+      "regression-final-castle-defense-objective-390.png": "b9af2d2449ed4fcce950d88cbee762f80abbaeadd50b7c1e6aea14933be094eb",
+      "regression-final-wheels-and-helper-items-390.png": "4618fb5e6be86b7abd4795912c83c8faba0f9153d755cb35b384d3d5dc3aa4e4",
+      "regression-final-upgrade-breakpoints-stop-rules-390.png": "eb225fadabe4abe08e306fb3aae45c44c9ebada64a4c868317730eeb31924da4",
+      "regression-final-replace-a-missing-unit-390.png": "48ea1e1c6631d8c81e252072fbffe3d4068725bc421fe268c42f05e401709e6c",
+      "regression-final-formation-failure-symptoms-390.png": "6d2093ff728637efc3762de030e438adb909140e9829bf6c0a24950f25c8a763",
+      "regression-final-account-start-and-reroll-check-390.png": "7f5583bdb841cca2618396877a2f19ef15aeda4856fe598b0a745eee6dac8bbb",
+      "regression-final-team-testing-worksheet-390.png": "6d484bffe25ebf22ea41e8ca1863393f9f7880c420130233b0f9919554fba615",
+      "public-home-1440.png": "945125a6efb5f79f65c15922dfb6c22eb9171f879d21595ef3bdaf17fce84390",
+      "public-about-1440.png": "bc12f44b36f0286c5b905b69825ff73c111756d231a15972a497128ffa6adc7c",
+      "public-privacy-1440.png": "cf1593ba2ba1919cc99ea02286548a47b95b4fd1f167be6626da8d68a11d87cf",
+      "public-contact-1440.png": "c0dcfbea92fbbc66bf208931f4c601e9dac6e51eabd983b8ba16ad5be93ad19d",
+      "public-home-390.png": "6b86c9fcb55a0dfcc57102473722f7248698767976ceed230383c83c0e70a979",
+      "public-about-390.png": "8bb1168eaee7205d946a0280dab292131cd23ea94ec8c94e40cd43863bbd804c",
+      "public-privacy-390.png": "6d65d57bbabb1ada11911c9fa9989303b109c66c4b2a7ef256978c00a2299e2a",
+      "public-contact-390.png": "f5d9c6725e2b0820af1f1aa7470e28cf1fc1f265df2055839ca3ccd2ad66bb46",
+      "public-home-412.png": "ecc96169bb2233c5ee3c7f55ae2fbcc96e1261b48bc8a1f4125b921cd276291f",
+      "public-about-412.png": "dc7ca8bfeb04b4279e1a3401c3efe140ed34b1594a2301f5eeaa94da5c158cfc",
+      "public-privacy-412.png": "82ed2cf7306399e03847cae1bd91f98a4af1b2d8b447bc44d1bfc89dd40132bd",
+      "public-contact-412.png": "ddee141be9b5bf205f98ee6bfabbd70b3104b2548bb1e1de780760fbfb601c12",
+      "compact-final-castle-busters-unit-database-412.png": "7364292b36d634071c693b045ad3c9cc1ed155b48d676409934f58c2e4e6599f",
+      "compact-final-castle-busters-eight-unit-loadout-412.png": "ede985c544b0403a518bfcfc1ffc398258758daae33558444ee5176319eab292",
+      "compact-final-castle-busters-formation-412.png": "dcd24e33045a59947ec51ed9ba7bd5672b85860306e86992726d79b91f10b6d0",
+      "compact-final-patch-notes-and-balance-log-412.png": "65f9e42d00e3b056dbcbcff0ed04cd5e316f24d44c3b15eb414e58e1dd579030"
+    }
+  },
+  "sourceHashes": {
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/lib/guides.ts": "492201f95d9b974d8e2b596721004e4d5ec05d645a1f843da717f16841f8436f",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/page.tsx": "31e6731cf69eeecd67e0dbea199707d224905be250022b1dc17d9a160230719e",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/layout.tsx": "3db3c52bd72cc69ef65f06048b6f7b20a3ad1307f84e238c733d735687cb3682",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/globals.css": "d4427dff1893a4135372a1d74a460c477bc8cde8ed8fdd1dec203a26fd216e69",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/responsive.css": "d48b0ddd69362dab3719e8e2519394d788f5881b6731617dff9ac628a36e862b",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/guides/[slug]/page.tsx": "1f88cf93ff48009aa7ce9be0da0f547dd6c033db1080b671927c38bf364449cc",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/about/page.tsx": "7b2d476d10acb19a23705ca16774e7897602edc6a404969a770213b3e6cb193a",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/privacy/page.tsx": "4c62b9542ae6a08b8619291816b19e7696b8764afd21d71c0bbc35993842419a",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/contact/page.tsx": "906411d28fb4f98a1bc91834458c7b30be4b27030cff94924f04527cde3ff84e",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/scripts/verify-content-quality.mjs": "662ff7aa1577a6a27b99310d731b7c21577e33e02f43357b7c889bc768af3544",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/scripts/verify-content-assets.mjs": "f003c09b3a1ad1e29212b143ff9543008b0584080833b5bd1541dcd45495e868",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/package.json": "bbdfd21813b9ee4b9d7ede2375ed120579df99886c447e5df8c6e42757aa4a00",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/out/index.html": "053ebbc630059e0877059a86199444e65de095973960ffa8fb35119133f89295",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/visual-player-review-v1.json": "c97fed0f9ddd5c6e48cf4d2834c160f49fc3f9af2127bbc9acdffa80c2404be0",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/visual-player-review-v2.json": "3e90a99080999c6ceb92b38bb93fcd87550d8c2b43b8ced2f54b78ac46727297",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/maintenance-scope-assessment-v1.json": "623c54dd4f7a31e6d5f32ee2e2e2c8b115e5ad16db21695d26166dfbf83885ae",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/independent-content-review-v1.json": "afe24fceefbc40080005260d0de0360cd7e2fff3788867c59ed367be06cdec15",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/release-check-v1.log": "a8d853ee5b6ceafc7c6ef94aa3e767d60be559f74cc0dd6fbcda33a487e9ccba"
+  },
+  "formalR22Performed": false,
+  "old14ContentOrTaskPass": false,
+  "original3CoreCompleted": false,
+  "productionApproved": false,
+  "siteOrGateModifiedByReviewer": false
+}

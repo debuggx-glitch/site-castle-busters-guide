@@ -1,0 +1,16 @@
+{
+  "schemaVersion": "1.0.0",
+  "templateFamilyId": "T02-command-table",
+  "templateVersion": "1.0.0",
+  "sourceAsset": "/images/official/castle-busters-guide-official-01.webp",
+  "palette": {"primary":"#171718","secondary":"#c7984d","accent":"#a63b31","surface":"#f4ead2","text":"#27221c"},
+  "fingerprint": {"navigationModel":"fortress-masthead","homepageComposition":"split-command-cover-plus-dispatch-and-brief-rows","articleComposition":"field-order-label-column-plus-manual-copy","cardSilhouette":"crest-marked-horizontal-orders","contentDensity":"medium-tactical","mobileTransformation":"stacked-command-cover-and-vertical-orders","adPlacementPattern":"dispatch-break-and-field-order-break"},
+  "adInventory": [
+    {"slotName":"home_banner_desktop","status":"active","pageTypes":["home"],"position":"before_hero","format":"banner","size":"728x90","zoneRef":"homeBannerDesktop","maxPerPage":1,"ga4Placement":"home_banner_desktop"},
+    {"slotName":"home_banner_mobile","status":"active","pageTypes":["home"],"position":"before_hero","format":"banner","size":"320x50","zoneRef":"homeBannerMobile","maxPerPage":1,"ga4Placement":"home_banner_mobile"},
+    {"slotName":"guide_native_mid","status":"active","pageTypes":["guide"],"position":"after_quick_answer_before_lead_visual","format":"native_banner","size":"responsive","zoneRef":"guideNative","maxPerPage":1,"ga4Placement":"guide_native_mid"},
+    {"slotName":"social_global","status":"active","pageTypes":["all"],"position":"global_after_interactive","format":"social_bar","size":"provider_responsive","zoneRef":"socialBar","maxPerPage":1,"ga4Placement":"social_global"},
+    {"slotName":"home_side_desktop","status":"active","pageTypes":["home"],"position":"desktop_hero_side_rail","format":"banner","size":"300x250","zoneRef":"homeSideDesktop","maxPerPage":1,"ga4Placement":"home_side_desktop"},
+    {"slotName":"guide_command_rail","status":"planned_inactive","pageTypes":["guide"],"position":"desktop_order_rail","format":"banner","size":"160x600","zoneRef":null,"maxPerPage":1,"ga4Placement":"guide_command_rail"}
+  ]
+}

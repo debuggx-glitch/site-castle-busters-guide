@@ -1,0 +1,51 @@
+[WARN] Your node_modules are out of sync with your lockfile. The workspace structure has changed since last install
+$ pnpm typecheck && pnpm build
+$ tsc --noEmit
+$ node scripts/verify-site-release.mjs && node scripts/verify-design-contract.mjs && node scripts/verify-adsterra-config.mjs && node scripts/verify-content-assets.mjs && node scripts/verify-content-quality.mjs && node scripts/verify-seo-metadata.mjs && node scripts/verify-seo-geo-release.mjs && next build --webpack
+Release config gate PASS: indexing=open; static canonicals=4; Vercel telemetry=enabled
+DESIGN CONTRACT GATE: PASS family=T02-command-table ads=5 active+1 planned
+ADSTERRA CONFIG GATE: PASS site=site_castle_busters_loadout_guide_001 placements=5 ga4=G-JF6N7V0YLT
+VISUAL COUNT REVIEW: castle-busters-unit-database uses 1; task coverage requires independent review, not an image quota
+VISUAL COUNT REVIEW: castle-busters-eight-unit-loadout uses 1; task coverage requires independent review, not an image quota
+VISUAL COUNT REVIEW: castle-busters-formation uses 1; task coverage requires independent review, not an image quota
+VISUAL COUNT REVIEW: patch-notes-and-balance-log uses 1; task coverage requires independent review, not an image quota
+CONTENT ASSET GATE: PASS pages=18 visuals=32 authentic>=18
+CONTENT LENGTH REVIEW: castle-busters-unit-database=200, castle-busters-eight-unit-loadout=190, castle-busters-formation=150, patch-notes-and-balance-log=143; inspect task coverage; do not pad to a word quota
+CONTENT QUALITY GATE: PASS pages=18 maxSimilarity=0.348
+SEO METADATA GATE: pass
+SEO+GEO release gate PASS: 18 page(s); shared entity=https://castlebustersguide.com/#video-game; crawlers=3 allowed
+▲ Next.js 16.3.0 (webpack)
+✓ Running next.config.ts took 49ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 675ms
+  Running TypeScript ...
+  Finished TypeScript in 119ms ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/27) ...
+  Generating static pages using 11 workers (6/27) 
+  Generating static pages using 11 workers (13/27) 
+  Generating static pages using 11 workers (20/27) 
+✓ Generating static pages using 11 workers (27/27) in 230ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /contact
+├   /guides/[slug]
+│ ├ ● /guides/castle-busters-beginner-route
+│ ├ ● /guides/castle-busters-unit-database
+│ ├ ● /guides/castle-busters-eight-unit-loadout
+│ └ ● [+15 more paths]
+├ ○ /icon.svg
+├ ○ /privacy
+├ ○ /robots.txt
+└ ○ /sitemap.xml
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+

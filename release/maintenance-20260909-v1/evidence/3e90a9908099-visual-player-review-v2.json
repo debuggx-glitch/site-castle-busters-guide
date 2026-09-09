@@ -1,0 +1,120 @@
+{
+  "schema": "independent-visual-player-review.v2",
+  "site": "castlebustersguide.com",
+  "reviewerInstanceId": "/root/review_wardogs_v1",
+  "reviewedAt": "2026-09-09T04:29:45.827617+00:00",
+  "scope": "Only CB-VP-01 logo obstruction repair on four pages. Supplied actual390 mobile and1440 desktop-after-scroll viewports. No repeat full-site or production review.",
+  "roleResults": {
+    "R15": "PASS_DELTA_CB-VP-01",
+    "R20": "PASS_DELTA_CB-VP-01",
+    "R22": "NOT_SIGNED_INFORMED_ONLY_INHERITED",
+    "release": "NOT_APPROVED"
+  },
+  "closedIssues": [
+    {
+      "id": "CB-VP-01",
+      "status": "closed_for_reviewed_delta",
+      "finding": "All eight accepted screenshots were actually viewed. The134×134 logo and readable caption are compact; complete desktop v4 views and mobile views show the first task section below the logo without the prior large square detour. The figure is a small brand identifier, not a task-evidence image.",
+      "implementationObserved": "Exact Castle Busters logo alt selects data-visual-purpose=identity. Specific field-manual CSS caps figure at160px and image renders134px. Only the four reviewed Guide objects match.",
+      "retestLimits": "Reviewed390 and1440 actual viewports only; no new412, whole-page, whole-site or production PASS."
+    }
+  ],
+  "pages": [
+    {
+      "slug": "castle-busters-unit-database",
+      "R15": "PASS_DELTA",
+      "R20": "PASS_DELTA",
+      "contentObjectUnchangedFromV1": true,
+      "viewportsActuallyViewed": [
+        390,
+        1440
+      ]
+    },
+    {
+      "slug": "castle-busters-eight-unit-loadout",
+      "R15": "PASS_DELTA",
+      "R20": "PASS_DELTA",
+      "contentObjectUnchangedFromV1": true,
+      "viewportsActuallyViewed": [
+        390,
+        1440
+      ]
+    },
+    {
+      "slug": "castle-busters-formation",
+      "R15": "PASS_DELTA",
+      "R20": "PASS_DELTA",
+      "contentObjectUnchangedFromV1": true,
+      "viewportsActuallyViewed": [
+        390,
+        1440
+      ]
+    },
+    {
+      "slug": "patch-notes-and-balance-log",
+      "R15": "PASS_DELTA",
+      "R20": "PASS_DELTA",
+      "contentObjectUnchangedFromV1": true,
+      "viewportsActuallyViewed": [
+        390,
+        1440
+      ]
+    }
+  ],
+  "preservedOpenIssues": [
+    {
+      "id": "CB-VP-02",
+      "status": "core_task_hold",
+      "detail": "Original three Core complete-unit/team/substitution/placement/failure outcomes remain unmet; narrower reference tasks do not replace them."
+    },
+    {
+      "id": "CB-VP-03",
+      "status": "inherited_open",
+      "detail": "Fourteen legacy pages retain recorded public-copy/template issues; not re-reviewed or fact-certified here."
+    },
+    {
+      "id": "CB-VP-04",
+      "status": "evidence_missing",
+      "detail": "Current18-page task-review evidence is missing. Historical selection and representative-page QA cannot become current rendered task PASS."
+    }
+  ],
+  "integrity": {
+    "fourGuideObjectsUnchanged": true,
+    "identitySelectorMatchesOnlyFourReviewedPages": true,
+    "priorReviewUnmodified": true,
+    "intermediateLargeLogoAndClippedDesktopEvidenceExcludedFromAcceptance": true,
+    "buildEvidence": "build-v6 preview PASS only; does not establish quality or release approval",
+    "currentTaskReviewConfigExists": false
+  },
+  "evidence": {
+    "baseDir": "/private/tmp/five-site-qa-20260909/castle",
+    "acceptedImages": {
+      "identity-final-castle-busters-unit-database-390.png": "bd192260cd49fc600114b3b89e8b8ee77fd9fe0db7d8064714316c1050a3d2a2",
+      "identity-final-castle-busters-eight-unit-loadout-390.png": "13826b242b7c3b1bcdf1083535e8ad24216dca864d85a288ec1a6e0696af423d",
+      "identity-final-castle-busters-formation-390.png": "2ddc8501541c66128e6f4d7eda1465d9af7f2018598eb5692d827d552be66460",
+      "identity-final-patch-notes-and-balance-log-390.png": "32e90d3db523d1d4a4a5384b889a63fc22a32652d565905f356e0453bdb7e7bf",
+      "identity-complete-desktop-castle-busters-unit-database.png": "5d70b9a75d129e85b113ef8410dcbb13be0717386d4cc5bac41bbbd4c8a1e21f",
+      "identity-complete-desktop-castle-busters-eight-unit-loadout.png": "c524ccb322d8bd820d5d6547ba78f342d039014b7d1fa36da1773768d7b70658",
+      "identity-complete-desktop-castle-busters-formation.png": "62b491ef4ca1c3da0efd0091c5bfca34309e6eb4a2bf6110fbe1d1daad2c90f3",
+      "identity-complete-desktop-patch-notes-and-balance-log.png": "ade287c3ffea8b47eea70f3db2ac55f7c3681045173c8837231c1a2bacfb8c14"
+    },
+    "records": {
+      "identity-final-records-v3.json": "02017c09ddeb7eaee0ee55757029dd4ef0e4dba665b3c9e0d385eabee349da46",
+      "identity-desktop-complete-v4.json": "70575c3279d12d931d4a59c361a4d2925e23f9648de85faef6255f631d931d77"
+    },
+    "desktopCapture": "Final complete-v4:1440×1000, scrollY700, logo top213.625/bottom347.625; full logo/caption/next section visible. Earlier clipped desktop-detail-v3 is preserved but not used for acceptance.",
+    "mobileCapture": "Four identity-final390 actual viewports previously inspected; complete compact logo and first section visible.",
+    "reviewMethod": "Independent local-image inspection plus supplied runtime measurements; reviewer did not operate Chrome."
+  },
+  "sourceHashes": {
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/visual-player-review-v1.json": "c97fed0f9ddd5c6e48cf4d2834c160f49fc3f9af2127bbc9acdffa80c2404be0",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/lib/guides.ts": "492201f95d9b974d8e2b596721004e4d5ec05d645a1f843da717f16841f8436f",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/guides/[slug]/page.tsx": "1f88cf93ff48009aa7ce9be0da0f547dd6c033db1080b671927c38bf364449cc",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/globals.css": "d4427dff1893a4135372a1d74a460c477bc8cde8ed8fdd1dec203a26fd216e69",
+    "runs/management/five-site-optimization-20260909-v1/worktrees/castlebustersguide.com/app/responsive.css": "d48b0ddd69362dab3719e8e2519394d788f5881b6731617dff9ac628a36e862b",
+    "runs/management/five-site-optimization-20260909-v1/castlebustersguide.com/build-v6.log": "272a50a1eea89642cde5bf8685ca6f3d23796940cd6020525266066d94fe0d2f"
+  },
+  "releaseAllowed": false,
+  "fullSitePass": false,
+  "formalR22Pass": false
+}

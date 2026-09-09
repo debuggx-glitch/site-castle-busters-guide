@@ -1,0 +1,17 @@
+{
+  "role": "R16",
+  "status": "integrated_pending_build_and_render",
+  "site": "castlebustersguide.com",
+  "changedArticles": [
+    "castle-busters-unit-database",
+    "castle-busters-eight-unit-loadout",
+    "castle-busters-formation",
+    "patch-notes-and-balance-log"
+  ],
+  "unchangedArticles": 14,
+  "files": [
+    "lib/guides.ts"
+  ],
+  "checkedAt": "2026-09-08T22:16:06.810231+00:00",
+  "releaseAllowed": false
+}
