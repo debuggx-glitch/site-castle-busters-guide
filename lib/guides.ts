@@ -3,10 +3,10 @@ export const guides:Guide[]=[
   {
     "slug": "castle-busters-beginner-route",
     "category": "Beginner Progression",
-    "title": "Castle Busters Beginner Progression Route",
-    "description": "A resource-safe Castle Busters progression route that links early unlocks, squad stability, castle upgrades, and clear stop rules.",
-    "quickAnswer": "First expand only enough to field and protect a coherent squad, then invest in the units and structures that solve the loss you can actually observe. Keep a stop rule for every upgrade category.",
-    "updated": "September 4, 2026",
+    "title": "Castle Busters Beginner Checklist: Upgrades and Arena 7",
+    "description": "Check victory conditions, the eight-unit limit, upgrade choices, Forge features and dated hero access notes before your next match.",
+    "quickAnswer": "Play one match, note whether your units or castle failed first, change one unit, position, or upgrade tied to that failure, then replay. Treat Arena 7 as the first named checkpoint and keep wider spending on hold until the same change helps twice.",
+    "updated": "September 9, 2026",
     "sources": [
       {
         "label": "Castle Busters official site",
@@ -19,25 +19,14 @@ export const guides:Guide[]=[
       {
         "label": "Official patch notes 1.16",
         "url": "https://www.castlebusters.com/patch-notes-1-16/"
-      },
-      {
-        "label": "Player upgrade and synergy question",
-        "url": "https://www.reddit.com/r/CastleBusters/comments/1vqla3x/need_advice_on_castle_upgrades_unit_synergy/"
       }
     ],
     "sections": [
       {
-        "heading": "Quick answer and scope",
+        "heading": "Start with the two ways a match ends",
         "paragraphs": [
-          "First expand only enough to field and protect a coherent squad, then invest in the units and structures that solve the loss you can actually observe. Keep a stop rule for every upgrade category. This claim is scoped specifically to Castle Busters Beginner Progression Route.",
-          "This page is for one task: solve the player task described by Castle Busters Beginner Progression Route It applies to the version checked on September 4, 2026. If the current screen differs, stop at the first mismatch and use the troubleshooting section instead of forcing the route. This claim is scoped specifically to Castle Busters Beginner Progression Route."
-        ]
-      },
-      {
-        "heading": "What the accepted sources actually prove",
-        "paragraphs": [
-          "The official site describes real-time 1v1 battles, more than 30 units, squads of up to eight, movable castles, structures, wheels, helper items, and upgrades through multiple material tiers. Patch 1.16 adds three placement-sensitive heroes; patch 1.17 changes matchmaking, support access, upgrade behavior, and several combat or interface bugs. This claim is scoped specifically to Castle Busters Beginner Progression Route.",
-          "That evidence supports the game's identity and the named systems, but it does not make every neighboring value true. Official sources do not publish every unit stat or a universal tier list. Community posts prove that upgrade, synergy, and placement questions exist, but their recommendations remain player observations until corroborated. This page keeps that boundary visible so an unknown field cannot silently become a confident recommendation. This claim is scoped specifically to Castle Busters Beginner Progression Route."
+          "Castle Busters lists two victory conditions: eliminate every enemy unit or destroy the enemy castle. Read your own losses with the same split. Did your squad disappear first, or did the castle break while useful units were still fighting?",
+          "Write down that result before spending. A short note or screenshot is enough. The next change should answer the failure you saw, rather than a notification, rarity, or general tier-list claim."
         ],
         "visual": {
           "assetId": "castle-busters-guide-official-01",
@@ -49,71 +38,79 @@ export const guides:Guide[]=[
         }
       },
       {
-        "heading": "The route map for this task",
+        "heading": "Check the unit limit before changing your squad",
         "paragraphs": [
-          "This page adds a bounded route map, a current-version evidence boundary, and a recovery path for Castle Busters Beginner Progression Route. It is designed to answer the named task without importing unsupported details from a similar game or an older build. This claim is scoped specifically to Castle Busters Beginner Progression Route.",
-          "Use the route map as a decision aid, not as decoration. Read the required input, choose the next action, note the expected visible output, and keep the fallback beside it. If any required input is unknown, the safe action is to gather that evidence before spending currency or committing progress. This claim is scoped specifically to Castle Busters Beginner Progression Route."
-        ]
-      },
-      {
-        "heading": "Run the route without mixing variables",
-        "paragraphs": [
-          "Start by naming the current bottleneck in one sentence. Then follow this bounded answer: First expand only enough to field and protect a coherent squad, then invest in the units and structures that solve the loss you can actually observe. Keep a stop rule for every upgrade category. Change only the element, item, unit position, ship choice, or progression action directly tied to that bottleneck. This claim is scoped specifically to Castle Busters Beginner Progression Route.",
-          "After the action, return to the same screen or encounter and compare the result. A successful outcome without a stable baseline is useful for play but weak as evidence. A failed outcome with a clean baseline is valuable because it tells the next player which assumption not to repeat. This claim is scoped specifically to Castle Busters Beginner Progression Route."
-        ]
-      },
-      {
-        "heading": "Decision table",
-        "paragraphs": [
-          "Use four columns: current state, available choice, expected benefit, and stop condition. Current state must come from the live game. Available choice must be visible or explicitly documented. Expected benefit may be a hypothesis, but it must be labelled as one. Stop condition prevents an open-ended upgrade or experiment from consuming resources without solving the original task. This claim is scoped specifically to Castle Busters Beginner Progression Route.",
-          "Verify identity and system boundaries with the cited first-party source, then confirm version-sensitive conditions in the current client or with two independent current sources. A repeatable current observation may be labelled verified. One clean observation is partial. A missing label, result, or repeat remains unknown; none of those states should be converted into zero. This claim is scoped specifically to Castle Busters Beginner Progression Route."
+          "The official site says a squad can contain up to eight unique units. Eight is a ceiling, not a request to fund eight separate upgrade projects immediately. Start with the units you can field, then change one slot or position at a time.",
+          "Use the table below after a loss. Replay a comparable fight after the change. If the same failure returns, stop spending in that direction and test a different cause."
         ],
+        "table": {
+          "columns": ["What failed first", "Inspect", "Change next", "Stop condition"],
+          "rows": [
+            ["Units", "Role and firing line", "Replace or reposition one unit", "Same unit failure repeats"],
+            ["Castle", "Exposure, movement and durability", "Move once or test one castle upgrade", "Castle still breaks at the same stage"],
+            ["Enemy units survive", "Aim and dependable damage", "Retest one damage source", "No clear improvement after replay"],
+            ["Placement effect is missing", "Neighbor, row or column condition", "Move one placement-sensitive hero", "Effect still does not trigger"]
+          ]
+        },
         "visual": {
-          "assetId": "castle-busters-guide-editorial-01",
-          "src": "/images/editorial/castle-busters-guide-editorial-01.webp",
+          "assetId": "castle-busters-guide-editorial-02",
+          "src": "/images/editorial/castle-busters-guide-editorial-02.webp",
           "width": 1600,
           "height": 900,
-          "alt": "Castle Busters editorial decision framework",
-          "caption": "Project-original editorial diagram based on the cited evidence; not a gameplay screenshot."
+          "alt": "Four-step Castle Busters upgrade decision diagram",
+          "caption": "Project-original decision diagram, not a gameplay screenshot: find the bottleneck, compare unit and castle options, set a stop rule, then retest the same matchup."
         }
       },
       {
-        "heading": "Define the first stable squad",
+        "heading": "Spend against one bottleneck",
         "paragraphs": [
-          "The official game description allows squads of up to eight units, but an early player should not treat eight slots as eight separate upgrade projects. First identify a protected source of reliable damage, a unit or structure that buys it time, and one answer to the pressure that most often ends the battle. Fill remaining slots with available support or substitutes, then test the group before raising every member evenly.",
-          "A stable squad is not one that wins once. It reaches the same useful firing positions, survives the same opening pressure, and fails for a recognizable reason. Record whether the loss came from the castle breaking, damage arriving too slowly, a lane going uncovered, or a placement-dependent effect missing its target. The category of failure determines the next investment."
+          "The official overview confirms unit upgrades, castle upgrades, and multiple material tiers. It does not publish a universal first-spend order. That makes a fixed upgrade chart less reliable than matching one purchase to one observed problem.",
+          "Buy the smallest available change that could affect the failure, then replay. If the failure category does not move, stop. Save broader spending until a useful change survives a second comparable test."
         ]
       },
       {
-        "heading": "Spend by bottleneck, not by notification",
+        "heading": "Add movement, structures and Forge items deliberately",
         "paragraphs": [
-          "Upgrade prompts create urgency, but the route should follow evidence. If the front line collapses before damage starts, improve protection or placement first. If the formation survives but cannot finish, improve the dependable damage source. If one lane or target type remains unanswered, change a slot before spending broadly. A new unlock joins the test roster; it does not automatically replace a proven role.",
-          "Use a stop rule for each material tier: buy only the smallest upgrade that can change the observed failure, replay the same target, and stop if the failure category does not move. The official site confirms several upgrade material tiers, but it does not publish a universal economic optimum. That makes controlled replay safer than a fixed spending chart copied from another account."
+          "Wheels move the castle. The Forge provides wheel sets with different attributes, including speed and fuel, plus offensive and defensive helper items. Use these systems to test a specific problem such as exposure or reach.",
+          "The public pages do not state exact unlock thresholds, drop rates, or one best wheel set. Keep those values unknown until the current client shows them. Test one movement or helper-item change and record the trade it creates."
         ]
       },
       {
-        "heading": "Add structures and movable castles deliberately",
+        "heading": "Use Arena 7 as the first named checkpoint",
         "paragraphs": [
-          "Castle Busters includes structures, wheels, and helper items in addition to units. Evaluate them as parts of the battle plan. A movable castle changes angles and exposure; a structure may protect, obstruct, or support a firing line; a helper item may solve a temporary problem without deserving permanent investment. Test the battlefield effect before assigning it a long-term priority.",
-          "When movement improves one side but exposes another, document the trade rather than calling the position best. Keep a simple before-and-after record: starting formation, first contact, first unit lost, castle condition, and final outcome. Those five observations are enough to distinguish a positioning improvement from a lucky sequence without inventing hidden combat numbers."
+          "Patch 1.16 labels Sir Rally as free at Arena 7 and Leif as free at Arena 25. Treat those as dated access labels, not proof that either hero is already claimed on your account. Wolfie is labelled Battle Pass exclusive in the same patch.",
+          "Placement matters for all three examples. Sir Rally boosts allies directly around him. Leif revives fallen allies in his row after he kills an enemy unit. Wolfie transforms after an adjacent ally is eliminated. Test the named condition before judging the hero."
+        ],
+        "table": {
+          "columns": ["Hero", "Patch 1.16 label", "Placement check"],
+          "rows": [
+            ["Sir Rally", "Arena 7 · Free", "Allies directly around him"],
+            ["Leif", "Arena 25 · Free", "Fallen allies in his row after his kill"],
+            ["Wolfie", "Battle Pass Exclusive", "An adjacent ally is eliminated"]
+          ]
+        }
+      },
+      {
+        "heading": "Reset the route only when the evidence changes",
+        "paragraphs": [
+          "Patch 1.17 fixed a unit-position problem when swapping units, so an older failed placement test may no longer describe the current build. Retest after a patch changes the behavior you measured or when your losses shift to a different cause.",
+          "The same patch says in-game support is available under Settings and Help Center. The public note does not show every nested tap. If your screen differs, open the visible Help Center entry and report the mismatch rather than forcing an outdated route."
         ]
       },
       {
-        "heading": "Progression checkpoints and reset conditions",
+        "heading": "First-session checklist",
         "paragraphs": [
-          "At each new unlock, pause and ask whether it fills an absent role, duplicates a working role, or requires an untested placement. Only the first category deserves immediate consideration. A duplicate becomes a substitute candidate; a placement-dependent unit belongs in a controlled formation test. Patch 1.16 specifically makes placement relevant to new hero behavior, so the checkpoint must include formation rather than judging the unit in isolation.",
-          "Reset the plan when a patch changes unit behavior, the available material tier changes, or the same squad begins failing to a different pressure. Do not reset merely because a new rarity appears. The route succeeds when the player can explain the next upgrade in terms of a current battle problem and can name the condition that will stop further spending."
-        ]
-      },
-      {
-        "heading": "Final verification checklist",
-        "paragraphs": [
-          "Confirm the exact game, platform, current version, task, prerequisite, chosen action, expected visible result, recovery option, and evidence state. If all nine are clear, execute the smallest useful action. If one is missing, collect it before committing a scarce resource. This claim is scoped specifically to Castle Busters Beginner Progression Route.",
-          "The short rule remains: First expand only enough to field and protect a coherent squad, then invest in the units and structures that solve the loss you can actually observe. Keep a stop rule for every upgrade category. Verify the visible result, save the date, and leave unsupported precision unknown. This claim is scoped specifically to Castle Busters Beginner Progression Route."
+          "Play one baseline match. Record whether the squad or castle failed first. Change one unit, position, movement option, helper item, or upgrade. Replay a comparable fight and stop that line of spending if the same failure returns.",
+          "At Arena 7, check the current Sir Rally access label and test his nearby-ally condition if he is available. Keep exact costs, drop rates, and a universal best upgrade order unclaimed until the current client provides them."
         ]
       }
     ],
-    "evidenceClass": "claim_bounded_core_page"
+    "evidenceClass": "claim_bounded_current_guide",
+    "relatedSlugs": [
+      "castle-busters-unit-database",
+      "castle-busters-formation",
+      "upgrade-materials-priority"
+    ]
   },
   {
     "slug": "castle-busters-unit-database",
