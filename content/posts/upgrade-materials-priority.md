@@ -1,100 +1,72 @@
 ---
-title: "Upgrade Materials and Resource Priority"
-description: "A current, source-checked guide to upgrade materials and resource priority, with practical steps, failure fixes, and clear evidence limits."
-date: "2026-09-04"
-keywords: ["Castle Busters", "Build Choice Comparison", "upgrade materials priority"]
+title: "Castle Busters Upgrade Materials: Tiers and Spend Checks"
+description: "See the published material path from wood and stone to diamond and magma, then check which upgrade system matches the problem in your next battle."
+date: "2026-09-09"
+keywords: ["Castle Busters upgrade materials", "Castle Busters material tiers", "Castle Busters wood stone diamond magma", "Castle Busters Forge"]
 coverImage: "/images/official/castle-busters-guide-official-01.webp"
 ---
 
-# Upgrade Materials and Resource Priority
+# Castle Busters Upgrade Materials: Tiers and Spend Checks
 
-**Short answer:** Upgrade the part that causes the current loss, buy the smallest meaningful change, replay the same matchup, and stop if the failure category does not move.
+**Short answer:** The official site confirms that material tiers begin with wood and stone and advance to diamond and magma, but it does not publish costs or one best order. Match one visible upgrade to the problem you observed, record the current tier and cost, then stop if the same failure returns.
 
-## Quick answer and operating boundary
+## Confirm the published material path
 
-Upgrade the part that causes the current loss, buy the smallest meaningful change, replay the same matchup, and stop if the failure category does not move. This is the direct answer for Upgrade Materials and Resource Priority, checked against the sources and observations available on September 4, 2026.
+The official upgrading section says the material path starts with wood and stone and advances to diamond and magma. Those are published endpoints and examples, not a complete tier table.
 
-Scope boundary: Material names and patch behavior are verified; costs, breakpoints, and best order must come from the current account. The page distinguishes verified facts, a single current observation, an actionable hypothesis, and an unknown field. Those states stay visible because a useful answer is more trustworthy when it says exactly where evidence ends.
+The public page does not list the cost, quantity, account stage, or unlock condition for each tier. Read those values from the current client before spending, and do not carry a value from another account into your own plan.
 
-## What is verified now
+![Castle Busters official game identity](/images/official/castle-busters-guide-official-01.webp)
 
-Verified point 1 for Upgrade Materials and Resource Priority: The official site names material tiers from wood and stone through diamond and magma. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.
+Official public media used for game recognition; it does not show current material costs or upgrade menus.
 
-Verified point 2 for Upgrade Materials and Resource Priority: Units, castle structures, wheels, and helper items all compete for attention. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.
+## Match the upgrade system to the problem
 
-Verified point 3 for Upgrade Materials and Resource Priority: Patch 1.17 removed a cap that blocked upgrading a unit more than forty levels in one action. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.
+Castle Busters publishes several places where resources can matter. Castle upgrades improve durability and defensive options. Unit upgrades unlock perks and power spikes. Wheels change castle movement, while helper items provide offensive or defensive tools.
 
-Verified point 4 for Upgrade Materials and Resource Priority: No official universal resource priority is published. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.
+The table is a checking order, not an official tier list. Choose the row that matches the first failure you can see, inspect the live value, and change one system before comparing another battle.
 
-![Castle Busters official public media for Upgrade Materials and Resource Priority](/images/official/castle-busters-guide-official-01.webp)
+| Observed problem | System to inspect | Published purpose | Keep unknown until shown |
+|---|---|---|---|
+| Castle breaks while useful units remain | Castle upgrade | Durability and stronger defensive options | Cost, gain and best structure |
+| A unit has an available upgrade | Unit upgrade | Perks and power spikes | Next breakpoint and cost |
+| Castle cannot reach a useful angle | Wheel set | Movement with attributes such as speed and fuel | Exact stats and Forge gate |
+| One battle needs an extra tool | Helper item | Offensive gadgets or defensive boosts | Exact effect, inventory and drop chance |
 
-Official public media used for recognition; verify current values and availability in the live game.
+## Read Forge as a source, not a drop table
 
-## Step-by-step route
+The official feature page says new wheel sets come through the Forge and that offensive and defensive helper items are earned there too. It does not publish Forge gates, reset rules, recipes, chances, or a collection sequence.
 
-Step 1 — Name the first decisive failure in the last match. For Upgrade Materials and Resource Priority, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.
+Check the current Forge screen before claiming that an item is available. For wheels, compare the attributes the client actually displays, such as speed and fuel, against the movement problem you recorded.
 
-Step 2 — Choose the unit, structure, or mobility system tied to it. For Upgrade Materials and Resource Priority, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.
+![Four-step Castle Busters upgrade check](/images/editorial/castle-busters-guide-editorial-02.webp)
 
-Step 3 — Spend one bounded material step. For Upgrade Materials and Resource Priority, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.
+Project-original decision diagram, not a gameplay screenshot: find the bottleneck, compare one system, set a stop rule, and retest.
 
-Step 4 — Replay before opening a second upgrade path. For Upgrade Materials and Resource Priority, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.
+## Separate material tier from spend priority
 
-## Decision table in practice
+A later material tier describes progression, but it does not prove which system deserves the next purchase. The official page asks players to reinforce the parts that matter most; it does not publish a universal order for units, structures, wheels, or helper items.
 
-Decision row 1 for Upgrade Materials and Resource Priority starts with the current state that makes this action relevant: Name the first decisive failure in the last match. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.
+Use one controlled comparison. Record the first decisive failure, buy the smallest visible change that could affect it, and replay a comparable battle. This is an editorial test procedure, not a claim that one upgrade is always optimal.
 
-Decision row 2 for Upgrade Materials and Resource Priority starts with the current state that makes this action relevant: Choose the unit, structure, or mobility system tied to it. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.
+## Capture four fields before spending
 
-Decision row 3 for Upgrade Materials and Resource Priority starts with the current state that makes this action relevant: Spend one bounded material step. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.
+Write down the system, the visible material tier, the displayed cost, and the failure you want to change. After the next battle, add the first unit lost, the castle condition, and whether the original failure moved earlier or later.
 
-Decision row 4 for Upgrade Materials and Resource Priority starts with the current state that makes this action relevant: Replay before opening a second upgrade path. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.
+If a different opponent or formation makes the comparison unclear, label the result partial. One win can justify keeping a test candidate; it cannot establish a universal priority for every account.
 
-## Failure symptoms and recovery
+## Stop at the first unknown
 
-Failure pattern 1: Even spending creates several underpowered systems. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.
+Keep current wood income, exact building costs, tier unlock stages, unit stop levels, Forge probabilities, and a universal best investment order unknown unless the current client or a dated official source supplies them.
 
-Failure pattern 2: A notification can be mistaken for priority. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.
+If the live menu differs from this page, save the visible label and date. Do not substitute an older video, search snippet, or another player's number for the missing value.
 
-Failure pattern 3: A large multi-level upgrade can overshoot the test. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.
+## When to update this page
 
-Failure pattern 4: Matchmaking changes can make before-and-after opponents incomparable. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.
+Recheck this guide when the official upgrading or Forge descriptions change, when a patch changes the economy, or when the current client shows a different material path. A layout change by itself does not prove that costs or priorities changed.
 
-![Upgrade Materials and Resource Priority evidence and decision workflow](/images/editorial/castle-busters-guide-editorial-01.webp)
-
-Project-original editorial diagram based on the cited evidence; not a gameplay screenshot.
-
-## Version, source, and update rules
-
-The public version of Upgrade Materials and Resource Priority is dated September 4, 2026. Recheck it after a patch, interface change, economy change, altered tutorial, or repeated current-player contradiction that touches the named task. Keep the former observation with its date, append the replacement, and state which client, platform, account stage, and screen supplied the new result.
-
-For Upgrade Materials and Resource Priority, first-party documentation establishes identity and explicit mechanics. A current live-client observation can establish what one account displayed. Two independent current observations can strengthen a variable behavior. Search snippets, old videos, and similar game names may open a research task, but they cannot overwrite a verified row without matching the exact game and version.
-
-## How to use the page visuals
-
-The official or platform image on Upgrade Materials and Resource Priority is a recognition aid for the correct game and interface family. It does not prove every value, availability rule, or optimal choice shown elsewhere on the page. Compare visual landmarks with the live client before following a position, item, element, map, or menu instruction.
-
-The labelled editorial diagram expresses the decision path behind Upgrade Materials and Resource Priority. It is original explanatory artwork, not a gameplay screenshot. Follow its sequence—baseline, bounded action, visible checkpoint, stop condition, and evidence state—when the live scene differs from the promotional image.
-
-## Field notes for Upgrade Materials and Resource Priority
-
-Field note 1 for Upgrade Materials and Resource Priority connects three page-specific signals. Baseline: The official site names material tiers from wood and stone through diamond and magma. Operational move: Name the first decisive failure in the last match. Confounder to exclude: Even spending creates several underpowered systems. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.
-
-Field note 2 for Upgrade Materials and Resource Priority connects three page-specific signals. Baseline: Units, castle structures, wheels, and helper items all compete for attention. Operational move: Choose the unit, structure, or mobility system tied to it. Confounder to exclude: A notification can be mistaken for priority. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.
-
-Field note 3 for Upgrade Materials and Resource Priority connects three page-specific signals. Baseline: Patch 1.17 removed a cap that blocked upgrading a unit more than forty levels in one action. Operational move: Spend one bounded material step. Confounder to exclude: A large multi-level upgrade can overshoot the test. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.
-
-Field note 4 for Upgrade Materials and Resource Priority connects three page-specific signals. Baseline: No official universal resource priority is published. Operational move: Replay before opening a second upgrade path. Confounder to exclude: Matchmaking changes can make before-and-after opponents incomparable. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.
-
-## Final verification checklist
-
-Before acting on Upgrade Materials and Resource Priority, confirm the exact game, current platform, visible task, prerequisite, available choice, expected checkpoint, recovery path, version date, and evidence state. If one field is missing, collect it first. This checklist prevents an attractive but unsupported shortcut from consuming currency, progress, board space, or a limited test opportunity.
-
-After the result for Upgrade Materials and Resource Priority, save what changed and what did not. If this specific task is complete, stop. If its failure category changed, use that new bottleneck to choose the next guide. If nothing changed after a clean comparison, preserve the evidence and escalate the exact unresolved condition instead of repeating the same broad action.
+The useful result is a dated account observation: current tier, visible cost, selected system, and the battle outcome after one change. That evidence can support a later update without turning one account into a global rule.
 
 ## Sources
 
-- [Castle Busters official site](https://castlebusters.com/)
-- [Official patch notes 1.17](https://castlebusters.com/patch-notes-1-17/)
-- [Official patch notes 1.16](https://www.castlebusters.com/patch-notes-1-16/)
-- [Player upgrade and synergy question](https://www.reddit.com/r/CastleBusters/comments/1vqla3x/need_advice_on_castle_upgrades_unit_synergy/)
+- [Castle Busters official features](https://castlebusters.com/)
