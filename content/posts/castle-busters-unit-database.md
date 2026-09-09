@@ -1,86 +1,79 @@
 ---
-title: "Castle Busters Units, Skills, and Roles Database"
-description: "A versioned Castle Busters unit index organized by role, placement behavior, evidence status, and practical substitution—not unsupported tier scores."
-date: "2026-09-04"
-keywords: ["Castle Busters", "Data Tool Decision Table", "castle busters unit database"]
-coverImage: "/images/official/castle-busters-guide-official-01.webp"
+title: "Castle Busters Units List: 8 Documented Units and Abilities"
+description: "Find 8 Castle Busters unit names, their documented attacks or abilities, dated access notes, and the limits of the official 30+ roster claim."
+date: "2026-09-09"
+keywords: ["castle busters units list", "castle busters units", "castle buster units", "castle busters unit abilities", "castle busters unit names"]
+coverImage: "/images/official/castle-busters-units-official-a.webp"
 ---
 
-# Castle Busters Units, Skills, and Roles Database
+# Castle Busters Units List: 8 Documented Units and Abilities
 
-**Short answer:** Use the database as a versioned role index, not a fake power ranking. The first verified set contains only units and behaviors explicitly named by official pages; every missing stat stays unknown.
+**Short answer:** The official pages describe Bishop, Wrecker, Fairy, Pulsar, Saxton, Sir Rally, Leif and Wolfie. This is a sourced partial list: the site says 30+ units, while the exact full roster and most stats remain unpublished.
 
-## Quick answer and scope
+## Castle Busters units list at a glance
 
-Use the database as a versioned role index, not a fake power ranking. The first verified set contains only units and behaviors explicitly named by official pages; every missing stat stays unknown. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+Castle Busters advertises a roster of 30+ units. The public pages checked for this guide provide attack or ability descriptions for eight of them: Bishop, Wrecker, Fairy, Pulsar, Saxton, Sir Rally, Leif and Wolfie.
 
-This page is for one task: solve the player task described by Castle Busters Units, Skills, and Roles Database It applies to the version checked on September 4, 2026. If the current screen differs, stop at the first mismatch and use the troubleshooting section instead of forcing the route. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+This table is a documented partial list. It does not turn the 30+ marketing statement into an exact denominator, and it does not fill unpublished stats, rarities or unlock conditions with guesses.
 
-## What the accepted sources actually prove
+| Unit | Documented attack or ability | Access note in source | Source context |
+|---|---|---|---|
+| Bishop | Fires a bomb with delayed detonation. | Premium; exact unlock not listed. | Undated official unit description. |
+| Wrecker | Fires one large bomb that deals area damage. | Not listed. | Undated official unit description. |
+| Fairy | Releases destructive orbs that rain down on enemies. | Premium; exact unlock not listed. | Undated official unit description. |
+| Pulsar | Fires an accurate, powerful laser in the target direction. | Not listed. | Undated official unit description. |
+| Saxton | Fires three boomerangs that return to the castle. | Not listed. | Undated official unit description. |
+| Sir Rally | Boosts the damage of allied heroes placed immediately around him. | Arena 7 · Free in patch 1.16. | Patch 1.16; patch 1.17 adds an unspecified cast delay. |
+| Leif | After he defeats an enemy unit, fallen allies in his row return to life. | Arena 25 · Free in patch 1.16. | Patch 1.16. |
+| Wolfie | Transforms and attacks harder after an ally next to him is defeated. | Battle Pass Exclusive in patch 1.16. | Patch 1.16; current-season access is not confirmed. |
 
-The official site describes real-time 1v1 battles, more than 30 units, squads of up to eight, movable castles, structures, wheels, helper items, and upgrades through multiple material tiers. Patch 1.16 adds three placement-sensitive heroes; patch 1.17 changes matchmaking, support access, upgrade behavior, and several combat or interface bugs. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+![Official Castle Busters character art for Bishop, Wrecker, Fairy and Pulsar](/images/official/castle-busters-units-official-a.webp)
 
-That evidence supports the game's identity and the named systems, but it does not make every neighboring value true. Official sources do not publish every unit stat or a universal tier list. Community posts prove that upgrade, synergy, and placement questions exist, but their recommendations remain player observations until corroborated. This page keeps that boundary visible so an unknown field cannot silently become a confident recommendation. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+Official character art for Bishop, Wrecker, Fairy and Pulsar, arranged and labelled for identification. This is a partial roster reference, not a gameplay or stats screen.
 
-![Castle Busters official game context](/images/official/castle-busters-guide-official-01.webp)
+## Recognize Saxton, Sir Rally, Leif and Wolfie
 
-Official public media used for recognition; verify current values in game.
+The second identification panel pairs Saxton with the three heroes introduced in patch 1.16. The patch says the updated hero-visual rollout was complete for all players at that time, so older portraits should not be matched to a name without checking the source and date.
 
-## The verified dataset for this task
+Character art confirms identity only. Use the table and cited pages for behavior and access wording; the artwork does not prove damage values, rarity, current ownership or a complete roster.
 
-This page adds a bounded verified dataset, a current-version evidence boundary, and a recovery path for Castle Busters Units, Skills, and Roles Database. It is designed to answer the named task without importing unsupported details from a similar game or an older build. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+![Official Castle Busters character art for Saxton, Sir Rally, Leif and Wolfie](/images/official/castle-busters-units-official-b.webp)
 
-Use the verified dataset as a decision aid, not as decoration. Read the required input, choose the next action, note the expected visible output, and keep the fallback beside it. If any required input is unknown, the safe action is to gather that evidence before spending currency or committing progress. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+Official character art for Saxton, Sir Rally, Leif and Wolfie, arranged and labelled for identification. Ability details remain in the source-backed table.
 
-## Run the route without mixing variables
+## Read placement-sensitive abilities precisely
 
-Start by naming the current bottleneck in one sentence. Then follow this bounded answer: Use the database as a versioned role index, not a fake power ranking. The first verified set contains only units and behaviors explicitly named by official pages; every missing stat stays unknown. Change only the element, item, unit position, ship choice, or progression action directly tied to that bottleneck. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+Sir Rally, Leif and Wolfie do not share one generic formation rule. Sir Rally affects allied heroes immediately around him. Leif needs both a fallen ally in his row and an enemy defeat by Leif. Wolfie reacts when an ally next to him is taken out.
 
-After the action, return to the same screen or encounter and compare the result. A successful outcome without a stable baseline is useful for play but weak as evidence. A failed outcome with a clean baseline is valuable because it tells the next player which assumption not to repeat. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+The public notes do not define Sir Rally’s exact diagonal coverage, Leif’s behavior outside his row, Wolfie’s trigger count or any of their numerical bonuses. Patch 1.17 says Sir Rally received a cast delay but does not publish its duration.
 
-## Decision table
+## Vampire is named, but its ability is not documented here
 
-Use four columns: current state, available choice, expected benefit, and stop condition. Current state must come from the live game. Available choice must be visible or explicitly documented. Expected benefit may be a hypothesis, but it must be labelled as one. Stop condition prevents an open-ended upgrade or experiment from consuming resources without solving the original task. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+Patch 1.17 names Vampire only in a bug fix for the animation used when switching between moves. That is enough to record Vampire as an officially mentioned unit, but not enough to claim an attack, a healing or life-steal mechanic, a role, stats or an unlock method.
 
-Verify identity and system boundaries with the cited first-party source, then confirm version-sensitive conditions in the current client or with two independent current sources. A repeatable current observation may be labelled verified. One clean observation is partial. A missing label, result, or repeat remains unknown; none of those states should be converted into zero. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+For that reason, Vampire is not counted among the eight described rows above. It remains a named-only record until an accepted source provides the missing behavior.
 
-![Castle Busters editorial decision framework](/images/editorial/castle-busters-guide-editorial-01.webp)
+## Coverage and missing fields
 
-Project-original editorial diagram based on the cited evidence; not a gameplay screenshot.
+The current coverage is eight units with published attack or ability descriptions, plus one separately named unit with only a patch-animation record. The exact current roster total is unknown because 30+ is a marketing range, not a complete roster snapshot.
 
-## What belongs in a trustworthy unit row
+The accepted sources do not provide the full unit list, official role taxonomy, complete rarity set, health, damage, cooldown, range, upgrade growth or all current unlock methods. Premium is kept as the source label; it is not converted into a price, rarity or single purchase route.
 
-Each row needs an exact displayed name, current availability, primary role, placement dependency, visible skill behavior, source, version date, and evidence state. Numeric attack or health fields stay blank when the accepted sources do not publish them and the current client has not been measured. Blank means unknown, not zero. This distinction prevents filters and comparisons from turning missing data into a false weakness.
+| Coverage item | What is confirmed | What remains unknown |
+|---|---|---|
+| Published roster statement | 30+ unique units. | Exact current total and full list. |
+| Behavior descriptions | Eight named units in the table. | Most unit abilities and all complete stat lines. |
+| Additional named record | Vampire appears in a patch 1.17 animation fix. | Vampire’s attack, ability, access and stats. |
+| Dated access notes | Sir Rally, Leif and Wolfie labels from patch 1.16. | Current account, shop and season availability. |
 
-Role labels should describe what a player can observe: protects a firing line, deals repeatable damage, pressures a lane, controls movement, supports another unit, or depends on a specific row, column, or neighbor. A unit may carry more than one label, but the database should mark which behavior justified each one. Rarity alone is not a role and does not prove performance.
+## Use the next guide for the decision you need
 
-## Handle patch 1.16 examples without overclaiming
+Open the [loadout guide](/guides/castle-busters-eight-unit-loadout/) for the eight-unit team limit and dated access comparison. Use the [formation guide](/guides/castle-busters-formation/) for the three placement-sensitive hero conditions. Use the [unit upgrade guide](/guides/upgrade-breakpoints-stop-rules/) after selecting a unit and deciding whether to buy one level or a larger batch.
 
-The official patch page names Crabbo, Pharaoh, and ZapZap and describes behaviors tied to frontline attacks, a cat row, and a unit directly in front. Those statements justify placement tags and a patch reference. They do not justify exact damage values, a global ranking, or a claim that the heroes work identically after later balance changes. The database should display the official wording as a bounded behavior summary and schedule a current-client check.
-
-When a named unit cannot be found in the live roster, mark availability unconfirmed for the current account or build. Do not delete the patch record. Limited access, progression gates, platform rollout, or later removal can all explain the mismatch. Preserving the dated official record lets the site show what changed once a second source or client capture resolves it.
-
-## Search and compare by job to be done
-
-Players usually need a substitute, not an abstract list. Filters should answer questions such as which available unit can protect this damage source, which option can pressure an uncovered lane, or which behavior still works when a placement slot is unavailable. The comparison view should show shared role, different condition, upgrade burden, and the evidence behind the match.
-
-A substitute is acceptable when it preserves the required function under the current formation. It does not need the same name, rarity, or animation. Conversely, two units with similar visual attacks may not substitute if one relies on a row or adjacency rule the formation cannot support. This makes the database useful even before every numeric field is known.
-
-## Database maintenance rules
-
-Every change should be append-only at the evidence layer: retain the old value, record the new observation, attach the patch or capture date, and update the current view only after conflict resolution. Two independent current observations or one explicit official statement can promote a behavior to verified. A community recommendation may open a research task but should not directly rewrite a unit field.
-
-Completeness is measured against a declared roster snapshot, not the marketing phrase 'more than 30 units.' Until the current client roster is captured, the page must call itself a verified partial index. Publish coverage counts by evidence state and surface missing fields as research needs. That honesty is more actionable than a false 100 percent badge.
-
-## Final verification checklist
-
-Confirm the exact game, platform, current version, task, prerequisite, chosen action, expected visible result, recovery option, and evidence state. If all nine are clear, execute the smallest useful action. If one is missing, collect it before committing a scarce resource. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
-
-The short rule remains: Use the database as a versioned role index, not a fake power ranking. The first verified set contains only units and behaviors explicitly named by official pages; every missing stat stays unknown. Verify the visible result, save the date, and leave unsupported precision unknown. This claim is scoped specifically to Castle Busters Units, Skills, and Roles Database.
+A complete roster, all stats and a current tier list stay outside this page until the evidence exists.
 
 ## Sources
 
-- [Castle Busters official site](https://castlebusters.com/)
-- [Official patch notes 1.17](https://castlebusters.com/patch-notes-1-17/)
-- [Official patch notes 1.16](https://www.castlebusters.com/patch-notes-1-16/)
-- [Player upgrade and synergy question](https://www.reddit.com/r/CastleBusters/comments/1vqla3x/need_advice_on_castle_upgrades_unit_synergy/)
+- [Castle Busters official unit descriptions](https://castlebusters.com/)
+- [Castle Busters patch 1.16](https://castlebusters.com/patch-notes-1-16/)
+- [Castle Busters patch 1.17](https://castlebusters.com/patch-notes-1-17/)

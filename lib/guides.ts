@@ -115,11 +115,15 @@ export const guides:Guide[]=[
   {
     "slug": "castle-busters-unit-database",
     "category": "Units",
-    "title": "Castle Busters Units: Eight Named Skills and Access Notes",
-    "description": "Look up eight Castle Busters units, their documented attacks or skill conditions, and access notes from the official site and patches 1.16–1.17.",
-    "quickAnswer": "Sir Rally boosts nearby allied heroes, Leif revives fallen allies in his row after he kills an enemy unit, and Wolfie transforms after a neighboring ally dies. The table also covers Bishop, Wrecker, Fairy, Pulsar and Saxton. It is a partial unit reference.",
+    "title": "Castle Busters Units List: 8 Documented Units and Abilities",
+    "description": "Find 8 Castle Busters unit names, their documented attacks or abilities, dated access notes, and the limits of the official 30+ roster claim.",
+    "quickAnswer": "The official pages describe Bishop, Wrecker, Fairy, Pulsar, Saxton, Sir Rally, Leif and Wolfie. This is a sourced partial list: the site says 30+ units, while the exact full roster and most stats remain unpublished.",
     "updated": "September 9, 2026",
     "sources": [
+      {
+        "label": "Castle Busters — official unit descriptions",
+        "url": "https://castlebusters.com/"
+      },
       {
         "label": "Castle Busters — patch 1.16",
         "url": "https://castlebusters.com/patch-notes-1-16/"
@@ -127,98 +131,152 @@ export const guides:Guide[]=[
       {
         "label": "Castle Busters — patch 1.17",
         "url": "https://castlebusters.com/patch-notes-1-17/"
-      },
-      {
-        "label": "Castle Busters — official unit descriptions",
-        "url": "https://castlebusters.com/"
       }
     ],
     "sections": [
       {
-        "heading": "Look up a unit by name",
+        "heading": "Castle Busters units list at a glance",
         "paragraphs": [
-          "Find the exact unit name in the first column. Read its behavior together with the access and source-context columns.",
-          "The access column keeps the source’s own context. “Free at Arena 7” does not mean Sir Rally is already owned, and Leif’s Arena 25 listing does not make him an Arena 7 starter. Wolfie’s Battle Pass label comes from patch 1.16; it does not identify the current season’s availability."
+          "Castle Busters advertises a roster of 30+ units. The public pages checked for this guide provide attack or ability descriptions for eight of them: Bishop, Wrecker, Fairy, Pulsar, Saxton, Sir Rally, Leif and Wolfie.",
+          "This table is a documented partial list. It does not turn the 30+ marketing statement into an exact denominator, and it does not fill unpublished stats, rarities or unlock conditions with guesses."
         ],
         "table": {
           "columns": [
             "Unit",
-            "Attack or skill",
-            "Access described by the source",
+            "Documented attack or ability",
+            "Access note in source",
             "Source context"
           ],
           "rows": [
             [
-              "Sir Rally",
-              "Raises the damage of allied heroes immediately around him.",
-              "Free at Arena 7.",
-              "Patch 1.16; patch 1.17 adds a cast delay."
-            ],
-            [
-              "Leif",
-              "Revives fallen allies in his row when he kills an enemy unit.",
-              "Free at Arena 25.",
-              "Patch 1.16."
-            ],
-            [
-              "Wolfie",
-              "Transforms and gains attack strength after a neighboring ally dies.",
-              "Battle Pass exclusive.",
-              "Patch 1.16."
-            ],
-            [
               "Bishop",
-              "Uses a bomb with a delayed explosion.",
-              "Described as premium; no exact unlock listed.",
+              "Fires a bomb with delayed detonation.",
+              "Premium; exact unlock not listed.",
               "Undated official unit description."
             ],
             [
               "Wrecker",
-              "Fires a single bomb that deals area damage.",
-              "Not specified in the description.",
+              "Fires one large bomb that deals area damage.",
+              "Not listed.",
               "Undated official unit description."
             ],
             [
               "Fairy",
-              "Attacks with descending orbs.",
-              "Described as premium; no exact unlock listed.",
+              "Releases destructive orbs that rain down on enemies.",
+              "Premium; exact unlock not listed.",
               "Undated official unit description."
             ],
             [
               "Pulsar",
-              "Fires a laser in the aimed direction.",
-              "Not specified in the description.",
+              "Fires an accurate, powerful laser in the target direction.",
+              "Not listed.",
               "Undated official unit description."
             ],
             [
               "Saxton",
-              "Throws three boomerangs that return to the castle.",
-              "Not specified in the description.",
+              "Fires three boomerangs that return to the castle.",
+              "Not listed.",
               "Undated official unit description."
+            ],
+            [
+              "Sir Rally",
+              "Boosts the damage of allied heroes placed immediately around him.",
+              "Arena 7 · Free in patch 1.16.",
+              "Patch 1.16; patch 1.17 adds an unspecified cast delay."
+            ],
+            [
+              "Leif",
+              "After he defeats an enemy unit, fallen allies in his row return to life.",
+              "Arena 25 · Free in patch 1.16.",
+              "Patch 1.16."
+            ],
+            [
+              "Wolfie",
+              "Transforms and attacks harder after an ally next to him is defeated.",
+              "Battle Pass Exclusive in patch 1.16.",
+              "Patch 1.16; current-season access is not confirmed."
             ]
           ]
         },
         "visual": {
-          "assetId": "castle-busters-guide-official-01",
-          "src": "/images/official/castle-busters-guide-official-01.webp",
-          "width": 1000,
-          "height": 1000,
-          "alt": "Castle Busters logo",
-          "caption": "Castle Busters."
+          "assetId": "castle-busters-units-official-a",
+          "src": "/images/official/castle-busters-units-official-a.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Official Castle Busters character art for Bishop, Wrecker, Fairy and Pulsar",
+          "caption": "Official character art for Bishop, Wrecker, Fairy and Pulsar, arranged and labelled for identification. This is a partial roster reference, not a gameplay or stats screen."
         }
       },
       {
-        "heading": "Keep the source version with the entry",
+        "heading": "Recognize Saxton, Sir Rally, Leif and Wolfie",
         "paragraphs": [
-          "Patch 1.16 introduced Sir Rally, Leif and Wolfie and completed the rollout of updated hero visuals. An older portrait therefore needs an exact name match before it can be used to identify one of these entries.",
-          "Patch 1.17 added a cast delay to Sir Rally. The note does not give its duration.",
-          "The official site advertises more than thirty units. These eight descriptions form a partial reference, not the complete roster. Attack and health values, unlisted unlocks and unit rankings are not supplied by this table."
+          "The second identification panel pairs Saxton with the three heroes introduced in patch 1.16. The patch says the updated hero-visual rollout was complete for all players at that time, so older portraits should not be matched to a name without checking the source and date.",
+          "Character art confirms identity only. Use the table and cited pages for behavior and access wording; the artwork does not prove damage values, rarity, current ownership or a complete roster."
+        ],
+        "visual": {
+          "assetId": "castle-busters-units-official-b",
+          "src": "/images/official/castle-busters-units-official-b.webp",
+          "width": 1600,
+          "height": 900,
+          "alt": "Official Castle Busters character art for Saxton, Sir Rally, Leif and Wolfie",
+          "caption": "Official character art for Saxton, Sir Rally, Leif and Wolfie, arranged and labelled for identification. Ability details remain in the source-backed table."
+        }
+      },
+      {
+        "heading": "Read placement-sensitive abilities precisely",
+        "paragraphs": [
+          "Sir Rally, Leif and Wolfie do not share one generic formation rule. Sir Rally affects allied heroes immediately around him. Leif needs both a fallen ally in his row and an enemy defeat by Leif. Wolfie reacts when an ally next to him is taken out.",
+          "The public notes do not define Sir Rally’s exact diagonal coverage, Leif’s behavior outside his row, Wolfie’s trigger count or any of their numerical bonuses. Patch 1.17 says Sir Rally received a cast delay but does not publish its duration."
         ]
       },
       {
-        "heading": "Compare access and formation conditions",
+        "heading": "Vampire is named, but its ability is not documented here",
         "paragraphs": [
-          "Use the loadout conditions guide next for the unit limit and access comparison. Use the formation rules guide for the difference between Sir Rally’s nearby allies, Leif’s same-row revival and Wolfie’s neighboring-death condition."
+          "Patch 1.17 names Vampire only in a bug fix for the animation used when switching between moves. That is enough to record Vampire as an officially mentioned unit, but not enough to claim an attack, a healing or life-steal mechanic, a role, stats or an unlock method.",
+          "For that reason, Vampire is not counted among the eight described rows above. It remains a named-only record until an accepted source provides the missing behavior."
+        ]
+      },
+      {
+        "heading": "Coverage and missing fields",
+        "paragraphs": [
+          "The current coverage is eight units with published attack or ability descriptions, plus one separately named unit with only a patch-animation record. The exact current roster total is unknown because 30+ is a marketing range, not a complete roster snapshot.",
+          "The accepted sources do not provide the full unit list, official role taxonomy, complete rarity set, health, damage, cooldown, range, upgrade growth or all current unlock methods. Premium is kept as the source label; it is not converted into a price, rarity or single purchase route."
+        ],
+        "table": {
+          "columns": [
+            "Coverage item",
+            "What is confirmed",
+            "What remains unknown"
+          ],
+          "rows": [
+            [
+              "Published roster statement",
+              "30+ unique units.",
+              "Exact current total and full list."
+            ],
+            [
+              "Behavior descriptions",
+              "Eight named units in the table.",
+              "Most unit abilities and all complete stat lines."
+            ],
+            [
+              "Additional named record",
+              "Vampire appears in a patch 1.17 animation fix.",
+              "Vampire’s attack, ability, access and stats."
+            ],
+            [
+              "Dated access notes",
+              "Sir Rally, Leif and Wolfie labels from patch 1.16.",
+              "Current account, shop and season availability."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Use the next guide for the decision you need",
+        "paragraphs": [
+          "Open the loadout guide for the eight-unit team limit and dated access comparison. Use the formation guide for the three placement-sensitive hero conditions. Use the upgrade guide after selecting a unit and deciding whether to buy one level or a larger batch.",
+          "A complete roster, all stats and a current tier list stay outside this page until the evidence exists."
         ]
       }
     ],
@@ -226,7 +284,7 @@ export const guides:Guide[]=[
     "relatedSlugs": [
       "castle-busters-eight-unit-loadout",
       "castle-busters-formation",
-      "patch-notes-and-balance-log"
+      "upgrade-breakpoints-stop-rules"
     ]
   },
   {
