@@ -1386,120 +1386,205 @@ export const guides:Guide[]=[
   {
     "slug": "wheels-and-helper-items",
     "category": "Core System Explainer",
-    "title": "Wheel and Auxiliary Item Priorities",
-    "description": "A current, source-checked guide to wheel and auxiliary item priorities, with practical steps, failure fixes, and clear evidence limits.",
-    "quickAnswer": "Choose wheels for the movement problem you actually have and helper items for one timed match problem; do not spend on them as generic power.",
-    "updated": "September 4, 2026",
+    "title": "Castle Busters Wheels and Helper Items: Stats and Picks",
+    "description": "Use visible wheel stats and helper categories to test one match-specific utility without guessing undocumented Power, costs or unlocks.",
+    "quickAnswer": "Use wheels when castle movement or firing angle is the problem. Use an offensive helper when you need to break defenses or pressure units, and a defensive helper when you need to survive or recover. Compare one visible option at a time; the cited sources do not define Power, exact costs, unlock levels, or one best setup.",
+    "updated": "September 9, 2026",
     "sources": [
       {
-        "label": "Castle Busters official site",
+        "label": "Castle Busters official feature overview",
         "url": "https://castlebusters.com/"
       },
       {
-        "label": "Official patch notes 1.17",
+        "label": "Castle Busters patch notes 1.17",
         "url": "https://castlebusters.com/patch-notes-1-17/"
       },
       {
-        "label": "Official patch notes 1.16",
-        "url": "https://www.castlebusters.com/patch-notes-1-16/"
+        "label": "Player question: Power Stat for Wheels",
+        "url": "https://www.reddit.com/r/CastleBusters/comments/1tlt1kg/power_stat_for_wheels/"
       },
       {
-        "label": "Player upgrade and synergy question",
-        "url": "https://www.reddit.com/r/CastleBusters/comments/1vqla3x/need_advice_on_castle_upgrades_unit_synergy/"
+        "label": "Player question: Wheels",
+        "url": "https://www.reddit.com/r/CastleBusters/comments/1u8xtvn/wheels/"
+      },
+      {
+        "label": "Player discussion: What to use Gems for?",
+        "url": "https://www.reddit.com/r/CastleBusters/comments/1ten4uj/what_to_use_gems_for/"
       }
     ],
     "sections": [
       {
-        "heading": "Quick answer and operating boundary",
+        "heading": "Choose the utility that fixes the loss",
         "paragraphs": [
-          "Choose wheels for the movement problem you actually have and helper items for one timed match problem; do not spend on them as generic power. This is the direct answer for Wheel and Auxiliary Item Priorities, checked against the sources and observations available on September 4, 2026.",
-          "Scope boundary: No complete item catalog or universal Forge priority is claimed; availability and numbers must be read from the current client. The page distinguishes verified facts, a single current observation, an actionable hypothesis, and an unknown field. Those states stay visible because a useful answer is more trustworthy when it says exactly where evidence ends."
-        ]
-      },
-      {
-        "heading": "What is verified now",
-        "paragraphs": [
-          "Verified point 1 for Wheel and Auxiliary Item Priorities: Official material says wheel sets come through the Forge and have different speed and fuel statistics. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 2 for Wheel and Auxiliary Item Priorities: Wheels reposition the castle for angles. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 3 for Wheel and Auxiliary Item Priorities: Helper items also come through the Forge. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 4 for Wheel and Auxiliary Item Priorities: Helpers include offensive gadgets and defensive boosts in the official description. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs."
+          "Start with the loss, not the equipment score. Choose a wheel for an angle or movement problem, or one helper category for pressure or survival. Replay a comparable match and keep the change only if that original problem improves.",
+          "The official feature overview and patch note cited below do not provide a complete wheel or helper catalog. They also do not define the Power label, prices, Forge odds, unlock levels, or a universal best loadout. Read those fields in your current game build instead of relying on an undated tier list."
         ],
         "visual": {
           "assetId": "castle-busters-guide-official-01",
           "src": "/images/official/castle-busters-guide-official-01.webp",
           "width": 1000,
           "height": 1000,
-          "alt": "Castle Busters official public media for Wheel and Auxiliary Item Priorities",
-          "caption": "Official public media used for recognition; verify current values and availability in the live game."
+          "alt": "Castle Busters official game artwork",
+          "caption": "Official Castle Busters artwork for game identification. Wheel and helper values must be checked in the current game."
         }
       },
       {
-        "heading": "Step-by-step route",
+        "heading": "What the wheel screen can tell you",
         "paragraphs": [
-          "Step 1 — Decide whether the plan needs reach, repositioning, survival, or burst pressure. For Wheel and Auxiliary Item Priorities, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 2 — Compare only visible wheel or helper fields. For Wheel and Auxiliary Item Priorities, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 3 — Equip one change and keep the squad fixed. For Wheel and Auxiliary Item Priorities, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 4 — Replay the same target and record whether the timing problem moved. For Wheel and Auxiliary Item Priorities, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step."
-        ]
-      },
-      {
-        "heading": "Decision table in practice",
-        "paragraphs": [
-          "Decision row 1 for Wheel and Auxiliary Item Priorities starts with the current state that makes this action relevant: Decide whether the plan needs reach, repositioning, survival, or burst pressure. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 2 for Wheel and Auxiliary Item Priorities starts with the current state that makes this action relevant: Compare only visible wheel or helper fields. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 3 for Wheel and Auxiliary Item Priorities starts with the current state that makes this action relevant: Equip one change and keep the squad fixed. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 4 for Wheel and Auxiliary Item Priorities starts with the current state that makes this action relevant: Replay the same target and record whether the timing problem moved. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible."
-        ]
-      },
-      {
-        "heading": "Failure symptoms and recovery",
-        "paragraphs": [
-          "Failure pattern 1: Faster movement may consume fuel too quickly. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 2: An offensive helper can arrive after the decisive loss. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 3: A defensive boost may protect the wrong line. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 4: Changing wheels and helpers together hides the useful component. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way."
+          "The official feature overview says wheels move the castle around the arena and that wheel sets come from the Forge. It names speed and fuel as examples of wheel statistics, but it does not publish their formulas or confirm every field shown by every account.",
+          "Treat the labels below differently. Movement, Forge acquisition, speed, and fuel are publicly documented. Power is a recurring player question, but the public feature page does not explain what it measures. A number beside an unexplained label is not enough to turn it into damage, durability, rarity, or matchmaking power."
         ],
+        "table": {
+          "columns": [
+            "Wheel field",
+            "What is confirmed",
+            "What to do"
+          ],
+          "rows": [
+            [
+              "Movement",
+              "Wheels let the castle move around the arena.",
+              "Use a wheel test when position or firing angle caused the loss."
+            ],
+            [
+              "Speed",
+              "The official page lists speed as an example wheel stat.",
+              "Compare the visible value and observe repositioning; do not assume a hidden formula."
+            ],
+            [
+              "Fuel",
+              "The official page lists fuel as an example wheel stat.",
+              "Record the visible value and the point at which movement becomes limited in your test."
+            ],
+            [
+              "Power",
+              "Not defined in the cited official sources.",
+              "Use an in-game tooltip or support answer before assigning a meaning to it."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Pick a wheel with a one-match comparison",
+        "paragraphs": [
+          "Keep the squad, castle layout, and target as similar as possible. Capture the current wheel fields, play once, change only the wheel, then replay. The useful result is whether the original movement problem changed, not whether the equipment screen displayed a larger total.",
+          "A wheel comparison is inconclusive when the opponent, terrain, layout, or squad change at the same time. Save the two visible stat cards and the match result. If the angle or repositioning problem does not improve, return to the previous wheel and test a different cause."
+        ],
+        "table": {
+          "columns": [
+            "Observed problem",
+            "Wheel test",
+            "Keep the change when",
+            "Stop when"
+          ],
+          "rows": [
+            [
+              "A target stays outside a usable angle",
+              "Change one wheel and replay the same kind of position.",
+              "The castle reaches a workable angle more reliably.",
+              "The firing lane stays blocked."
+            ],
+            [
+              "Repositioning is too slow",
+              "Compare the visible speed field, then repeat one movement.",
+              "The move finishes soon enough to affect the turn.",
+              "The timing problem remains."
+            ],
+            [
+              "Movement ends before the desired position",
+              "Compare the visible fuel field and repeat the route.",
+              "The same route reaches the checkpoint.",
+              "The route still falls short or another limit appears."
+            ],
+            [
+              "Only the Power number changes",
+              "Look for a current tooltip or Help Center explanation.",
+              "The game defines the field and the test matches it.",
+              "The meaning remains undocumented."
+            ]
+          ]
+        },
         "visual": {
-          "assetId": "castle-busters-guide-editorial-01",
-          "src": "/images/editorial/castle-busters-guide-editorial-01.webp",
+          "assetId": "castle-busters-wheels-helper-decision",
+          "src": "/images/editorial/castle-busters-wheels-helper-decision.webp",
           "width": 1600,
           "height": 900,
-          "alt": "Wheel and Auxiliary Item Priorities evidence and decision workflow",
-          "caption": "Project-original editorial diagram based on the cited evidence; not a gameplay screenshot."
+          "alt": "Castle Busters wheels or helper decision diagram",
+          "caption": "Project-original decision diagram, not a gameplay screenshot: choose wheels for angle or movement, helpers for pressure or survival, then test one change."
         }
       },
       {
-        "heading": "Version, source, and update rules",
+        "heading": "Choose helpers by timing and job",
         "paragraphs": [
-          "The public version of Wheel and Auxiliary Item Priorities is dated September 4, 2026. Recheck it after a patch, interface change, economy change, altered tutorial, or repeated current-player contradiction that touches the named task. Keep the former observation with its date, append the replacement, and state which client, platform, account stage, and screen supplied the new result.",
-          "For Wheel and Auxiliary Item Priorities, first-party documentation establishes identity and explicit mechanics. A current live-client observation can establish what one account displayed. Two independent current observations can strengthen a variable behavior. Search snippets, old videos, and similar game names may open a research task, but they cannot overwrite a verified row without matching the exact game and version."
+          "The official site divides helper items into offensive gadgets and defensive boosts. Offensive helpers are described as tools for breaking defenses and pressuring units. Defensive helpers are described as tools for surviving pushes, recovering, and holding important moments.",
+          "Start from the moment the match turns against you. If a defense or unit must be removed before it acts, test one offensive helper. If the castle or squad collapses during a push, test one defensive helper. Do not change the wheel in the same comparison, or you will not know which utility moved the result."
+        ],
+        "table": {
+          "columns": [
+            "Match problem",
+            "Helper category to test",
+            "Visible checkpoint"
+          ],
+          "rows": [
+            [
+              "A defense survives long enough to stop the attack",
+              "Offensive gadget",
+              "The named defense breaks before the same stopping point."
+            ],
+            [
+              "Enemy units keep control of the turn",
+              "Offensive gadget",
+              "Pressure reaches the units early enough to change the exchange."
+            ],
+            [
+              "The castle fails during a push",
+              "Defensive boost",
+              "The castle survives past the former failure point."
+            ],
+            [
+              "A recovery effect appears unreliable",
+              "Current utility or defensive helper",
+              "The effect appears in the same condition after confirming the 1.17 update."
+            ]
+          ]
+        }
+      },
+      {
+        "heading": "Check patch 1.17 before judging a heal",
+        "paragraphs": [
+          "Patch 1.17 says a utility heal that failed in some situations was fixed. The note does not give the utility's inventory name, amount, trigger, or affected account range. If a healing utility behaved inconsistently in an older test, update the game and repeat the same condition before replacing it.",
+          "The same patch added in-game support under Settings and a Help Center. If a stat, unlock, or utility behavior remains unclear, use the current in-game entry. The public patch note confirms that the entry exists; the exact taps after Settings may vary with the interface."
         ]
       },
       {
-        "heading": "How to use the page visuals",
+        "heading": "Spend only after the option is visible",
         "paragraphs": [
-          "The official or platform image on Wheel and Auxiliary Item Priorities is a recognition aid for the correct game and interface family. It does not prove every value, availability rule, or optimal choice shown elsewhere on the page. Compare visual landmarks with the live client before following a position, item, element, map, or menu instruction.",
-          "The labelled editorial diagram expresses the decision path behind Wheel and Auxiliary Item Priorities. It is original explanatory artwork, not a gameplay screenshot. Follow its sequence—baseline, bounded action, visible checkpoint, stop condition, and evidence state—when the live scene differs from the promotional image."
+          "Community discussions ask whether gems should go to wheels or other utilities, but those answers reflect individual accounts and versions. The two official sources cited here do not publish current gem prices, upgrade caps, Forge odds, or a best spending order. Check the cost and outcome shown on your own screen before buying.",
+          "First test an option you already own. If it solves the named match problem twice under comparable conditions, then compare its next visible cost with the next upgrade serving the same problem. Avoid spending merely because a wheel or helper increases an unexplained summary number."
         ]
       },
       {
-        "heading": "Field notes for Wheel and Auxiliary Item Priorities",
+        "heading": "Fix the common comparison mistakes",
         "paragraphs": [
-          "Field note 1 for Wheel and Auxiliary Item Priorities connects three page-specific signals. Baseline: Official material says wheel sets come through the Forge and have different speed and fuel statistics. Operational move: Decide whether the plan needs reach, repositioning, survival, or burst pressure. Confounder to exclude: Faster movement may consume fuel too quickly. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 2 for Wheel and Auxiliary Item Priorities connects three page-specific signals. Baseline: Wheels reposition the castle for angles. Operational move: Compare only visible wheel or helper fields. Confounder to exclude: An offensive helper can arrive after the decisive loss. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 3 for Wheel and Auxiliary Item Priorities connects three page-specific signals. Baseline: Helper items also come through the Forge. Operational move: Equip one change and keep the squad fixed. Confounder to exclude: A defensive boost may protect the wrong line. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 4 for Wheel and Auxiliary Item Priorities connects three page-specific signals. Baseline: Helpers include offensive gadgets and defensive boosts in the official description. Operational move: Replay the same target and record whether the timing problem moved. Confounder to exclude: Changing wheels and helpers together hides the useful component. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away."
+          "If a faster-looking setup performs worse, check whether the route, opponent, terrain, or firing angle changed. The public source names speed and fuel fields without defining their relationship, so do not explain the result with an invented tradeoff.",
+          "If a helper activates but the match still turns at the same moment, test a different category or timing. If an expected wheel or helper is missing from the Forge, record the account stage and visible Forge screen; availability reports from another player do not prove an unlock rule for your account.",
+          "If Power remains unclear, leave it unresolved. A Help Center or developer support answer can define it; a larger number and a community guess cannot."
         ]
       },
       {
-        "heading": "Final verification checklist",
+        "heading": "Quick wheel and helper checklist",
         "paragraphs": [
-          "Before acting on Wheel and Auxiliary Item Priorities, confirm the exact game, current platform, visible task, prerequisite, available choice, expected checkpoint, recovery path, version date, and evidence state. If one field is missing, collect it first. This checklist prevents an attractive but unsupported shortcut from consuming currency, progress, board space, or a limited test opportunity.",
-          "After the result for Wheel and Auxiliary Item Priorities, save what changed and what did not. If this specific task is complete, stop. If its failure category changed, use that new bottleneck to choose the next guide. If nothing changed after a clean comparison, preserve the evidence and escalate the exact unresolved condition instead of repeating the same broad action."
+          "Name the loss first: angle, repositioning, defense pressure, or survival. Capture the current wheel and helper fields. Change one item, replay a comparable match, and check whether that exact failure moves. Keep the change only after a repeatable improvement.",
+          "Recheck this page after a patch changes utilities, Forge availability, movement, or the equipment interface. Exact stats, costs, unlocks, drop rates, and Power remain current-client questions until Castle Busters publishes them."
         ]
       }
     ],
-    "evidenceClass": "source_bounded_launch_page"
+    "evidenceClass": "claim_bounded_current_guide",
+    "relatedSlugs": [
+      "upgrade-materials-priority",
+      "castle-busters-beginner-route",
+      "castle-busters-formation"
+    ]
   },
   {
     "slug": "upgrade-breakpoints-stop-rules",
