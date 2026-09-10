@@ -854,15 +854,11 @@ export const guides:Guide[]=[
   {
     "slug": "frontline-backline-placement",
     "category": "Blocker Walkthrough",
-    "title": "Frontline and Backline Placement Guide",
-    "description": "A current, source-checked guide to frontline and backline placement guide, with practical steps, failure fixes, and clear evidence limits.",
-    "quickAnswer": "Protect the unit whose action the plan depends on, preserve its firing angle, and move only one position before replaying the same objective.",
-    "updated": "September 4, 2026",
+    "title": "Castle Busters Frontline and Backline: Hero Placement Conditions",
+    "description": "Check Sir Rally, Leif, and Wolfie's documented neighbor and row conditions, plus the dated unit-swap fix and placement limits.",
+    "quickAnswer": "Patch 1.16 gives relationships, not universal front or back slots: Sir Rally affects allies immediately around him; Leif revives fallen allies in his row after his own enemy-unit kill; Wolfie responds when a neighboring ally dies. Patch 1.17 separately reports a swap-placement fix.",
+    "updated": "September 10, 2026",
     "sources": [
-      {
-        "label": "Castle Busters official site",
-        "url": "https://castlebusters.com/"
-      },
       {
         "label": "Official patch notes 1.17",
         "url": "https://castlebusters.com/patch-notes-1-17/"
@@ -870,104 +866,56 @@ export const guides:Guide[]=[
       {
         "label": "Official patch notes 1.16",
         "url": "https://www.castlebusters.com/patch-notes-1-16/"
-      },
-      {
-        "label": "Player upgrade and synergy question",
-        "url": "https://www.reddit.com/r/CastleBusters/comments/1vqla3x/need_advice_on_castle_upgrades_unit_synergy/"
       }
     ],
     "sections": [
       {
-        "heading": "Quick answer and operating boundary",
+        "heading": "Check the named relationship before a front or back label",
         "paragraphs": [
-          "Protect the unit whose action the plan depends on, preserve its firing angle, and move only one position before replaying the same objective. This is the direct answer for Frontline and Backline Placement Guide, checked against the sources and observations available on September 4, 2026.",
-          "Scope boundary: The guide teaches diagnosis and controlled replay, not a single formation valid against every opponent. The page distinguishes verified facts, a single current observation, an actionable hypothesis, and an unknown field. Those states stay visible because a useful answer is more trustworthy when it says exactly where evidence ends."
-        ]
-      },
-      {
-        "heading": "What is verified now",
-        "paragraphs": [
-          "Verified point 1 for Frontline and Backline Placement Guide: The official site says players aim and fire from inside a movable castle. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 2 for Frontline and Backline Placement Guide: Structures can create safe positions and stronger defenses. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 3 for Frontline and Backline Placement Guide: Patch 1.16 explicitly ties some hero effects to neighbors and rows. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs.",
-          "Verified point 4 for Frontline and Backline Placement Guide: Patch 1.17 fixed a unit's position when swapped on the castle. This point is kept separate from neighboring assumptions so a visible label, an official feature description, or a dated patch statement does not silently authorize an unstated number or universal strategy. Use it as the fixed baseline for the next decision, and recheck the cited source when the live interface differs."
+          "Patch 1.16 names relationships and triggers, not fixed slots. It was not reproduced in a current client here; around and neighboring do not define reach or grid geometry."
         ],
+        "table": {
+          "columns": ["Hero", "Published condition", "Boundary"],
+          "rows": [
+            ["Sir Rally", "He boosts the damage dealt by allied heroes immediately around him", "Patch 1.16; no diagonal rule or multiplier inferred"],
+            ["Leif", "After he kills an enemy unit, fallen allies in his row revive", "Both his kill and the same-row relationship matter"],
+            ["Wolfie", "After a neighboring ally dies, he transforms and gains attack strength", "Not a front-row or enemy-death rule"]
+          ]
+        },
         "visual": {
           "assetId": "castle-busters-guide-official-01",
           "src": "/images/official/castle-busters-guide-official-01.webp",
           "width": 1000,
           "height": 1000,
-          "alt": "Castle Busters official public media for Frontline and Backline Placement Guide",
-          "caption": "Official public media used for recognition; verify current values and availability in the live game."
+          "alt": "Castle Busters logo",
+          "caption": "Castle Busters official logo; identification only, not evidence of unit placement."
         }
       },
       {
-        "heading": "Step-by-step route",
+        "heading": "Treat the swap fix as a dated release note",
         "paragraphs": [
-          "Step 1 — Mark the first point of enemy pressure. For Frontline and Backline Placement Guide, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 2 — Identify the friendly unit that must remain active. For Frontline and Backline Placement Guide, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 3 — Place protection without blocking its shot. For Frontline and Backline Placement Guide, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step.",
-          "Step 4 — Replay after one positional change. For Frontline and Backline Placement Guide, record the screen or state before acting, make only this bounded change, and note the first visible result. Keep any currency, inventory, formation, map, element, or mission value that was not displayed out of the claim. If the expected checkpoint is missing, stop here rather than carrying an uncertain premise into the next step."
+          "Patch 1.17 reports fixing placement after swaps. This dated statement does not prove current deployment everywhere or that every older recording showed the problem.",
+          "If an old clip and the live client disagree, record the version and positions. Keep the difference as an observation until matching evidence explains it."
         ]
       },
       {
-        "heading": "Decision table in practice",
+        "heading": "Keep a position check small",
         "paragraphs": [
-          "Decision row 1 for Frontline and Backline Placement Guide starts with the current state that makes this action relevant: Mark the first point of enemy pressure. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 2 for Frontline and Backline Placement Guide starts with the current state that makes this action relevant: Identify the friendly unit that must remain active. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 3 for Frontline and Backline Placement Guide starts with the current state that makes this action relevant: Place protection without blocking its shot. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible.",
-          "Decision row 4 for Frontline and Backline Placement Guide starts with the current state that makes this action relevant: Replay after one positional change. The available choice must be visible in the current client or stated by a cited first-party source. The expected benefit is a testable hypothesis until the result appears. The stop condition is reached when the named bottleneck does not move after one clean comparison or when a new prerequisite becomes visible."
-        ]
-      },
-      {
-        "heading": "Failure symptoms and recovery",
-        "paragraphs": [
-          "Failure pattern 1: A symmetrical layout can expose both sides equally. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 2: Moving the castle can solve one angle and open another. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 3: A swap bug may have affected older recordings. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way.",
-          "Failure pattern 4: Two simultaneous moves make the improvement impossible to attribute. Diagnose this possibility before spending more or publishing a correction. Recreate the smallest relevant setup, compare it with the saved baseline, and change one condition. A single mismatch makes the current route partial; it does not prove that every platform, account stage, opponent, geometry, or later version behaves the same way."
-        ],
-        "visual": {
-          "assetId": "castle-busters-guide-editorial-01",
-          "src": "/images/editorial/castle-busters-guide-editorial-01.webp",
-          "width": 1600,
-          "height": 900,
-          "alt": "Frontline and Backline Placement Guide evidence and decision workflow",
-          "caption": "Project-original editorial diagram based on the cited evidence; not a gameplay screenshot."
-        }
-      },
-      {
-        "heading": "Version, source, and update rules",
-        "paragraphs": [
-          "The public version of Frontline and Backline Placement Guide is dated September 4, 2026. Recheck it after a patch, interface change, economy change, altered tutorial, or repeated current-player contradiction that touches the named task. Keep the former observation with its date, append the replacement, and state which client, platform, account stage, and screen supplied the new result.",
-          "For Frontline and Backline Placement Guide, first-party documentation establishes identity and explicit mechanics. A current live-client observation can establish what one account displayed. Two independent current observations can strengthen a variable behavior. Search snippets, old videos, and similar game names may open a research task, but they cannot overwrite a verified row without matching the exact game and version."
-        ]
-      },
-      {
-        "heading": "How to use the page visuals",
-        "paragraphs": [
-          "The official or platform image on Frontline and Backline Placement Guide is a recognition aid for the correct game and interface family. It does not prove every value, availability rule, or optimal choice shown elsewhere on the page. Compare visual landmarks with the live client before following a position, item, element, map, or menu instruction.",
-          "The labelled editorial diagram expresses the decision path behind Frontline and Backline Placement Guide. It is original explanatory artwork, not a gameplay screenshot. Follow its sequence—baseline, bounded action, visible checkpoint, stop condition, and evidence state—when the live scene differs from the promotional image."
-        ]
-      },
-      {
-        "heading": "Field notes for Frontline and Backline Placement Guide",
-        "paragraphs": [
-          "Field note 1 for Frontline and Backline Placement Guide connects three page-specific signals. Baseline: The official site says players aim and fire from inside a movable castle. Operational move: Mark the first point of enemy pressure. Confounder to exclude: A symmetrical layout can expose both sides equally. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 2 for Frontline and Backline Placement Guide connects three page-specific signals. Baseline: Structures can create safe positions and stronger defenses. Operational move: Identify the friendly unit that must remain active. Confounder to exclude: Moving the castle can solve one angle and open another. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 3 for Frontline and Backline Placement Guide connects three page-specific signals. Baseline: Patch 1.16 explicitly ties some hero effects to neighbors and rows. Operational move: Place protection without blocking its shot. Confounder to exclude: A swap bug may have affected older recordings. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away.",
-          "Field note 4 for Frontline and Backline Placement Guide connects three page-specific signals. Baseline: Patch 1.17 fixed a unit's position when swapped on the castle. Operational move: Replay after one positional change. Confounder to exclude: Two simultaneous moves make the improvement impossible to attribute. Write those three lines beside the live screen before the test. The result is useful only when the baseline remains identifiable, the operational move is the only intentional change, and the confounder has been checked rather than assumed away."
-        ]
-      },
-      {
-        "heading": "Final verification checklist",
-        "paragraphs": [
-          "Before acting on Frontline and Backline Placement Guide, confirm the exact game, current platform, visible task, prerequisite, available choice, expected checkpoint, recovery path, version date, and evidence state. If one field is missing, collect it first. This checklist prevents an attractive but unsupported shortcut from consuming currency, progress, board space, or a limited test opportunity.",
-          "After the result for Frontline and Backline Placement Guide, save what changed and what did not. If this specific task is complete, stop. If its failure category changed, use that new bottleneck to choose the next guide. If nothing changed after a clean comparison, preserve the evidence and escalate the exact unresolved condition instead of repeating the same broad action."
+          "1. Confirm the relevant hero is available and note the relationship named in the table.",
+          "2. Save the visible version and starting positions.",
+          "3. Move one unit, then compare only what the screen shows. This makes the observation easier to read; it does not promise activation or better defense.",
+          "4. Leave adjacency geometry, aiming, damage, and a complete formation unknown without separate evidence.",
+          "Use the related formation, unit, access, and patch guides for narrower source-backed details."
         ]
       }
     ],
-    "evidenceClass": "source_bounded_launch_page"
+    "evidenceClass": "source_bounded_launch_page",
+    "relatedSlugs": [
+      "castle-busters-formation",
+      "castle-busters-unit-database",
+      "early-team-without-rare-units",
+      "patch-notes-and-balance-log"
+    ]
   },
   {
     "slug": "damage-control-support-balance",
