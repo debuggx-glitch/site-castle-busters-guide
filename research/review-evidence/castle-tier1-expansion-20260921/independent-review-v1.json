@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "independent-release-review.v1",
+  "reviewId": "castle-tier1-expansion-20260921-independent-v1",
+  "reviewedAt": "2026-09-21T17:22:35+08:00",
+  "site": "castlebustersguide.com",
+  "branch": "codex/castle-tier1-expansion-20260921",
+  "authorCommit": "b85b549bd6dfe0880d160b68d79e172bed94395e",
+  "writer": "/root",
+  "reviewer": "/root/castle_independent_review_20260921",
+  "independent": true,
+  "verdict": "fail",
+  "productionAcceptance": false,
+  "blockingIssues": [
+    {
+      "id": "castle-formation-foundation-title-mismatch",
+      "severity": "blocking",
+      "route": "/guides/castle-busters-formation/",
+      "files": [
+        "lib/guides.ts",
+        "content/posts/castle-busters-formation.md"
+      ],
+      "finding": "The changed title is 'Castle Busters Foundation Placement Guide: Unit Location', but the rendered guide explains unit formation conditions for Sir Rally, Leif and Wolfie. Foundation is a separate Castle Busters structure system explicitly reworked in patch 1.18, so the title promises a different task from the page body and can collide with the new foundation coverage.",
+      "requiredAction": "Rename the metadata and matching Markdown title to Formation, for example 'Castle Busters Formation Guide: Unit Placement', or materially rewrite the route to answer structural foundation placement. Keep the canonical route unchanged and re-run metadata, build and desktop/mobile checks."
+    }
+  ],
+  "sourceVerification": {
+    "officialOverview": {
+      "url": "https://castlebusters.com/",
+      "result": "pass",
+      "verified": [
+        "The official public page says 30+ unique units.",
+        "It states that a loadout supports up to eight unique units.",
+        "It publicly describes Bishop, Wrecker, Fairy, Pulsar and Saxton, but does not enumerate a complete 30+ roster or complete current stat table.",
+        "It describes castle materials progressing from wood and stone through diamond and magma without publishing a universal best order or complete value table."
+      ]
+    },
+    "officialPatch118": {
+      "url": "https://castlebusters.com/patch-notes-1-18/",
+      "result": "pass",
+      "verified": [
+        "Graves throws persistent tombstones that fire ghosts at exposed units first.",
+        "Foundations now actively reinforce structures and reduce unexpected chain collapses.",
+        "Wolfie explosion scaling and transformation damage were changed; Leif and Sir Rally explosion-power issues were fixed.",
+        "The notes list PvP synchronization fixes.",
+        "The Ice Blaster damage-scaling item is labelled coming soon, and the draft correctly keeps it unresolved."
+      ]
+    },
+    "claimBoundaries": {
+      "result": "pass",
+      "notes": [
+        "The unit database preserves 30+ as a marketing range and labels the eight described abilities as a partial verified subset.",
+        "The tier-list route ranks evidence confidence and role fit rather than inventing S-to-D performance ranks.",
+        "The castle-upgrades route does not invent costs, stat values, thresholds or a universal purchase order."
+      ]
+    }
+  },
+  "routeAndSchemaReview": {
+    "result": "pass_except_blocking_metadata_mismatch",
+    "guideCount": 21,
+    "uniqueGuideSlugs": 21,
+    "manifestPageCount": 21,
+    "missingManifestRoutes": [],
+    "missingRelatedRoutes": [],
+    "newRoutes": [
+      "/guides/castle-busters-patch-1-18/",
+      "/guides/castle-busters-tier-list/",
+      "/guides/castle-upgrades/"
+    ],
+    "runtimeEvidence": [
+      "Each sampled guide renders one H1, a self-canonical URL, Article JSON-LD and BreadcrumbList JSON-LD.",
+      "The homepage renders WebSite, Organization and VideoGame JSON-LD.",
+      "The sitemap uses each guide's updated date and all 21 guide routes are present in the structured-data manifest."
+    ]
+  },
+  "visualReview": {
+    "result": "pass",
+    "rules": {
+      "aiImages": false,
+      "reuseOnly": true
+    },
+    "assets": [
+      {
+        "assetId": "castle-busters-guide-official-01",
+        "path": "public/images/official/castle-busters-guide-official-01.webp",
+        "sha256": "79a5c28690935500cb8998e89df94814c66a3a0157d89b671b4e893029047661",
+        "routeScope": [
+          "/guides/castle-busters-patch-1-18/",
+          "/guides/castle-upgrades/"
+        ],
+        "boundary": "Official identity art only; captions do not use it as proof of patch values or material values."
+      },
+      {
+        "assetId": "castle-busters-units-official-a",
+        "path": "public/images/official/castle-busters-units-official-a.webp",
+        "sha256": "549ff9ce42108447d96159b2c0f6aa1183fa28b68b7c1dc0f953d61876375bed",
+        "routeScope": [
+          "/guides/castle-busters-tier-list/",
+          "/guides/castle-busters-unit-database/"
+        ],
+        "boundary": "Deterministic composite of official character art for recognition; caption states that it does not establish a performance tier."
+      },
+      {
+        "assetId": "castle-busters-units-official-b",
+        "path": "public/images/official/castle-busters-units-official-b.webp",
+        "sha256": "b3f6e78718e1005e2a07e975f9f0ef4be57031d2a3daa934d461ea61eaf2c6e1",
+        "routeScope": [
+          "/guides/castle-busters-unit-database/"
+        ],
+        "boundary": "Official character-art composite for name recognition only."
+      },
+      {
+        "assetId": "castle-busters-upgrade-stop-rule",
+        "path": "public/images/editorial/castle-busters-upgrade-stop-rule.webp",
+        "sha256": "d95e244d5cdebb07f6d14f82d7342b00d2562db8b51eaedec482533cd0d4dec9",
+        "routeScope": [
+          "/guides/castle-upgrades/"
+        ],
+        "boundary": "Project-original editorial decision diagram, explicitly labelled not a gameplay screenshot."
+      }
+    ],
+    "notes": [
+      "All reviewed image files exist and their dimensions match the guide declarations.",
+      "Alt and caption text match the visible asset and preserve its evidence boundary.",
+      "The second unit-database image is lazy-loaded; it loaded successfully when scrolled into its viewport."
+    ]
+  },
+  "automatedGates": {
+    "typescript": "pass",
+    "contentAssets": "pass pages=21 visuals=32 authentic>=21",
+    "contentQuality": "pass pages=21 maxSimilarity=0.339",
+    "seoMetadata": "pass",
+    "seoGeo": "pass pages=21",
+    "releaseConfig": "pass",
+    "designContract": "pass",
+    "adsterraConfig": "pass",
+    "nextProductionBuild": "pass 30 static pages"
+  },
+  "browserReview": {
+    "browserProfile": "Codex-工作",
+    "browserProfileMatchCount": 1,
+    "dedicatedTaskTab": true,
+    "desktopViewport": "1440x1000",
+    "mobileViewport": "375x812",
+    "sampledRoutes": [
+      "/",
+      "/guides/castle-busters-patch-1-18/",
+      "/guides/castle-busters-tier-list/",
+      "/guides/castle-upgrades/",
+      "/guides/castle-busters-unit-database/"
+    ],
+    "results": {
+      "singleH1Everywhere": true,
+      "documentHorizontalOverflow": false,
+      "wideTablesContainedInScrollableRegionsOnMobile": true,
+      "imagesLoadedAfterLazyScroll": true,
+      "jsonLdParsedWithoutErrors": true,
+      "rawMarkdownLeak": false,
+      "consoleWarningsOrErrors": []
+    }
+  },
+  "reviewedSha256": {
+    "lib/guides.ts": "6618d426dd6a9c8e76b9c2dbf27a8c0529f4c9d43b3d5e890c969c5bb64e5e02",
+    "app/page.tsx": "31e6731cf69eeecd67e0dbea199707d224905be250022b1dc17d9a160230719e",
+    "app/layout.tsx": "3db3c52bd72cc69ef65f06048b6f7b20a3ad1307f84e238c733d735687cb3682",
+    "app/guides/[slug]/page.tsx": "1f88cf93ff48009aa7ce9be0da0f547dd6c033db1080b671927c38bf364449cc",
+    "app/sitemap.ts": "01b3506854b36c18553a0616bceefc68319581c5eb00dd28d5092c5cf54346ca",
+    "components/structured-data.tsx": "8e1a8fa5496e1b557638dab2246ccd4c295785674d230294f65db773a40c7083",
+    "config/game-entity.json": "6c8b109f20905f0291ac0004db0de63c2c5783e75952cafc8352b82689b77ee6",
+    "config/structured-data-manifest.json": "b00a080f621df804c3d476f0908b22847e7601cdebb67fa885275e2c92dc62c9",
+    "content/posts/castle-busters-patch-1-18.md": "33f03ef06aecd1bcdb6ecbf8954c80a3a3a562cc0d37019c8005ef072bd0859e",
+    "content/posts/castle-busters-tier-list.md": "1d47650f806353db4b6dc91f0ba9d93d15385267e34f54b9a1d8a8b2d9eede56",
+    "content/posts/castle-upgrades.md": "6f3681dc10b45ff441cbf197d3720ffd0b6895fd7e83d6be63a0a28bf02ef350",
+    "content/posts/castle-busters-unit-database.md": "72639ec82bdb2e184167f8111456e05856f6a41ba74be335ee393f291c49f8db",
+    "content/posts/castle-busters-eight-unit-loadout.md": "959b872508f300661324800269c54bf2d5b352b13c7207df5c5f79da07d1ba53",
+    "content/posts/castle-busters-formation.md": "8e7238c25643f9cd6343fe2e881e063574f88b92291b9f10fd60fa77346af771"
+  },
+  "reviewBoundary": "No author body, UI, validation script, branch, remote, deployment or production state was modified. The release gate remains closed until the blocking title/content mismatch is corrected and re-reviewed."
+}

@@ -1,0 +1,74 @@
+{
+  "schemaVersion": "independent-release-review.v1",
+  "reviewId": "castle-tier1-expansion-20260921-independent-v2",
+  "reviewedAt": "2026-09-21T17:26:57+08:00",
+  "site": "castlebustersguide.com",
+  "branch": "codex/castle-tier1-expansion-20260921",
+  "authorCommit": "76e7dfc90ce271c323e7ac43cd688cc1b9b7c3d6",
+  "writer": "/root",
+  "reviewer": "/root/castle_independent_review_20260921",
+  "independent": true,
+  "reviewScope": "Targeted re-review of the formation/foundation title blocker from independent-review-v1.json.",
+  "supersedesFailureReceipt": {
+    "path": "research/review-evidence/castle-tier1-expansion-20260921/independent-review-v1.json",
+    "sha256": "428837dc5e4034c3ada064f3555ba61894d5c98dd7627e6b03acbc427bc3f468"
+  },
+  "verdict": "pass",
+  "productionAcceptance": true,
+  "blockingIssues": [],
+  "resolvedIssues": [
+    {
+      "id": "castle-formation-foundation-title-mismatch",
+      "status": "resolved",
+      "route": "/guides/castle-busters-formation/",
+      "expectedTitle": "Castle Busters Formation Guide: Unit Placement",
+      "files": {
+        "lib/guides.ts": {
+          "matched": true,
+          "sha256": "ef3f2da4aaa13cf4a6124cdfcadd3e2e26f3dd42c6fe98e74ab30349be22929b"
+        },
+        "content/posts/castle-busters-formation.md": {
+          "matched": true,
+          "sha256": "76711d111f49b6c10f7dd5464bacc559c0da05c7087228ba11f38fb5834c670e"
+        }
+      },
+      "finding": "Both author-controlled titles now use Formation rather than Foundation. The title aligns with the page's unit-placement content and no longer implies that the route is a structural-foundation guide."
+    }
+  ],
+  "changeAudit": {
+    "result": "pass",
+    "filesChangedFromAuthorCommitB85b549": [
+      "lib/guides.ts",
+      "content/posts/castle-busters-formation.md"
+    ],
+    "changeBoundary": "Commit 76e7dfc changes only the two title strings required by the failed review.",
+    "diffCheck": "pass"
+  },
+  "automatedGates": {
+    "seoMetadata": "pass",
+    "typescript": "pass",
+    "nextProductionBuild": "pass 30 static pages"
+  },
+  "renderedPageReview": {
+    "browserProfile": "Codex-工作",
+    "browserProfileMatchCount": 1,
+    "dedicatedTaskTab": true,
+    "url": "http://127.0.0.1:4177/guides/castle-busters-formation/",
+    "documentTitle": "Castle Busters Formation Guide: Unit Placement | Castle Busters Guide",
+    "h1": "Castle Busters Formation Guide: Unit Placement",
+    "h1Count": 1,
+    "titleAndH1Conflict": false,
+    "foundationPlacementTitleLeak": false,
+    "canonical": "https://castlebustersguide.com/guides/castle-busters-formation/",
+    "clientWidth": 1920,
+    "scrollWidth": 1920,
+    "consoleWarningsOrErrors": []
+  },
+  "reviewedSha256": {
+    "lib/guides.ts": "ef3f2da4aaa13cf4a6124cdfcadd3e2e26f3dd42c6fe98e74ab30349be22929b",
+    "content/posts/castle-busters-formation.md": "76711d111f49b6c10f7dd5464bacc559c0da05c7087228ba11f38fb5834c670e",
+    "config/structured-data-manifest.json": "b00a080f621df804c3d476f0908b22847e7601cdebb67fa885275e2c92dc62c9",
+    "app/guides/[slug]/page.tsx": "1f88cf93ff48009aa7ce9be0da0f547dd6c033db1080b671927c38bf364449cc"
+  },
+  "reviewBoundary": "The reviewer did not modify author files, validation scripts, commits, remotes, deployments or production state."
+}
