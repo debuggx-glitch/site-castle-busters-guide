@@ -1,6 +1,6 @@
 ---
-title: "Best 8-Unit Loadout Builder and Substitution Guide"
-description: "Build an eight-unit Castle Busters squad by battlefield function, placement needs, upgrade burden, and evidence-backed substitutions."
+title: "Castle Busters Best Build: 8-Unit Loadout Guide"
+description: "Build inside the eight-unit cap, cover damage and placement needs, then test one slot at a time."
 date: "2026-09-04"
 keywords: ["Castle Busters", "Build Choice Comparison", "castle busters eight unit loadout"]
 coverImage: "/images/official/castle-busters-guide-official-01.webp"

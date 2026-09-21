@@ -115,9 +115,9 @@ export const guides:Guide[]=[
   {
     "slug": "castle-busters-unit-database",
     "category": "Units",
-    "title": "Castle Busters Units List: 8 Documented Units and Abilities",
-    "description": "Find 8 Castle Busters unit names, their documented attacks or abilities, dated access notes, and the limits of the official 30+ roster claim.",
-    "quickAnswer": "The official pages describe Bishop, Wrecker, Fairy, Pulsar, Saxton, Sir Rally, Leif and Wolfie. This is a sourced partial list: the site says 30+ units, while the exact full roster and most stats remain unpublished.",
+    "title": "Castle Busters Units: 30+ Roster and 8 Verified Abilities",
+    "description": "Use the official 30+ roster claim without confusing it with a complete list: compare eight units whose abilities are publicly documented.",
+    "quickAnswer": "Castle Busters officially advertises 30+ unique units, but its public pages currently describe only a verified subset. This page lists eight documented abilities and keeps the remaining roster unknown instead of inventing names, stats or unlocks.",
     "updated": "September 9, 2026",
     "sources": [
       {
@@ -290,8 +290,8 @@ export const guides:Guide[]=[
   {
     "slug": "castle-busters-eight-unit-loadout",
     "category": "Loadouts",
-    "title": "Castle Busters Loadout: Unit Limit and Hero Conditions",
-    "description": "Check the eight-unit limit, documented hero access, and the skill conditions of Sir Rally, Leif and Wolfie before comparing loadout options.",
+    "title": "Castle Busters Best Build: 8-Unit Loadout Guide",
+    "description": "Build inside the eight-unit cap, cover damage and placement needs, then test one slot at a time instead of copying an unsupported team.",
     "quickAnswer": "A Castle Busters loadout supports up to eight distinct units. Patch 1.16 lists Sir Rally as free at Arena 7, Leif as free at Arena 25, and Wolfie as Battle Pass exclusive. Their skill conditions differ; these names and access labels do not establish a tested eight-unit team.",
     "updated": "September 9, 2026",
     "sources": [
@@ -411,8 +411,8 @@ export const guides:Guide[]=[
   {
     "slug": "castle-busters-formation",
     "category": "Formations",
-    "title": "Castle Busters Formation Rules: Sir Rally, Leif and Wolfie",
-    "description": "Compare the documented nearby-ally, same-row revival and neighboring-death rules, plus the placement fixes reported in patch 1.17.",
+    "title": "Castle Busters Foundation Placement Guide: Unit Location",
+    "description": "Place Sir Rally, Leif and Wolfie around documented formation rules, then diagnose frontline and backline failures after one controlled test.",
     "quickAnswer": "Patch 1.16 describes three different formation conditions: Sir Rally boosts allied heroes immediately around him; Leif revives fallen allies in his row when he kills an enemy unit; Wolfie transforms after a neighboring ally dies. These rules do not specify an exact grid layout.",
     "updated": "September 9, 2026",
     "sources": [
@@ -2105,6 +2105,162 @@ export const guides:Guide[]=[
       }
     ],
     "evidenceClass": "source_bounded_launch_page"
+  },
+  {
+    "slug": "castle-busters-patch-1-18",
+    "category": "Updates",
+    "title": "Castle Busters Patch 1.18: Graves and Foundation Rework",
+    "description": "Read the verified Castle Busters 1.18 changes to Graves, foundations, Wolfie, Leif, Sir Rally, anti-cheat and battle synchronization.",
+    "quickAnswer": "Patch 1.18 adds Graves and changes foundations from a passive support into an active structural reinforcement. It also fixes Wolfie scaling, Leif and Sir Rally explosion behavior, PvP synchronization and several interface problems. Retest any formation or upgrade conclusion made before 1.18.",
+    "updated": "September 21, 2026",
+    "sources": [
+      {"label": "Castle Busters — official patch notes 1.18", "url": "https://castlebusters.com/patch-notes-1-18/"},
+      {"label": "Castle Busters — official game overview", "url": "https://castlebusters.com/"}
+    ],
+    "sections": [
+      {
+        "heading": "New hero: Graves",
+        "paragraphs": [
+          "Graves throws tombstones that bounce until they settle. At the end of the turn, every grave fires a ghost, targeting exposed units first. A grave stays on the field until a projectile or a rolling castle destroys it.",
+          "That description confirms persistence and targeting priority, but it does not publish damage, bounce count, health, range, rarity, price or an optimal position. Treat Graves as a board-state unit and verify those missing values in the current client before calling him a best pick."
+        ],
+        "visual": {"assetId": "castle-busters-guide-official-01", "src": "/images/official/castle-busters-guide-official-01.webp", "width": 1000, "height": 1000, "alt": "Castle Busters official game art", "caption": "Official game art for identity. The patch-note text, not this image, is the source for the 1.18 changes."}
+      },
+      {
+        "heading": "Foundations now reinforce structures",
+        "paragraphs": [
+          "The patch reworks foundations so they actively reinforce a structure. The stated goal is to reduce unpredictable chain collapses and make placement matter more.",
+          "Do not carry a pre-1.18 foundation test forward unchanged. Save the old layout, recreate the same structure under 1.18, and compare one placement change at a time. A more stable result in one layout does not prove that every tower, material tier or enemy attack behaves the same way."
+        ]
+      },
+      {
+        "heading": "Hero and combat fixes",
+        "paragraphs": [
+          "Wolfie’s explosion scaling was fixed and his transformation damage boost was increased. Explosion-power problems involving Leif and Sir Rally were also fixed. These are reasons to retest those heroes, not enough evidence to assign exact tiers without current values and repeatable match comparisons.",
+          "The patch also includes anti-cheat improvements and multiple PvP synchronization fixes. If a replay now differs from an older recording, preserve both dates and test the current build before diagnosing the difference as a strategy error."
+        ],
+        "table": {"columns": ["Area", "Verified 1.18 change", "What to retest"], "rows": [["Wolfie", "Explosion scaling fixed; transformation damage boost increased", "Neighbor-trigger formation and post-transform result"], ["Leif", "Explosion-power issue fixed", "Same-row revival setup plus explosion result"], ["Sir Rally", "Explosion-power issue fixed", "Immediate-neighbor setup and affected damage"], ["PvP", "Synchronization fixes", "Repeat a comparable match before using old timing evidence"]]}
+      },
+      {
+        "heading": "Interface fixes and one unresolved note",
+        "paragraphs": [
+          "The official notes also list fixes for laser colors, Pulsar’s stuck laser, training-time display, cosmetic banners, shop, training and preview popups, a black screen after battle, and aiming on the try screen.",
+          "The notes mention an Ice Blaster damage-scaling problem as coming soon rather than completed. Keep that item in an unresolved state until a later official note or current-client test confirms the fix."
+        ]
+      },
+      {
+        "heading": "1.18 retest checklist",
+        "paragraphs": [
+          "Retest foundations first if your strategy relied on controlled collapse. Retest Wolfie, Leif and Sir Rally if an older result depended on their explosion or transformation behavior. Record the client version, opponent, eight-unit loadout, castle materials and the first decisive event.",
+          "Change one variable per comparison. If the result is inconsistent, keep the conclusion provisional and use the team-testing worksheet rather than turning one match into a universal build claim."
+        ]
+      }
+    ],
+    "evidenceClass": "first_party_patch_summary",
+    "relatedSlugs": ["patch-notes-and-balance-log", "castle-busters-formation", "team-testing-worksheet"]
+  },
+  {
+    "slug": "castle-busters-tier-list",
+    "category": "Units",
+    "title": "Castle Busters Tier List: Verified Roles, Not Guesswork",
+    "description": "Use a source-bounded Castle Busters tier list that separates documented roles from unknown stats and shows what to test before ranking a unit.",
+    "quickAnswer": "A defensible all-unit S-to-D list is not yet possible: the official site says 30+ units but publicly documents only a subset and no complete current stat table. Use verified role fit and repeatable tests now; add performance tiers only when comparable evidence exists.",
+    "updated": "September 21, 2026",
+    "sources": [
+      {"label": "Castle Busters — official unit descriptions", "url": "https://castlebusters.com/"},
+      {"label": "Castle Busters — official patch notes 1.16", "url": "https://castlebusters.com/patch-notes-1-16/"},
+      {"label": "Castle Busters — official patch notes 1.18", "url": "https://castlebusters.com/patch-notes-1-18/"}
+    ],
+    "sections": [
+      {
+        "heading": "Current evidence tier",
+        "paragraphs": [
+          "This page ranks confidence in the public evidence, not hidden combat power. A unit enters the verified tier when an official page explains its attack or ability. A named-only unit remains unranked until its behavior and current version can be checked.",
+          "That distinction prevents a popular search label from turning missing stats into false precision. It also gives the page a clear update rule: add a performance tier only after equivalent units have been tested against the same target, version and formation."
+        ],
+        "table": {"columns": ["Evidence tier", "Units", "What is safe to use"], "rows": [["Verified ability", "Bishop, Wrecker, Fairy, Pulsar, Saxton, Sir Rally, Leif, Wolfie, Graves", "Officially described attack or ability; still verify current values"], ["Named only", "Vampire", "Identity in a patch note; no ability or performance claim"], ["Unpublished remainder", "Other units inside the official 30+ claim", "Do not invent names, stats, roles or ranks"]]},
+        "visual": {"assetId": "castle-busters-units-official-a", "src": "/images/official/castle-busters-units-official-a.webp", "width": 1600, "height": 900, "alt": "Official Castle Busters art for four documented units", "caption": "Identification art for documented units. It does not establish a performance tier."}
+      },
+      {
+        "heading": "Choose by the failure you need to fix",
+        "paragraphs": [
+          "Wrecker offers documented area damage, Pulsar an accurate laser, Saxton returning boomerangs, Bishop delayed detonation and Fairy falling destructive orbs. These descriptions help form a testable hypothesis; they do not reveal which unit wins every matchup.",
+          "Sir Rally, Leif and Wolfie are placement-sensitive. Graves creates persistent board objects. Put those conditions into the formation before comparing damage, because a failed trigger can make a strong mechanic look weak."
+        ],
+        "table": {"columns": ["Observed problem", "Candidate mechanic", "First check"], "rows": [["Grouped targets survive", "Wrecker area damage or Fairy falling orbs", "Can the attack reach the cluster in this formation?"], ["A precise lane or target matters", "Pulsar laser or Saxton return path", "Does the line stay open through the decisive turn?"], ["Adjacent allies need support", "Sir Rally", "Are the intended allies immediately around him?"], ["Board pressure persists between turns", "Graves", "Do settled graves survive and target exposed units?"]]}
+      },
+      {
+        "heading": "Performance-tier admission rule",
+        "paragraphs": [
+          "To move a unit into an S, A, B or lower performance tier, record the current patch, target, castle state, formation, upgrade level and at least two comparable results. Compare only units tested for the same job. A damage unit and a placement support should not share one raw-damage ranking.",
+          "Patch 1.18 changes Wolfie and foundation behavior, so pre-1.18 conclusions involving those systems need a new baseline. A later patch can invalidate the list again; retain the dated result instead of silently overwriting it."
+        ]
+      },
+      {
+        "heading": "Build a useful team without a fake universal list",
+        "paragraphs": [
+          "Start with the eight-unit cap. Cover a dependable damage path, a response to clustered or exposed targets, and any support trigger your formation can activate. Leave room to replace one slot after observing the first failure.",
+          "If a copied list does not state its version, upgrades, opponent and formation, treat it as a candidate test rather than an answer. The best current tier-list action is the smallest controlled comparison that could change your next slot."
+        ]
+      }
+    ],
+    "evidenceClass": "claim_bounded_tier_framework",
+    "relatedSlugs": ["castle-busters-unit-database", "castle-busters-eight-unit-loadout", "unit-roles-explained", "team-testing-worksheet"]
+  },
+  {
+    "slug": "castle-upgrades",
+    "category": "Upgrades",
+    "title": "Castle Busters Castle Upgrades: Materials and Stop Rules",
+    "description": "Choose Castle Busters castle upgrades by the failure you observed, compare material tiers and stop spending when the same bottleneck remains.",
+    "quickAnswer": "Upgrade the castle only when the castle or a structure is the observed bottleneck. Choose the smallest durability, defense, movement or foundation change that can affect it, replay a comparable fight, and stop if the same failure returns.",
+    "updated": "September 21, 2026",
+    "sources": [
+      {"label": "Castle Busters — official game overview", "url": "https://castlebusters.com/"},
+      {"label": "Castle Busters — official patch notes 1.18", "url": "https://castlebusters.com/patch-notes-1-18/"}
+    ],
+    "sections": [
+      {
+        "heading": "Separate castle failure from unit failure",
+        "paragraphs": [
+          "The game can end when all units are eliminated or when the castle is destroyed. Record which happened first. If the squad disappears before the castle is threatened, a castle material purchase may not address the active bottleneck.",
+          "If the castle breaks while useful units remain, inspect exposure, foundation support, movement, defensive helpers and material tier. Pick one of those causes for the next test rather than upgrading every system together."
+        ],
+        "table": {"columns": ["First failure", "Candidate change", "Do not assume"], "rows": [["Castle durability", "One material or durability step", "That more durability fixes a poor position"], ["Structure collapse", "One foundation placement under 1.18", "That a pre-1.18 collapse test still applies"], ["Castle cannot leave danger", "One wheel or movement change", "That faster always means safer"], ["Units fail first", "Return to loadout or formation", "That castle spending solves unit losses"]]},
+        "visual": {"assetId": "castle-busters-upgrade-stop-rule", "src": "/images/editorial/castle-busters-upgrade-stop-rule.webp", "width": 1600, "height": 900, "alt": "Castle Busters upgrade stop-rule decision diagram", "caption": "Project-original decision diagram, not a gameplay screenshot: identify the bottleneck, make one bounded purchase, replay, and stop when the failure does not move."}
+      },
+      {
+        "heading": "Use material tiers as a comparison, not a shopping order",
+        "paragraphs": [
+          "The official overview confirms material progression from wood and stone through higher tiers including diamond and magma. It does not publish a universal first-buy order, every cost, or a current value table on the public page.",
+          "Read the cost and effect shown in your client. Record the before state, the purchased tier and the same matchup after the change. Keep exact numbers out of the guide until a dated client observation or official table supports them."
+        ],
+        "visual": {"assetId": "castle-busters-guide-official-01", "src": "/images/official/castle-busters-guide-official-01.webp", "width": 1000, "height": 1000, "alt": "Castle Busters official game logo", "caption": "Official game identity art; verify current material values and costs in the live client."}
+      },
+      {
+        "heading": "Retest foundations after patch 1.18",
+        "paragraphs": [
+          "Patch 1.18 says foundations actively reinforce structures and reduce unpredictable chain collapse. This makes placement part of the upgrade decision: a new foundation position may change the outcome without a broader material spend.",
+          "Save one structure layout, move or upgrade one foundation variable, and replay. Stop the foundation branch if the same structure fails at the same stage; the next test should target a different cause."
+        ]
+      },
+      {
+        "heading": "Apply a three-result stop rule",
+        "paragraphs": [
+          "Result one establishes the baseline. Result two tests a single purchase or placement. Result three confirms whether the improvement repeats in a comparable fight. If the bottleneck does not move, preserve resources and return to formation, movement or loadout diagnosis.",
+          "A one-off win can be affected by opponent, aim or synchronization. Record the decisive event rather than only the final result, especially after the 1.18 PvP synchronization fixes."
+        ],
+        "table": {"columns": ["Result", "Record", "Decision"], "rows": [["Baseline", "Version, opponent, castle and first failure", "Name one hypothesis"], ["Bounded change", "One purchase or placement difference", "Compare the same failure"], ["Confirmation", "Second comparable result", "Scale only if the improvement repeats"]]}
+      },
+      {
+        "heading": "Where to go next",
+        "paragraphs": [
+          "Use the materials guide for source-bounded tier information, the wheels guide for movement and helper tradeoffs, and the formation guide when the failure begins with unit location rather than castle durability.",
+          "Do not buy across all three paths at once. The purpose of this page is to make the next spend explainable and reversible, not to turn incomplete public values into a fixed maxing order."
+        ]
+      }
+    ],
+    "evidenceClass": "claim_bounded_upgrade_guide",
+    "relatedSlugs": ["upgrade-materials-priority", "wheels-and-helper-items", "castle-busters-formation", "upgrade-breakpoints-stop-rules"]
   }
 ];
 export function getGuide(slug:string){return guides.find((guide)=>guide.slug===slug)}

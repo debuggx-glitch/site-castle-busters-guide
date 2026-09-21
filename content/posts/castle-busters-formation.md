@@ -1,6 +1,6 @@
 ---
-title: "Castle Placement and Formation Strategy"
-description: "Diagnose Castle Busters positioning with firing lines, protection, adjacency effects, movable castles, and one-change replay tests."
+title: "Castle Busters Foundation Placement Guide: Unit Location"
+description: "Place units around documented formation rules and diagnose frontline and backline failures."
 date: "2026-09-04"
 keywords: ["Castle Busters", "Core System Explainer", "castle busters formation"]
 coverImage: "/images/official/castle-busters-guide-official-01.webp"

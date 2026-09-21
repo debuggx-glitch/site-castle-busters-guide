@@ -306,6 +306,36 @@
         "sources"
       ],
       "conditionalTypes": []
+    },
+    {
+      "route": "/guides/castle-busters-patch-1-18/",
+      "baseTypes": ["Article", "BreadcrumbList"],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": ["quickAnswer", "sections", "sources"],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/castle-busters-tier-list/",
+      "baseTypes": ["Article", "BreadcrumbList"],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": ["quickAnswer", "sections", "sources"],
+      "conditionalTypes": []
+    },
+    {
+      "route": "/guides/castle-upgrades/",
+      "baseTypes": ["Article", "BreadcrumbList"],
+      "aboutEntityId": "https://castlebustersguide.com/#video-game",
+      "articleAuthorEntityId": "https://castlebustersguide.com/#organization",
+      "visibleDataSourceRef": "lib/guides.ts",
+      "jsonLdDataSourceRef": "lib/guides.ts",
+      "visibleContentRefs": ["quickAnswer", "sections", "sources"],
+      "conditionalTypes": []
     }
   ]
 }

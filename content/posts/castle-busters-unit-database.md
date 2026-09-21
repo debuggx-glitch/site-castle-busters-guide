@@ -1,6 +1,6 @@
 ---
-title: "Castle Busters Units List: 8 Documented Units and Abilities"
-description: "Find 8 Castle Busters unit names, their documented attacks or abilities, dated access notes, and the limits of the official 30+ roster claim."
+title: "Castle Busters Units: 30+ Roster and 8 Verified Abilities"
+description: "Use the official 30+ roster claim without confusing it with a complete list."
 date: "2026-09-09"
 keywords: ["castle busters units list", "castle busters units", "castle buster units", "castle busters unit abilities", "castle busters unit names"]
 coverImage: "/images/official/castle-busters-units-official-a.webp"
