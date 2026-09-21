@@ -411,7 +411,7 @@ export const guides:Guide[]=[
   {
     "slug": "castle-busters-formation",
     "category": "Formations",
-    "title": "Castle Busters Foundation Placement Guide: Unit Location",
+    "title": "Castle Busters Formation Guide: Unit Placement",
     "description": "Place Sir Rally, Leif and Wolfie around documented formation rules, then diagnose frontline and backline failures after one controlled test.",
     "quickAnswer": "Patch 1.16 describes three different formation conditions: Sir Rally boosts allied heroes immediately around him; Leif revives fallen allies in his row when he kills an enemy unit; Wolfie transforms after a neighboring ally dies. These rules do not specify an exact grid layout.",
     "updated": "September 9, 2026",

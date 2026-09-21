@@ -1,5 +1,5 @@
 ---
-title: "Castle Busters Foundation Placement Guide: Unit Location"
+title: "Castle Busters Formation Guide: Unit Placement"
 description: "Place units around documented formation rules and diagnose frontline and backline failures."
 date: "2026-09-04"
 keywords: ["Castle Busters", "Core System Explainer", "castle busters formation"]
