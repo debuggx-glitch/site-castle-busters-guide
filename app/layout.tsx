@@ -1,5 +1,5 @@
 import type {Metadata} from "next";
-import Link from "next/link";
+import {NewTabLink as Link} from "@/components/new-tab-link";
 import {SocialBar} from "@/components/ad-placements";
 import {Telemetry} from "@/components/telemetry";
 import release from "@/config/release.json";

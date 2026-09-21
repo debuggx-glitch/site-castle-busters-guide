@@ -1,6 +1,6 @@
 import type {Metadata} from "next";
 import Image from "next/image";
-import Link from "next/link";
+import {NewTabLink as Link} from "@/components/new-tab-link";
 import {HomeAd, HomeSideAd} from "@/components/ad-placements";
 import {guides} from "@/lib/guides";
 import {site} from "@/lib/site";
