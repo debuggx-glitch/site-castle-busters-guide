@@ -3,6 +3,7 @@
 import {usePathname} from "next/navigation";
 import {type RefObject, useCallback, useEffect, useRef, useState} from "react";
 import type {PlacementBase, PlacementName} from "@/lib/adsterra";
+import {site} from "@/lib/site";
 
 type FunnelEvent = "ad_slot_eligible" | "ad_script_loaded" | "ad_slot_viewable" | "ad_script_error";
 type Gtag = (command: "event", eventName: FunnelEvent, parameters: Record<string, unknown>) => void;
@@ -51,6 +52,7 @@ export function useAdFunnel({
     const key = `${event}:${pathname}:${placement.placementId}`;
     if (sent.current.has(key)) return;
     sendGa4Event(event, {
+      send_to: site.ga4MeasurementId,
       site_id: siteId,
       ad_placement: placementName,
       ad_format: placement.format,
