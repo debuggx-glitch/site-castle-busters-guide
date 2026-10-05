@@ -8,6 +8,7 @@
     "build:preview": "node scripts/verify-site-release.mjs && node scripts/verify-design-contract.mjs && node scripts/verify-adsterra-config.mjs && node scripts/verify-link-policy.mjs && node scripts/verify-content-assets.mjs && node scripts/verify-seo-metadata.mjs && node scripts/verify-seo-geo-release.mjs && next build --webpack",
     "build": "node scripts/verify-site-release.mjs && node scripts/verify-design-contract.mjs && node scripts/verify-adsterra-config.mjs && node scripts/verify-link-policy.mjs && node scripts/verify-content-assets.mjs && node scripts/verify-content-quality.mjs && node scripts/verify-seo-metadata.mjs && node scripts/verify-seo-geo-release.mjs && next build --webpack",
     "typecheck": "tsc --noEmit",
+    "test:ad-funnel": "node scripts/verify-ad-funnel-routing.mjs",
     "verify:release-config": "node scripts/verify-site-release.mjs",
     "verify:design": "node scripts/verify-design-contract.mjs",
     "verify:ads": "node scripts/verify-adsterra-config.mjs",
